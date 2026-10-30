@@ -1,38 +1,19 @@
-name: Publish slides to GitHub Pages
+name: Validate slides
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
 permissions:
   contents: read
-  pages: write
-  id-token: write
-concurrency:
-  group: pages
-  cancel-in-progress: false
 jobs:
-  deploy:
+  validate:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - name: Check JavaScript syntax
+      - name: Check JavaScript and slide content
         run: |
           node --check slides.js
           node --check app.js
+          node --check build-offline.mjs
           node validate.mjs
-      - name: Prepare only public slide assets
-        run: |
-          mkdir -p _site
-          cp index.html style.css slides.js app.js _site/
-          cp -R assets _site/assets
-          touch _site/.nojekyll
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v5
