@@ -41,3 +41,17 @@
 .themes h4,.profiles dt{font-size:19px;color:var(--red);margin:14px 0 5px}.themes p,.profiles dd,.themes footer{font-size:20px;line-height:1.6;margin:0}
 .themes footer{margin: auto 0 0;padding-top:22px;font-weight:600}.profiles dl{margin:0}.profiles dd{min-height:70px}.profiles article:last-child{background:#f4e4bc}
 .chapter-hub [aria-current="step"] span{background:var(--yellow)}
+
+.comic{display:grid;grid-template-columns:repeat(5,1fr);gap:15px}
+.scene{position:relative;background:#fffaf1;border:2px solid var(--ink);border-radius:6px;padding:17px 15px;text-align:center;box-shadow:3px 4px 0 #d6c9ad}
+.scene small{position:relative;display:inline-block;padding:7px 12px;border:1px solid var(--ink);border-radius:19px;background:white;font-size:16px}
+.scene small:after{content:'';position:absolute;bottom:-5px;left:35%;width:8px;height:8px;background:white;border:solid var(--ink);border-width:0 1px 1px 0;transform:rotate(45deg)}
+.scene svg{display:block;width:145px;height:138px;margin:8px auto 0}.scene p{font-size:17px;line-height:1.55;margin-top:6px}
+.slide.active .scene{animation:comic-enter .55s var(--beat) backwards ease-out}
+@keyframes comic-enter{from{opacity:0;transform:translateX(-20px) rotate(-2deg)}to{opacity:1;transform:none}}
+.decision{margin-top:30px}.decision .tabs{margin-bottom:10px}.glass-frame{position:relative}
+.decision .branch-result{min-height:130px;padding:16px 28px}.decision h3{margin:0 0 6px}
+.glass-pieces{pointer-events:none;position:absolute;inset:0;z-index:2}
+.glass-pieces .branch-result{position:absolute;inset:0;margin:0;animation:glass-break .67s cubic-bezier(.35,.1,.82,.55) both}
+@keyframes glass-break{0%{transform:none;opacity:1}25%{transform:translate(calc(var(--dx)*.12),1px);opacity:1}100%{transform:translate(var(--dx),var(--dy)) rotate(var(--turn));opacity:0}}
+.retrieval-unit{height:100%;display:grid;align-content:center;gap:44px}.example-query{font-size:36px;text-align:center}.retrieval-unit article{border-top:2px solid var(--red);padding:23px 15px}.retrieval-unit small{font:26px Georgia;color:var(--red)}.retrieval-unit h3{margin:14px 0}.retrieval-unit p{font-size:21px}

@@ -7,8 +7,7 @@ slides.forEach((s,i)=>{
  const el=document.createElement('section');
  el.className='slide';el.id='slide-'+(i+1);el.setAttribute('aria-label',`${i+1}. ${s.title}`);
  const eyebrow=s.eyebrow ? '<div class="eyebrow">'+s.eyebrow+'</div>' : '';
- const source=i>4 ? '<div class="source">'+s.source+'</div>' : '';
- el.innerHTML=i===0 ? eyebrow+s.html : eyebrow+'<h2>'+s.title+'</h2>'+'<div class="slide-content">'+s.html+'</div>'+source;
+ el.innerHTML=i===0 ? eyebrow+s.html : eyebrow+'<h2>'+s.title+'</h2>'+'<div class="slide-content">'+s.html+'</div>';
  deck.appendChild(el);
 });
 function fit(){const rect=document.getElementById('stage').getBoundingClientRect();deck.style.transform=`scale(${Math.min(rect.width/1440,rect.height/840)})`;}
@@ -88,7 +87,7 @@ function enterHub(button,target=Number(button.dataset.hub)){
 }
 function navigate(direction){
  if(hubZoom) return;
- const buttons=[...deck.querySelectorAll('.slide.active [data-branch], .slide.active [data-method]')];
+ const buttons=[...deck.querySelectorAll('.slide.active [data-branch]')];
  const selected=buttons.findIndex(button=>button.getAttribute('aria-selected')==='true');
  if(selected>=0 && buttons[selected+direction]){
   buttons[selected+direction].click();
@@ -106,13 +105,13 @@ function navigate(direction){
  go(current+direction);
 }
 function go(index,updateHash=true){
+ clearGlass();
  if(hubZoom){hubZoom.cancel();hubZoom=null;}
  hubButtons.forEach(button=>button.removeAttribute('aria-current'));
  const previous=current;
  const firstVisit=!deck.querySelector('.slide.active');
  current=Math.max(0,Math.min(slides.length-1,index));
  if(current===6) setBranch(previous===7?'no':'yes');
- if(current===7) setMethod(previous===8?'hybrid':'bm25');
  document.querySelectorAll('.slide').forEach((s,i)=>{s.classList.toggle('active',i===current);s.setAttribute('aria-hidden',String(i!==current));s.inert=i!==current;});
  if(firstVisit || previous!==current) setDetails(current===1 && previous===2);
  if(firstVisit || previous!==current) animateSlide(document.getElementById('slide-'+(current+1)),current>=previous?1:-1);
@@ -126,16 +125,47 @@ function go(index,updateHash=true){
 }
 function openModal(title,html){document.getElementById('modal-title').textContent=title;document.getElementById('modal-body').innerHTML=html;modal.showModal();document.getElementById('modal-body').scrollTop=0;}
 function showOverview(){openModal('สารบัญ · เลือกหัวข้อที่ต้องการนำเสนอ',`<div class="toc-grid">${slides.map((s,i)=>`<button class="toc-item ${i===current?'active':''}" data-go="${i}"><span>${String(i+1).padStart(2,'0')}</span><b>${s.title}</b></button>`).join('')}</div>`);}
-function showNotes(){const s=slides[current];openModal(`บันทึกผู้พูด · ${current+1} / ${slides.length}`,`<div class="notes"><p>${escapeHTML(s.notes)}</p><div class="source">${escapeHTML(s.source)}</div></div>`);}
+function showNotes(){const s=slides[current];openModal(`บันทึกผู้พูด · ${current+1} / ${slides.length}`,`<div class="notes"><p>${escapeHTML(s.notes)}</p></div>`);}
 async function fullscreen(){try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen();}catch{openModal('โหมดเต็มจอ','<p class="small">เบราว์เซอร์นี้ไม่อนุญาตโหมดเต็มจออัตโนมัติ ใช้คำสั่งเต็มจอจากเมนูของเบราว์เซอร์ได้</p>');}}
-function setBranch(branch){document.querySelectorAll('[data-branch]').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.branch===branch)));const r=document.getElementById('branch-result');r.classList.toggle('reject',branch==='no');r.innerHTML=branch==='yes'?`<div class="branch-label">เส้นทาง A · หลักฐานเพียงพอ</div><div class="pill" style="color:var(--green)">ส่งต่อไปยัง Generator</div><h3>คำถาม + ข้อความหลักฐาน<br>→ LLM API</h3><p>สร้างคำตอบภาษาไทยหนึ่งคำตอบ<br>พร้อมชื่อเอกสารและเลขหน้า</p><small>ผู้ใช้เลือกเปิดข้อความหลักฐานได้<br>คำสั่งกำหนดให้ไม่เดาเมื่อหลักฐานไม่รองรับ</small>`:`<div class="branch-label">เส้นทาง B · หลักฐานไม่เพียงพอ</div><div class="pill" style="color:var(--red)">ไม่เรียก LLM</div><h3>แจ้งไม่พบข้อมูล<br>หรือข้อมูลไม่เพียงพอ</h3><p>สิ้นสุดการตอบครั้งนี้<br>โดยไม่สร้างคำตอบจากการคาดเดา</p><small>ข้อความแจ้งผลต้องแยกจากระบบขัดข้อง<br>และประเมินว่าปฏิเสธได้เหมาะสมหรือไม่</small>`;}
-const methods={bm25:{name:'BM25',lead:'ค้นจากคำสำคัญที่ปรากฏ',text:'ตัดคำภาษาไทยและปรับรหัสวิชาให้เป็นมาตรฐานก่อนสร้างดัชนีและค้นคืน',question:'“CS301 เรียนเกี่ยวกับอะไร”',rows:[['คำตรง / รหัสวิชา','คำสำคัญ'],['ความถี่และความเฉพาะของคำ','จัดอันดับ'],['ข้อความที่เกี่ยวข้อง k อันดับ','ผลค้นคืน']],note:'ต้องทดสอบเมื่อผู้ใช้ใช้ถ้อยคำต่างจากเอกสาร'},dense:{name:'Dense',lead:'ค้นจากความหมายของข้อความ',text:'แปลงคำถามและส่วนข้อความเป็นเวกเตอร์ด้วย embedding แล้วค้นหาข้อความที่มีความหมายใกล้เคียง',question:'“มีวิชาไหนเกี่ยวกับการเตรียมตัวทำโครงงาน”',rows:[['เวกเตอร์ของคำถาม','Embedding'],['ความใกล้เคียงกับข้อความ','Similarity'],['ข้อความที่เกี่ยวข้อง k อันดับ','ผลค้นคืน']],note:'ต้องตรวจว่าจำแนกรหัสวิชาที่คล้ายกันได้หรือไม่'},hybrid:{name:'Hybrid',lead:'รวมอันดับจากสองแนวทาง',text:'ค้นด้วย BM25 และ Dense แล้วรวมอันดับด้วย Reciprocal Rank Fusion (RRF) ก่อนเลือกข้อความ top-k',question:'คำถามที่มีทั้งรหัสวิชาและความหมายเชิงบริบท',rows:[['อันดับจาก BM25','รายการ A'],['อันดับจาก Dense','รายการ B'],['รวมอันดับด้วย RRF','ผลค้นคืน']],note:'เปรียบเทียบด้วยผลจริง ไม่สมมติว่า Hybrid ดีที่สุดเสมอ'}};
-function setMethod(key){document.querySelectorAll('[data-method]').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.method===key)));const m=methods[key];document.getElementById('method-view').innerHTML=`<div><div class="method-heading">${m.name}</div><h3>${m.lead}</h3><p class="small muted" style="margin-top:15px">${m.text}</p><p class="small red" style="margin-top:20px">${m.note}</p></div><div><p class="caption" style="margin-bottom:18px">ตัวอย่างแนวคิด: ${m.question}</p><div class="rank-list">${m.rows.map((r,i)=>`<div class="rank"><span>${i+1}</span><b>${r[0]}</b><em>${r[1]}</em></div>`).join('')}</div></div>`;}
+function clearGlass(){
+ deck.querySelector('.glass-pieces')?.remove();
+}
+function shatter(panel){
+ const layer=document.createElement('div');
+ layer.className='glass-pieces';
+ layer.setAttribute('aria-hidden','true');
+ // Each triangle shows the same panel, clipped to its own shard.
+ const rim=[[0,0],[38,0],[75,0],[100,0],[100,55],[100,100],[61,100],[27,100],[0,100],[0,44]];
+ rim.forEach(([x,y],i)=>{
+  const [nextX,nextY]=rim[(i+1)%rim.length];
+  const piece=panel.cloneNode(true);
+  piece.removeAttribute('id');
+  piece.removeAttribute('aria-live');
+  piece.style.clipPath='polygon(52% 43%,'+x+'% '+y+'%,'+nextX+'% '+nextY+'%)';
+  piece.style.setProperty('--dx',((x+nextX)/2-52)*1.6+'px');
+  piece.style.setProperty('--dy',((y+nextY)/2-43)*.9+46+'px');
+  piece.style.setProperty('--turn',(i%2?1:-1)*(8+i)+'deg');
+  layer.appendChild(piece);
+ });
+ panel.after(layer);
+ layer.addEventListener('animationend',()=>layer.remove(),{once:true});
+}
+function setBranch(branch){
+ const panel=document.getElementById('branch-result');
+ clearGlass();
+ if(branch==='no' && panel.dataset.state==='yes' && panel.closest('.slide.active') && !reducedMotion.matches) shatter(panel);
+ panel.dataset.state=branch;
+ document.querySelectorAll('[data-branch]').forEach(button=>button.setAttribute('aria-selected',String(button.dataset.branch===branch)));
+ panel.classList.toggle('reject',branch==='no');
+ panel.innerHTML=branch==='yes'
+  ? '<h3>ส่งคำถามและหลักฐานให้ LLM</h3><p>นักศึกษาได้รับคำตอบภาษาไทย พร้อมชื่อเอกสารและเลขหน้าที่เปิดดูได้</p>'
+  : '<h3>แจ้งนักศึกษาว่าข้อมูลไม่เพียงพอ</h3><p>จบการตอบครั้งนี้ที่ Gate โดยไม่เรียก LLM ให้สร้างคำตอบ</p>';
+}
 function setRank(rank){document.querySelectorAll('[data-rank]').forEach(b=>b.setAttribute('aria-pressed',String(+b.dataset.rank===rank)));document.getElementById('recall-value').textContent=rank<=3?'1.00':'0.00';document.getElementById('rr-value').textContent=rank<=3?(1/rank).toFixed(2):'0.00';}
-document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.hasAttribute('data-hub'))return enterHub(b);if(b.hasAttribute('data-go')){if(modal.open)modal.close();go(+b.dataset.go);}if(b.dataset.image){openModal(b.dataset.title,`<img class="${b.classList.contains('screen-button')?'portrait':''}" src="${b.dataset.image}" alt="${escapeHTML(b.dataset.title)}">`);}if(b.dataset.branch)setBranch(b.dataset.branch);if(b.dataset.method)setMethod(b.dataset.method);if(b.dataset.rank)setRank(+b.dataset.rank);});
+document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.hasAttribute('data-hub'))return enterHub(b);if(b.hasAttribute('data-go')){if(modal.open)modal.close();go(+b.dataset.go);}if(b.dataset.image){openModal(b.dataset.title,`<img class="${b.classList.contains('screen-button')?'portrait':''}" src="${b.dataset.image}" alt="${escapeHTML(b.dataset.title)}">`);}if(b.dataset.branch)setBranch(b.dataset.branch);if(b.dataset.rank)setRank(+b.dataset.rank);});
 document.getElementById('prev').onclick=()=>navigate(-1);document.getElementById('next').onclick=()=>navigate(1);document.getElementById('overview').onclick=showOverview;document.getElementById('notes-toggle').onclick=showNotes;document.getElementById('fullscreen').onclick=fullscreen;document.getElementById('modal-close').onclick=()=>modal.close();
 modal.addEventListener('click',e=>{if(e.target===modal){const r=modal.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)modal.close();}});
 document.addEventListener('keydown',e=>{if(modal.open)return;if(e.target.closest('input,textarea,select,[contenteditable]'))return;if((e.key===' '||e.key==='Enter')&&e.target.closest('button,a'))return;const k=e.key.toLowerCase();if(['arrowright','arrowdown','pagedown',' '].includes(k)){e.preventDefault();navigate(1);}else if(['arrowleft','arrowup','pageup'].includes(k)){e.preventDefault();navigate(-1);}else if(k==='home'){e.preventDefault();go(0);}else if(k==='end'){e.preventDefault();go(slides.length-1);}else if(k==='o')showOverview();else if(k==='n')showNotes();else if(k==='f')fullscreen();});
 let touchStart=null;document.getElementById('stage').addEventListener('touchstart',e=>{if(e.target.closest('button'))return;touchStart={x:e.touches[0].clientX,y:e.touches[0].clientY};},{passive:true});document.getElementById('stage').addEventListener('touchend',e=>{if(!touchStart)return;const dx=e.changedTouches[0].clientX-touchStart.x,dy=e.changedTouches[0].clientY-touchStart.y;if(Math.abs(dx)>70&&Math.abs(dx)>Math.abs(dy)*1.5)navigate(dx<0?1:-1);touchStart=null;},{passive:true});
 window.addEventListener('resize',fit);window.addEventListener('hashchange',()=>go((parseInt(location.hash.slice(1),10)||1)-1,false));
-setBranch('yes');setMethod('bm25');setRank(2);fit();go((parseInt(location.hash.slice(1),10)||1)-1,false);
+setBranch('yes');setRank(2);fit();go((parseInt(location.hash.slice(1),10)||1)-1,false);
