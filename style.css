@@ -34,3 +34,10 @@
 .chapter-hub span {display:grid;place-items:center;margin:0 auto 18px;width:132px;height:132px;border-radius:50%;background:var(--paper);border:1px solid var(--red);color:var(--red);font:58px Georgia;transition:background .2s}
 .chapter-hub button:is(:hover,:focus-visible) span {background:var(--yellow)}
 @media print {.satellite{left:var(--x);top:var(--y);opacity:1;visibility:visible}}
+
+.themes,.profiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;height:100%;align-content:center}
+.themes article,.profiles article{background:#fffaf0;padding:30px;border-top:3px solid #ab8b5e}
+.themes article{display:flex;flex-direction:column}.themes h3,.profiles h3{font-size:27px;margin-bottom:14px}
+.themes h4,.profiles dt{font-size:19px;color:var(--red);margin:14px 0 5px}.themes p,.profiles dd,.themes footer{font-size:20px;line-height:1.6;margin:0}
+.themes footer{margin: auto 0 0;padding-top:22px;font-weight:600}.profiles dl{margin:0}.profiles dd{min-height:70px}.profiles article:last-child{background:#f4e4bc}
+.chapter-hub [aria-current="step"] span{background:var(--yellow)}
