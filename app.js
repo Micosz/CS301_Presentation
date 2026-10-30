@@ -10,9 +10,53 @@ slides.forEach((s,i)=>{
  deck.appendChild(el);
 });
 function fit(){const rect=document.getElementById('stage').getBoundingClientRect();deck.style.transform=`scale(${Math.min(rect.width/1440,rect.height/840)})`;}
+
+const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+const slideAnimations=new Set();
+function stopSlideMotion(){
+ for(const animation of slideAnimations) animation.cancel();
+ slideAnimations.clear();
+}
+reducedMotion.addEventListener('change',stopSlideMotion);
+window.addEventListener('beforeprint',stopSlideMotion);
+function animateSlide(slide,direction){
+ stopSlideMotion();
+ if(reducedMotion.matches || typeof slide.animate!=='function') return;
+ // Animate individual entities; keep the deck's responsive scale untouched.
+ slide.style.animation='none';
+ const selectors=[
+  ':scope > .eyebrow', ':scope > h2', ':scope > .intro',
+  '.hero > div:first-child > *', '.hero-visual > *', '.hero-bottom',
+  '.objective-statement', '.objective-item', '.data-table',
+  '.table-note', '.path-stop', '.callout', '.process-item', '.document',
+  '.node', '.down-arrow', '.gate', '.branch-result', '.tabs',
+  '.method-view > div', '.diagram-button', '.aside-list > *',
+  '.flow-row', '.screen-item', '.design-art', '.principle',
+  '.metric-demo', '.metric-list > *', '.experiment', '.test-panel',
+  '.usability', '.progress-list > article', '.closing-question'
+ ];
+ const candidates=[...slide.querySelectorAll(selectors.join(','))];
+ // Avoid compounding transforms on both an entity and its children.
+ const entities=candidates.filter(el=>!candidates.some(parent=>parent!==el&&parent.contains(el)));
+ entities.forEach((el,i)=>{
+  const base=getComputedStyle(el).transform;
+  const rest=base==='none'?'':base;
+  const visual=el.matches('.hero-visual > *, .screen-item, .diagram-button, .document, .design-art');
+  const animation=el.animate([
+   {opacity:0,transform:`translate3d(${direction*(visual?36:20)}px, ${visual?20:12}px, 0) ${rest}`},
+   {opacity:1,transform:base}
+  ],{duration:visual?700:540,delay:Math.min(i*45,270),easing:'cubic-bezier(.22,1,.36,1)',fill:'backwards'});
+  slideAnimations.add(animation);
+  animation.onfinish=()=>slideAnimations.delete(animation);
+ });
+}
+
 function go(index,updateHash=true){
+ const previous=current;
+ const firstVisit=!deck.querySelector('.slide.active');
  current=Math.max(0,Math.min(slides.length-1,index));
  document.querySelectorAll('.slide').forEach((s,i)=>{s.classList.toggle('active',i===current);s.setAttribute('aria-hidden',String(i!==current));s.inert=i!==current;});
+ if(firstVisit || previous!==current) animateSlide(document.getElementById('slide-'+(current+1)),current>=previous?1:-1);
  document.getElementById('counter').textContent=String(current+1).padStart(2,'0')+' / '+slides.length;
  document.getElementById('progress-bar').style.width=((current+1)/slides.length*100)+'%';
  document.getElementById('prev').disabled=current===0;document.getElementById('next').disabled=current===slides.length-1;
