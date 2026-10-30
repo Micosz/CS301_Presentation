@@ -22,6 +22,7 @@ jobs:
         run: |
           node --check slides.js
           node --check app.js
+          node validate.mjs
       - name: Prepare only public slide assets
         run: |
           mkdir -p _site
