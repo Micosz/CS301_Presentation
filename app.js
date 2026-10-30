@@ -113,7 +113,7 @@ function showBeat(step,zoom=false){
   deck.querySelector('.tour-label').textContent=label;
  }else if(current===10){
   const previews=deck.querySelector('.phone-previews'),demo=deck.querySelector('.device-demo');
-  const from=zoom && step && !previews.hidden ? previews.children[step-1].querySelector('img').getBoundingClientRect():null;
+  const from=zoom && step && !previews.hidden ? previews.children[step-1].querySelector('.mini-phone').getBoundingClientRect():null;
   previews.hidden=step>0;
   demo.hidden=!step;
   const device=demo.querySelector('.device');
@@ -126,7 +126,7 @@ function showBeat(step,zoom=false){
    const to=device.getBoundingClientRect(),scale=deck.getBoundingClientRect().width/deck.offsetWidth;
    const dx=(from.left+from.width/2-to.left-to.width/2)/scale;
    const dy=(from.top+from.height/2-to.top-to.height/2)/scale;
-   device.animate([{transform:'translate('+dx+'px,'+dy+'px) scale('+from.height*.69/to.height+')'},{transform:'none'}],{duration:500,easing:'cubic-bezier(.22,1,.36,1)'});
+   device.animate([{transform:'translate('+dx+'px,'+dy+'px) scale('+from.height/to.height+')'},{transform:'none'}],{duration:500,easing:'cubic-bezier(.22,1,.36,1)'});
   }
  }
 }

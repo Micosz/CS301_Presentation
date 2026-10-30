@@ -13,6 +13,9 @@ const texts=[fs.readFileSync(path.join(root,'index.html'),'utf8'),...slides.map(
 const ids=new Set();let checkedAssets=0;
 for(const text of texts){
  for(const m of text.matchAll(/\bid="([^"]+)"/g)){assert(!ids.has(m[1]),'Duplicate ID '+m[1]);ids.add(m[1]);}
+ for(const m of text.matchAll(/<image\b[^>]*\bhref="([^"]+)"/g)){
+  assert(fs.existsSync(path.join(root,m[1])),'Missing SVG image '+m[1]);checkedAssets++;
+ }
  for(const m of text.matchAll(/\b(?:src|data-image)="([^"]+)"/g)){
   assert(!m[1].startsWith('http'),'Assets should be local');
   assert(fs.existsSync(path.join(root,m[1])),'Missing asset '+m[1]);checkedAssets++;
