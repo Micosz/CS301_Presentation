@@ -50,7 +50,7 @@ S(3,'กรณีทดสอบการทำงานของระบบ 19
 <li><span>01</span>ตอบจำนวนหน่วยกิต</li><li><span>02</span>ตอบวิชาบังคับก่อน</li><li class="test-highlight"><span>03</span>อ้างอิงตรงกับหลักฐาน</li><li><span>04</span>เปิดดูข้อความหลักฐาน</li><li><span>05</span>ใช้ปุ่มคำถามตัวอย่าง</li><li class="test-highlight"><span>06</span>ปฏิเสธข้อมูลเฉพาะภาคเรียน</li><li><span>07</span>ปฏิเสธการจัดแผนลงทะเบียน</li><li><span>08</span>ปฏิเสธคำถามหลักสูตรปีอื่น</li>
 </ol></article>
 <article class="test-group"><header><span class="test-count">6</span><div><h3>การตรวจสอบข้อมูลรับเข้า</h3><p>TC-09–14</p></div></header><ol start="9">
-<li class="test-highlight"><span>09</span>คำถามว่าง / มีแต่ช่องว่าง</li><li><span>10</span>คำถามเกิน 500 ตัวอักษร</li><li><span>11</span>รหัสวิชาหลายรูปแบบ</li><li><span>12</span>คำภาษาอังกฤษปนภาษาไทย</li><li><span>13</span>อ้างถึงคำถามก่อนหน้า</li><li><span>14</span>สั่งให้ตอบโดยไม่อิงเอกสาร</li>
+<li class="test-highlight"><span>09</span>คำถามว่าง / มีแต่ช่องว่าง</li><li><span>10</span>คำถามเกิน 500 ตัวอักษร</li><li class="test-highlight"><span>11</span>รหัสวิชาหลายรูปแบบ</li><li><span>12</span>คำภาษาอังกฤษปนภาษาไทย</li><li><span>13</span>อ้างถึงคำถามก่อนหน้า</li><li class="test-highlight"><span>14</span>สั่งให้ตอบโดยไม่อิงเอกสาร</li>
 </ol></article>
 <article class="test-group"><header><span class="test-count">5</span><div><h3>ความไม่แน่นอนของระบบ<br>และการใช้งานพร้อมกัน</h3><p>TC-15–19</p></div></header><ol start="15">
 <li class="test-highlight"><span>15</span>LLM API ไม่ตอบสนอง</li><li><span>16</span>การเชื่อมต่อขาด</li><li><span>17</span>ฐานความรู้ไม่พร้อม</li><li><span>18</span>ถามคำถามเดิมซ้ำ 3 ครั้ง</li><li class="test-highlight"><span>19</span>ผู้ใช้ 10 คนถามพร้อมกัน</li>
