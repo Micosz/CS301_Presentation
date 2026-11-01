@@ -43,7 +43,8 @@ function animateSlide(slide,direction){
   '.flow-row', '.screen-item', '.design-art', '.principle',
   '.metric-demo', '.metric-list > *', '.experiment', '.test-panel',
   '.usability', '.progress-list > article', '.closing-question',
-  '.experiment-card', '.experiment-context', '.test-group', '.test-status'
+  '.experiment-card', '.experiment-context', '.test-group', '.test-status',
+  '.survey-detail', '.survey-next'
  ];
  const candidates=[...slide.querySelectorAll(selectors.join(','))];
  // Avoid compounding transforms on both an entity and its children.

@@ -104,3 +104,21 @@
 .test-group li{display:grid;grid-template-columns:30px 1fr;gap:11px;font-size:21px;line-height:1.65}
 .test-group li span{color:var(--muted);font:18px/1.9 var(--serif)}
 .test-status{font-size:20px;color:var(--muted);border-top:1px solid var(--line);padding-top:20px}
+
+/* Give the questionnaire its own page; keep next steps to one sentence. */
+.survey-plan{height:100%;display:flex;flex-direction:column;justify-content:center;gap:24px}
+.survey-layout{display:grid;grid-template-columns:.85fr 1.65fr;gap:42px}
+.survey-plan .usability{padding:30px}
+.survey-plan .big-value{font-size:80px}.survey-plan .big-value span{font-size:50px}
+.survey-plan .usability h3{font-size:27px;margin-top:12px}
+.survey-plan .usability p{font-size:21px;line-height:1.65;margin-top:10px}
+.survey-tasks{border-top:1px solid #bd9e4b;padding-top:19px;margin-top:20px}
+.survey-plan h4{font-size:23px;line-height:1.5;margin:0 0 9px}
+.survey-plan .usability .survey-consent{font-size:19px;margin-top:22px}
+.survey-detail>h3{font-size:28px;margin-bottom:19px}
+.survey-domains{display:grid;grid-template-columns:1fr 1fr;gap:24px 32px}
+.survey-domains article{border-top:1px solid var(--line);padding-top:15px}
+.survey-domains article>span{display:block;font:27px var(--serif);color:var(--red);margin-bottom:10px}
+.survey-domains p,.survey-analysis p{font-size:21px;line-height:1.65;color:var(--muted)}
+.survey-analysis{margin-top:25px;border-top:1px solid var(--line);padding-top:18px}
+.survey-next{border-top:1px solid var(--line);padding-top:18px;font-size:20px;color:var(--muted)}
