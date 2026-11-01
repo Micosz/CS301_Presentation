@@ -10,6 +10,14 @@ slides.forEach((s,i)=>{
  el.innerHTML=i===0 ? eyebrow+s.html : eyebrow+'<h2>'+s.title+'</h2>'+'<div class="slide-content">'+s.html+'</div>';
  deck.appendChild(el);
 });
+// Resolve navigation from content so inserting/removing slides cannot shift tours.
+const pageIndex=selector=>[...deck.children].findIndex(slide=>slide.querySelector(selector));
+const pages={hub:pageIndex('.chapter-hub'),knowledge:pageIndex('.process-list'),architecture:pageIndex('.comic'),retrieval:pageIndex('.retrieval-unit'),ucs:pageIndex('.ucs-book'),activity:pageIndex('.diagram-tour'),prototype:pageIndex('.prototype-tour')};
+deck.querySelectorAll('[data-hub-target]').forEach(button=>{
+ const target=pageIndex(button.dataset.hubTarget);
+ if(target<0) throw new Error('Missing chapter destination: '+button.dataset.hubTarget);
+ button.dataset.hub=String(target);
+});
 function fit(){const rect=document.getElementById('stage').getBoundingClientRect();deck.style.transform=`scale(${Math.min(rect.width/1440,rect.height/840)})`;}
 
 const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -68,7 +76,7 @@ function crossSection(target){
  const backward=target<current;
  const from=sectionFor(current),to=sectionFor(target);
  if(reducedMotion.matches || !deck.animate) return go(target);
- go(4);
+ go(pages.hub);
  const hub=from.closest('.slide');
  to.setAttribute('aria-current','step');
  hubZoom=hub.animate([{transform:'scale(4)',opacity:0},{transform:'scale(1)',opacity:1},{transform:'scale(1)',opacity:1}],{duration:820,easing:'ease-out'});
@@ -86,7 +94,7 @@ function enterHub(button,target=Number(button.dataset.hub),backward=false){
  hubZoom=page.animate([{transform:'scale(1)',transformOrigin:origin},{transform:'scale(4)',transformOrigin:origin,opacity:0}],{duration:430,easing:'ease-in',fill:'forwards'});
  hubZoom.onfinish=()=>{go(target);if(backward)showBeat(tourLimits[target]||0);};
 }
-const tourLimits={8:2,9:5,10:4};
+const tourLimits={[pages.ucs]:2,[pages.activity]:5,[pages.prototype]:4};
 let tourBeat=0;
 const cameraStops=[
  [1,50,50,'ภาพรวม UC-01'],
@@ -104,14 +112,14 @@ const screenCopy=[
 ];
 function showBeat(step,zoom=false){
  tourBeat=step;
- if(current===8){
+ if(current===pages.ucs){
   deck.querySelectorAll('.ucs-book section').forEach((panel,i)=>panel.hidden=i!==step);
- }else if(current===9){
+ }else if(current===pages.activity){
   const [scale,x,y,label]=cameraStops[step];
   const img=deck.querySelector('.camera-window img');
   img.style.transform='scale('+scale+') translate('+(-x)+'%,'+(-y)+'%)';
   deck.querySelector('.tour-label').textContent=label;
- }else if(current===10){
+ }else if(current===pages.prototype){
   const previews=deck.querySelector('.phone-previews'),demo=deck.querySelector('.device-demo');
   const from=zoom && step && !previews.hidden ? previews.children[step-1].querySelector('.mini-phone').getBoundingClientRect():null;
   previews.hidden=step>0;
@@ -144,14 +152,14 @@ function navigate(direction){
   return;
  }
  const target=current+direction;
- if(current>=5 && target>=5 && target<slides.length && sectionFor(current)!==sectionFor(target)) return crossSection(target);
+ if(current>=pages.knowledge && target>=pages.knowledge && target<slides.length && sectionFor(current)!==sectionFor(target)) return crossSection(target);
 
  if(current===1 && objectiveMap.classList.contains('expanded')!==(direction>0)){
   setDetails(direction>0);
   document.getElementById('announcement').textContent=direction>0?'วัตถุประสงค์เฉพาะ':'วัตถุประสงค์หลัก';
   return;
  }
- if(current===4 && direction>0) return enterHub(deck.querySelector('[data-hub]'));
+ if(current===pages.hub && direction>0) return enterHub(deck.querySelector('[data-hub]'));
  go(current+direction);
 }
 function go(index,updateHash=true){
@@ -161,7 +169,7 @@ function go(index,updateHash=true){
  const previous=current;
  const firstVisit=!deck.querySelector('.slide.active');
  current=Math.max(0,Math.min(slides.length-1,index));
- if(current===6) setBranch(previous===7?'no':'yes');
+ if(current===pages.architecture) setBranch(previous===pages.retrieval?'no':'yes');
  document.querySelectorAll('.slide').forEach((s,i)=>{s.classList.toggle('active',i===current);s.setAttribute('aria-hidden',String(i!==current));s.inert=i!==current;});
  if(firstVisit || previous!==current) showBeat(!firstVisit && previous===current+1 ? (tourLimits[current]||0) : 0);
  if(firstVisit || previous!==current) setDetails(current===1 && previous===2);
