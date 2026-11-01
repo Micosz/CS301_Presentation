@@ -132,3 +132,7 @@
 .challenge-response{padding:14px 17px;margin-top:16px;background:#e4e9df}
 .challenge-response h4{font-size:18px;color:var(--green);margin:0 0 6px;font-weight:600}
 .challenge-response p{color:var(--ink);font-size:21px}
+
+/* Highlight the five cases selected for the presentation. */
+.test-group li.test-highlight{background:#f8e5b4;box-shadow:inset 3px 0 var(--red);border-radius:3px;margin-inline:-9px;padding-inline:9px;font-weight:600}
+.test-group li.test-highlight span{color:var(--red)}

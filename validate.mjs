@@ -19,7 +19,7 @@ const targets=[...hub.html.matchAll(/data-hub-target="\.([^"]+)"/g)].map(m=>{
 assert.deepEqual(targets,[4,5,9,11,14],'Chapter hub order');
 assert(slides[12].html.includes('class="experiment-plan"'),'Experiments precede system tests');
 assert(slides[13].html.includes('class="test-case-plan"'),'System tests precede user evaluation');
-const cases=[...slides[13].html.matchAll(/<li><span>(\d+)<\/span>/g)].map(m=>Number(m[1]));
+const cases=[...slides[13].html.matchAll(/<li(?: class="test-highlight")?><span>(\d+)<\/span>/g)].map(m=>Number(m[1]));
 assert.deepEqual(cases,Array.from({length:19},(_,i)=>i+1),'All nineteen cases appear once, in report order');
 assert.equal((slides[15].html.match(/class="challenge"/g)||[]).length,4);
 assert(slides[15].source.includes('§3.10'),'Challenges follow report section 3.10');
