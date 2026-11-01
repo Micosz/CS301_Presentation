@@ -7,8 +7,8 @@ const root=path.dirname(fileURLToPath(import.meta.url));
 const ctx={};vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(root,'slides.js'),'utf8')+';this.deckData=slides;',ctx);
 const slides=ctx.deckData;
-assert.equal(slides.length,14,'Expected fourteen slides');
-assert.deepEqual(Array.from(slides,s=>s.chapter),[0,1,2,3,3,3,3,3,3,3,3,3,3,3]);
+assert.equal(slides.length,15,'Expected fifteen slides');
+assert.deepEqual(Array.from(slides,s=>s.chapter),[0,1,2,3,3,3,3,3,3,3,3,3,3,3,3]);
 const texts=[fs.readFileSync(path.join(root,'index.html'),'utf8'),...slides.map(s=>s.html)];
 const ids=new Set();let checkedAssets=0;
 for(const text of texts){
