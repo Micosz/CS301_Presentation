@@ -122,3 +122,13 @@
 .survey-domains p,.survey-analysis p{font-size:21px;line-height:1.65;color:var(--muted)}
 .survey-analysis{margin-top:25px;border-top:1px solid var(--line);padding-top:18px}
 .survey-next{border-top:1px solid var(--line);padding-top:18px;font-size:20px;color:var(--muted)}
+
+/* Section 3.10: each technical risk is paired with its planned response. */
+.challenge-grid{height:100%;display:grid;grid-template-columns:1fr 1fr;gap:28px 42px;align-content:center}
+.challenge{display:grid;grid-template-columns:42px 1fr;gap:17px;border-top:2px solid var(--red);padding-top:19px}
+.challenge-number{font:32px/1.4 var(--serif);color:var(--red)}
+.challenge h3{font-size:25px;line-height:1.5;margin-bottom:11px}
+.challenge p{font-size:21px;line-height:1.65;color:var(--muted)}
+.challenge-response{padding:14px 17px;margin-top:16px;background:#e4e9df}
+.challenge-response h4{font-size:18px;color:var(--green);margin:0 0 6px;font-weight:600}
+.challenge-response p{color:var(--ink);font-size:21px}

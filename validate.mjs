@@ -7,8 +7,22 @@ const root=path.dirname(fileURLToPath(import.meta.url));
 const ctx={};vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(root,'slides.js'),'utf8')+';this.deckData=slides;',ctx);
 const slides=ctx.deckData;
-assert.equal(slides.length,15,'Expected fifteen slides');
-assert.deepEqual(Array.from(slides,s=>s.chapter),[0,1,2,3,3,3,3,3,3,3,3,3,3,3,3]);
+assert.equal(slides.length,16,'Expected sixteen slides');
+assert.deepEqual(Array.from(slides,s=>s.chapter),[0,1,2,3,3,3,3,3,3,3,3,3,3,3,3,3]);
+// Guard the reordered chapter boundaries and complete test-case coverage.
+const hub=slides.find(s=>s.html.includes('class="chapter-hub"'));
+const targets=[...hub.html.matchAll(/data-hub-target="\.([^"]+)"/g)].map(m=>{
+ const matches=slides.map((s,i)=>new RegExp('class="[^"\\n]*\\b'+m[1]+'\\b').test(s.html)?i:-1).filter(i=>i>=0);
+ assert.equal(matches.length,1,'Hub must resolve to one slide: '+m[1]);
+ return matches[0];
+});
+assert.deepEqual(targets,[4,5,9,11,14],'Chapter hub order');
+assert(slides[12].html.includes('class="experiment-plan"'),'Experiments precede system tests');
+assert(slides[13].html.includes('class="test-case-plan"'),'System tests precede user evaluation');
+const cases=[...slides[13].html.matchAll(/<li><span>(\d+)<\/span>/g)].map(m=>Number(m[1]));
+assert.deepEqual(cases,Array.from({length:19},(_,i)=>i+1),'All nineteen cases appear once, in report order');
+assert.equal((slides[15].html.match(/class="challenge"/g)||[]).length,4);
+assert(slides[15].source.includes('§3.10'),'Challenges follow report section 3.10');
 const texts=[fs.readFileSync(path.join(root,'index.html'),'utf8'),...slides.map(s=>s.html)];
 const ids=new Set();let checkedAssets=0;
 for(const text of texts){

@@ -44,7 +44,7 @@ function animateSlide(slide,direction){
   '.metric-demo', '.metric-list > *', '.experiment', '.test-panel',
   '.usability', '.progress-list > article', '.closing-question',
   '.experiment-card', '.experiment-context', '.test-group', '.test-status',
-  '.survey-detail', '.survey-next'
+  '.survey-detail', '.survey-next', '.challenge'
  ];
  const candidates=[...slide.querySelectorAll(selectors.join(','))];
  // Avoid compounding transforms on both an entity and its children.
