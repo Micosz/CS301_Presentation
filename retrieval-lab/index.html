@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="th">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>CS301 · ทดลองการค้นคืน</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><a class="brand" href="./"><span class="brand-icon">R</span> CS301 <span class="muted">/ RETRIEVAL LAB</span></a><nav aria-label="ลิงก์โครงงาน"><a href="https://cs301presentation.vercel.app/">สไลด์นำเสนอ ↗</a><a href="README.md">วิธีใช้งาน</a></nav></header>
+<main>
+<section class="intro"><div><p class="eyebrow">การเลือกเครื่องมือ · ชุดพัฒนา</p><h1>ทดลองค้นหลักฐาน<br><span>จากหลักสูตรของเรา</span></h1><p class="description">เปรียบเทียบผลการค้น ตรวจคำถามกับเอกสาร และดูเหตุผลก่อนเลือกโมเดล</p></div><aside class="scope-card"><span class="small-label">สถานะชุดข้อมูล</span><strong>นำร่อง · รอตรวจทาน</strong><p>คำถามและเฉลยจัดทำด้วย AI ต้องให้ทีมตรวจเพิ่ม ผลนี้ยังไม่ใช่ผลทดสอบสุดท้าย</p><div id="dataset-stats" class="dataset-stats">กำลังอ่านชุดข้อมูล…</div></aside></section>
+<div id="error" role="alert" hidden></div>
+<section class="workbench" aria-labelledby="run-title"><div class="section-heading"><div><p class="eyebrow">01 / เปรียบเทียบผล</p><h2 id="run-title">อันดับที่ค้นได้ และความครบของหลักฐาน</h2></div><span id="run-state" class="status" aria-live="polite">กำลังโหลด</span></div>
+<p class="method-note">ปุ่มนี้คำนวณอันดับและตัวชี้วัดใหม่จากคะแนนค้นคืนที่ Python รันจริงและบันทึกไว้ <strong>ไม่ได้เรียกโมเดลสร้าง embedding ใหม่ในเบราว์เซอร์</strong></p>
+<div class="controls"><label>จำนวนหลักฐาน<select id="k"><option value="1">Top 1</option><option value="3" selected>Top 3</option><option value="5">Top 5</option></select></label><label>ประเภทคำถาม<select id="category"><option value="all">ทุกประเภท</option></select></label><button id="run" class="primary" disabled>คำนวณอันดับและคะแนนใหม่ <span>↗</span></button></div>
+<p id="availability" class="metric-note"></p>
+<div id="results" class="results" aria-live="polite"></div>
+<p class="metric-note">Recall = สัดส่วนหน่วยหลักฐานเฉลยที่พบ · MRR = ค่าเฉลี่ยส่วนกลับของอันดับหลักฐานแรก ภายใน top-k · ครบทุกหลักฐาน = สัดส่วนคำถามที่พบเฉลยครบทุกหน่วย ใช้หน่วยรายวิชา/นโยบาย ไม่ใช่จำนวน chunks</p>
+<div class="download-row"><button id="download-json" disabled>ดาวน์โหลดผล JSON ↓</button><button id="download-md" disabled>ดาวน์โหลดสรุป Markdown ↓</button><a href="reports/benchmark-report.md">รายงานจากการรัน Python ↗</a></div>
+</section>
+<section class="review" aria-labelledby="review-title"><div class="section-heading"><div><p class="eyebrow">02 / ตรวจรายข้อ</p><h2 id="review-title">คำถาม เฉลย และสิ่งที่ค้นเจอ</h2></div><label>วิธีค้นคืน<select id="method"></select></label></div>
+<div class="review-controls"><label class="search-label">ค้นหาคำถาม<input id="search" type="search" placeholder="รหัสวิชา คำถาม หรือเลขข้อ"></label><span id="review-count" class="muted"></span><button id="export-review">ส่งออกบันทึกตรวจทาน ↓</button></div>
+<p class="metric-note">บันทึกการตรวจอยู่เฉพาะเบราว์เซอร์นี้ การกดตรวจแล้วไม่เปลี่ยนเฉลยหรือผลชุดกลาง ส่งออกให้ทีมตรวจร่วมกันก่อนแก้ชุดข้อมูล</p><div id="question-list"></div>
+</section>
+<section class="local-panel"><div><p class="eyebrow">03 / สร้างผลทดลองใหม่</p><h2>รันโมเดลผ่าน Python</h2><p id="local-help">เปิดตัวรันในเครื่องด้วย <code>python scripts/server.py</code> จากโฟลเดอร์ retrieval-lab แล้วใช้ URL ที่โปรแกรมแสดง เพื่อสร้างเวกเตอร์และคะแนนใหม่ หน้าเว็บออนไลน์แสดงผลรันที่เผยแพร่ไว้</p></div><div class="local-controls"><label>วิธีที่จะรัน<select id="local-model"><option value="bm25">BM25 + newmm</option><option value="e5">Multilingual E5 Small</option><option value="bge">BGE-M3</option></select></label><button id="local-run" disabled>รัน Python ใหม่</button><p id="local-status" role="status">กำลังตรวจตัวรันในเครื่อง…</p></div></section>
+<details class="provenance"><summary>ขอบเขตข้อมูลและที่มาของผลทดลอง</summary><p id="scope"></p><p>ผลการค้นไม่ได้ยืนยันความถูกต้องของคำตอบจาก LLM และไม่ได้ทดสอบ Evidence Gate คำถามนอกขอบเขตแสดงเฉพาะผลค้น ไม่รวมใน Recall/MRR และไม่ถือว่าการค้นเจอข้อความคือการตอบได้</p><pre id="provenance"></pre></details>
+</main><footer>CS301 · Curriculum Retrieval Pilot <span>แยกจากสไลด์นำเสนอ</span></footer>
+<script type="module" src="app.js"></script></body></html>

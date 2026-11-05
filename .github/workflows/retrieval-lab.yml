@@ -1,0 +1,26 @@
+name: Validate retrieval lab
+on:
+  push:
+    branches: [main]
+    paths: ['retrieval-lab/**', '.github/workflows/retrieval-lab.yml']
+  pull_request:
+    paths: ['retrieval-lab/**', '.github/workflows/retrieval-lab.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install numpy==2.5.4 psutil==7.2.2
+      - run: node --test retrieval-lab/tests/evaluator.test.mjs
+      - run: python -m unittest discover -s retrieval-lab/tests -p 'test_*.py'
+      - run: node retrieval-lab/tests/parity.mjs
+      - run: node validate.mjs
