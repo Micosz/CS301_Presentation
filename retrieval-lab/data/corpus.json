@@ -1,0 +1,2185 @@
+{
+  "schema_version": 1,
+  "source": {
+    "filename": "หลักสูตรวิทยาศาสตร์บัณฑิต.pdf",
+    "sha256": "eba2a6996894d3d6fe2bb2aba4178d379cdf068d38bfcdbb68c466e197f5a074",
+    "page_count": 162,
+    "scope": "นโยบายหน้า 15,16,17,24,107 และคำอธิบายรายวิชา คพ. หน้า 44–83; ไม่รวมตารางแผนเรียน ภาคผนวกเปรียบเทียบหลักสูตรเก่า และประวัติบุคลากร",
+    "extraction": "pypdf; explicit Thai PUA map; whitespace normalization; no OCR",
+    "label_status": "AI-authored pilot; requires independent human review",
+    "visual_checks": [
+      16,
+      60,
+      107
+    ]
+  },
+  "units": [
+    {
+      "id": "policy-15",
+      "title": "ระบบและระยะเวลาการศึกษา",
+      "text": "หมวดที่ 4 โครงสร้างหลักสูตร รายวิชา และหน่วยกิต 4.1 ระบบการจัดการศึกษาและระยะเวลาการศึกษา 4.1.1 ระบบ ใช้ระบบการศึกษาแบบทวิภาค โดย 1 ปีการศึกษาแบ่งออกเป็น 2 ภาคการศึกษาปกติ 1 ภาคการศึกษาปกติมีระยะเวลาศึกษาไม่น้อยกว่า 15 สัปดาห์ และอาจเปิดภาคฤดูร้อนได้โดยใช้เวลาการศึกษาไม่น้อยกว่า 6 สัปดาห์ แต่ให้เพิ่มชั่วโมงการศึกษาในแต่ละรายวิชาให้เท่ากับภาคปกติ การจัดการศึกษาภาคฤดูร้อน - สำหรับนักศึกษาเข้าแผนสหกิจศึกษา ปีการศึกษาที่ 3 วิชา คพ.304 สหกิจศึกษา 1 - สำหรับนักศึกษาไม่เข้าแผนสหกิจศึกษา นักศึกษาสามารถลงทะเบียนในภาคฤดูร้อนได้ตามความจำเป็นของแต่ละบุคคล 4.1.2 ระยะเวลาการศึกษาสูงสุด [ไม่เลือก] ไม่กำหนด [เลือก] ไม่เกิน.......16.............ภาคการศึกษาปกติ 4.2 การดำเนินการหลักสูตร 4.2.1 วัน-เวลาในการดำเนินการเรียนการสอน [เลือก] วัน – เวลาราชการปกติ [ไม่เลือก] นอกวัน – เวลาราชการ 4.2.2 ระบบการศึกษา [เลือก] แบบชั้นเรียน (Onsite) [ไม่เลือก] แบบทางไกล (Online) [ไม่เลือก] แบบประสมประสาน (Hybrid) [ไม่เลือก] อื่นๆ (ระบุ)",
+      "pdf_pages": [
+        15
+      ],
+      "printed_pages": [
+        "15"
+      ],
+      "kind": "policy"
+    },
+    {
+      "id": "policy-16",
+      "title": "โครงสร้างและหน่วยกิตหลักสูตร",
+      "text": "4.3 โครงสร้างหลักสูตร รายวิชา และหน่วยกิต 4.3.1 หลักสูตร 4.3.1.1 จำนวนหน่วยกิตรวม จำนวนหน่วยกิตรวมตลอดหลักสูตร 123 หน่วยกิต 4.3.1.2 โครงสร้างหลักสูตร นักศึกษาจะต้องจดทะเบียนศึกษารายวิชา รวมไม่น้อยกว่า 123 หน่วยกิต โดยศึกษารายวิชาต่าง ๆ ครบตามโครงสร้างองค์ประกอบ และข้อกำหนดของหลักสูตรดังนี้ 1) วิชาศึกษาทั่วไป 30 หน่วยกิต 2) วิชาเฉพาะ ไม่น้อยกว่า 87 หน่วยกิต 2.1) วิชาแกน 12 หน่วยกิต 2.2) วิชาเฉพาะด้าน 42 หน่วยกิต - กลุ่มประเด็นด้านองค์การระบบสารสนเทศ (ACM CC2020 - Users and Organizations) 3 หน่วยกิต - กลุ่มเทคโนโลยีเพื่องานประยุกต์ (ACM CC2020 - Users and Organizations, System Architecture and Infrastructure) 9 หน่วยกิต - กลุ่มเทคโนโลยีและวิธีการทางซอฟต์แวร์ (ACM CC2020 - System Architecture and Infrastructure, Software Development, Software Fundamentals) 12 หน่วยกิต - กลุ่มโครงสร้างพื้นฐานของระบบ (ACM CC2020 - Users and Organizations, Systems Modeling, System Architecture and Infrastructure, Software Fundamentals) 15 หน่วยกิต - กลุ่มฮาร์ดแวร์และสถาปัตยกรรมคอมพิวเตอร์ (ACM CC2020 – Software Fundamentals, Hardware) 3 หน่วยกิต 2.3) วิชาเอก 30 หน่วยกิต 2.3.1) วิชาเอก คอมพิวเตอร์และวิทยาการสารสนเทศ 2.3.2) วิชาเอก คอมพิวเตอร์ประยุกต์ 2.4) วิชาบังคับนอกสาขา 3 หน่วยกิต 3) วิชาเลือกเสรี 6 หน่วยกิต รวม 123 หน่วยกิต",
+      "pdf_pages": [
+        16
+      ],
+      "printed_pages": [
+        "16"
+      ],
+      "kind": "policy"
+    },
+    {
+      "id": "policy-17",
+      "title": "ความหมายของรหัสวิชา",
+      "text": "4.3.2 รายวิชาในหลักสูตร 4.3.2.1 รหัสวิชา รายวิชาในหลักสูตรประกอบด้วย อักษรย่อ 2 หรือ 3 ตัว และเลขรหัส 3 ตัว โดยมีความหมายดังนี้ อักษรย่อ คพ./ CS หมายถึง อักษรย่อของสาขาวิชาวิทยาการคอมพิวเตอร์ ตัวเลข มีความหมาย ดังนี้ เลขหลักหน่วย เลข 0-5 หมายถึง วิชาบังคับ เลข 6-9 หมายถึง วิชาเลือก เลขหลักสิบ เลข 0-1 หมายถึง วิชาในหมวด วิชาพื้นฐานคอมพิวเตอร์ และทางด้าน ปัญหาพิเศษ เลข 2-3 หมายถึง หมวดวิชาสถาปัตยกรรมคอมพิวเตอร์ และหมวดวิชาเครือข่ายคอมพิวเตอร์และระบบปฏิบัติการ เลข 4-5 หมายถึง หมวดวิชาทางด้านภาษาโปรแกรม และหมวดวิชาระบบฐานข้อมูลและระบบสารสนเทศ เลข 6-7 หมายถึง หมวดวิชาวิศวกรรมซอฟต์แวร์ และหมวดวิชาปัญญาประดิษฐ์ เลข 8-9 หมายถึง หมวดวิชาส่วนต่อประสานผู้ใช้และมัลติมีเดีย และหมวดวิชาคอมพิวเตอร์กราฟิก เลขหลักร้อย เลข 1 หมายถึง รายวิชาที่จัดสอนในหลักสูตรชั้นปีที่ 1 ขึ้นไป เลข 2 หมายถึง รายวิชาที่จัดสอนในหลักสูตรชั้นปีที่ 2 ขึ้นไป เลข 3 หมายถึง รายวิชาที่จัดสอนในหลักสูตรชั้นปีที่ 3 ขึ้นไป เลข 4 หมายถึง รายวิชาที่จัดสอนในหลักสูตรชั้นปีที่ 4 ขึ้นไป",
+      "pdf_pages": [
+        17
+      ],
+      "printed_pages": [
+        "17"
+      ],
+      "kind": "policy"
+    },
+    {
+      "id": "policy-24",
+      "title": "วิชาเลือกเสรีและวิชาโท",
+      "text": "3) วิชาเลือกเสรี ไม่น้อยกว่า 6 หน่วยกิต นักศึกษาสามารถเลือกศึกษาวิชาใดก็ได้ที่เปิดสอนในมหาวิทยาลัยธรรมศาสตร์เป็นวิชาเลือกเสรี จำนวนไม่น้อยกว่า 6 หน่วยกิต ทั้งนี้ นักศึกษาไม่สามารถนำรายวิชาในหลักสูตรวิชาศึ กษาทั่วไปที่เป็นรหัสระดับ 100 ไปนับเป็นวิชาเลือกเสรี 4) วิชาโท 4.1) วิชาโทวิทยาการคอมพิวเตอร์ (สำหรับนักศึกษานอกสาขาวิชาวิทยาการคอมพิวเตอร์เท่านั้น) นักศึกษาผู้ประสงค์จะศึกษาวิชาวิทยาการคอมพิวเตอร์เป็นวิชาโท ต้องศึกษารายวิชาในสาขาวิชาวิทยาการคอมพิวเตอร์ไม่น้อยกว่า 15 หน่วยกิต ตามเงื่อนไขดังต่อไปนี้ รหัสวิชา ชื่อวิชา หน่วยกิต (บรรยาย-ปฏิบัติ-ศึกษาด้วยตนเอง) คพ.100 การพัฒนาเว็บแอปพลิเคชันเบื้องต้น 3 (3-0-6) CS 100 Basic Web Development คพ.103 การโปรแกรมคอมพิวเตอร์เบื้องต้น 3 (3-0-6) CS 103 Introduction to Computer Programming คพ.104 การโปรแกรมคอมพิวเตอร์เบื้องต้นด้วยภาษาไพทอน 3 (3-0-6) CS 104 Introduction to Computer Programming using Python คพ.140 การวิเคราะห์ข้อมูลเชิงสำรวจและแดชบอร์ด แบบไร้โค้ด 3 (3-0-6) CS 140 No-Code Exploratory Data Analysis and Dashboard คพ.180 ส่วนต่อประสานและประสบการณ์ผู้ใช้เบื้องต้น 3 (3-0-6) CS 180 Introduction to User Interface and User Experience คพ.240 หลักการวิทยาการข้อมูล 3 (3-0-6) CS 240 Principles of Data Science คพ.265 การพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพาเบื้องต้น 3 (3-0-6) CS 265 Basic Mobile Development",
+      "pdf_pages": [
+        24
+      ],
+      "printed_pages": [
+        "24"
+      ],
+      "kind": "policy"
+    },
+    {
+      "id": "policy-107",
+      "title": "เกณฑ์การสำเร็จการศึกษา",
+      "text": "หมวดที่ 7 การประเมินผลการเรียนและเกณฑ์การสำเร็จการศึกษา 7.1 การประเมินผลการเรียนของนักศึกษา การประเมินผลการเรียน ให้เป็นไปตามข้อบังคับมหาวิทยาลัยธรรมศาสตร์ ว่าด้วยการศึกษาระดับปริญญาตรี พ.ศ. 2561 ข้อ 35-48 7.2 เกณฑ์การสำเร็จการศึกษาตามหลักสูตร 7.2.1 สอบผ่านและได้รับหน่วยกิตสะสมรายวิชาครบตามโครงสร้างหลักสูตร และมีหน่วยกิตสะสม ไม่ต่ำกว่า 123 หน่วยกิต 7.2.2 ได้ค่าระดับเฉลี่ยสะสมไม่ต่ำกว่า 2.00 (จากระบบ 4 ระดับคะแนน) 7.2.1 ต้องปฏิบัติตามเงื่อนไขอื่นๆ ที่คณะ วิทยาศาสตร์และเทคโนโลยี และมหาวิทยาลัยธรรมศาสตร์กำหนด 7.2.3 ได้ค่าระดับไม่ต่ำกว่า C ในรายวิชา คพ.101, คพ.102 และ คพ.111 7.2.4 ได้ค่าเฉลี่ยรวมได้ค่าเฉลี่ยรวมทั้ง 8 รายวิชา ไม่ต่ำกว่า 2.00 ได้แก่ รายวิชา คพ.100, คพ.101, คพ.102, คพ.111, คพ.232, คพ.240, คพ.251, และ คพ.261 ทั้งนี้ การจดทะเบียนซ้ำในรายวิชาใดจาก 8 รายวิชาดังกล่าว กระทำได้เฉพาะในรายวิชาที่ได้ต่ำกว่าระดับ C เท่านั้น",
+      "pdf_pages": [
+        107
+      ],
+      "printed_pages": [
+        "107"
+      ],
+      "kind": "policy"
+    },
+    {
+      "id": "cs-100",
+      "title": "คพ.100 การพัฒนาเว็บแอปพลิเคชันเบื้องต้น 3 (3-0-6)",
+      "text": "คพ.100 การพัฒนาเว็บแอปพลิเคชันเบื้องต้น 3 (3-0-6) CS 100 Basic Web Development แนวคิดพื้นฐานในการพัฒนาเว็บ สถาปัตยกรรมเว็บ เอชทีเอ็มแอลและซีเอสเอสเบื้องต้น วงจรการพัฒนาด้วยกิท การโปรแกรมจาวาสคริปต์ ฟอร์มและการยืนยันความถูกต้อง ส่วนประกอบของเว็บที่สามารถตอบสนองได้ การนำเว็บขึ้นให้บริการ Basic concepts of web development, web architecture, HTML & CSS fundamentals, development cycle with Git, JavaScript programming, form & validation, responsive web components, web deployment.",
+      "pdf_pages": [
+        44
+      ],
+      "printed_pages": [
+        "44"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-101",
+      "title": "คพ.101 โครงสร้างแบบไม่ต่อเนื่อง 3 (3-0-6)",
+      "text": "คพ.101 โครงสร้างแบบไม่ต่อเนื่อง 3 (3-0-6) CS 101 Discrete Structures ตรรกศาสตร์เบื้องต้นและการประยุกต์ใช้ในวงจรดิจิทัลพื้นฐาน วิธีการพิสูจน์ เซต ฟังก์ชัน ความสัมพันธ์ พีชคณิตบูลีน พื้นฐานการนับ และ กราฟ โดยเน้นการประยุกต์ใช้ในด้านวิทยาการคอมพิวเตอร์ Intensive introduction to discrete mathematics as applied in computer science: basic logic and its main application in digital logic, proof techniques, sets, functions, relations, Boolean algebra, basic of counting, and graphs.",
+      "pdf_pages": [
+        44
+      ],
+      "printed_pages": [
+        "44"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-102",
+      "title": "คพ.102 พื้นฐานการแก้ปัญหาและการโปรแกรมคอมพิวเตอร์ 3 (3-0-6)",
+      "text": "คพ.102 พื้นฐานการแก้ปัญหาและการโปรแกรมคอมพิวเตอร์ 3 (3-0-6) CS 102 Problem Solving Basics and Computer Programming การแก้ปัญหาด้วยวิธีการทางคอมพิวเตอร์ การออกแบบและการโปรแกรมเชิงโครงสร้าง ชนิดของข้อมูล โครงสร้างการควบคุม ฟังก์ชันและการส่งค่าพารามิเตอร์ ฟังก์ชันเวียนเกิด การทดสอบ และตรวจหาข้อผิดพลาด Algorithmic problem solving, structural design and programming, programming language syntax and semantics, data types, control structures, functions and parameter passing, recursive functions, testing and debugging.",
+      "pdf_pages": [
+        44
+      ],
+      "printed_pages": [
+        "44"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-103",
+      "title": "คพ.103 การโปรแกรมคอมพิวเตอร์เบื้องต้น 3 (3-0-6)",
+      "text": "คพ.103 การโปรแกรมคอมพิวเตอร์เบื้องต้น 3 (3-0-6) CS 103 Introduction to Computer Programming (ไม่นับหน่วยกิตสำหรับนักศึกษาสาขาวิชาวิทยาการคอมพิวเตอร์ และผู้ศึกษา คพ.102) การแก้ปัญหาด้วยวิธีการทางคอมพิวเตอร์ การออกแบบและการโปรแกรมเชิงโครงสร้าง ชนิดของข้อมูล โครงสร้างการควบคุม ฟังก์ชันและการส่งค่าพารามิเตอร์ ฟังก์ชันเวียนเกิด การทดสอบ และตรวจหาข้อผิดพลาด Algorithmic problem solving, structural design and programming, programming language syntax and semantics, data types, control structures, functions and parameter passing, recursive functions, testing and debugging.",
+      "pdf_pages": [
+        45
+      ],
+      "printed_pages": [
+        "45"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-104",
+      "title": "คพ.104 การโปรแกรมคอมพิวเตอร์เบื้องต้นด้วยภาษาไพทอน 3 (3-0-6)",
+      "text": "คพ.104 การโปรแกรมคอมพิวเตอร์เบื้องต้นด้วยภาษาไพทอน 3 (3-0-6) CS 104 Introduction to Computer Programming using Python (ไม่นับหน่วยกิตสำหรับนักศึกษาสาขาวิชาวิทยาการคอมพิวเตอร์ และผู้ศึกษา คพ.254/242) พื้นฐานการแก้ปัญหาด้วยวิธีการทางคอมพิวเตอร์ด้วยภาษาไพทอน การโปรแกรมเชิงโครงสร้าง ชนิดของข้อมูลพื้นฐาน โครงสร้างการควบคุม ฟังก์ชัน โครงสร้างข้อมูลพื้นฐาน ลิสต์ ทูเพิล เซ็ต ดิกชันนารี เรนจ์ ไลบราลีภาษาไพทอนสำหรับการประมวลผลเชิงตัวเลข อาร์เรย์และแมทริกซ์ ไลบราลีภาษาไพทอน สำหรับแสดงข้อมูล Basic computer programming and problem solving using Python. Structural design and Programming, basic data types. Control Structures. Functions, Python built-in data structures: lists, tuples, sets, dictionaries, and range, numerical processing library, arrays and matrix, library for data visualization.",
+      "pdf_pages": [
+        45
+      ],
+      "printed_pages": [
+        "45"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-111",
+      "title": "คพ.111 แนวคิดเชิงวัตถุ 3 (3-0-6)",
+      "text": "คพ.111 แนวคิดเชิงวัตถุ 3 (3-0-6) CS 111 Object-Oriented Concepts วิชาบังคับก่อน: เคยศึกษา คพ.102 หรือ เคยศึกษา คพ.103 พัฒนาทักษะการวิเคราะห์และการแก้ปัญหาด้วยแนวคิดเชิงวัตถุ บูรณาการแนวคิดและแนวทางเชิงปฏิบัติที่ทันสมัยในวัฏจักรการพัฒนาซอฟต์แวร์ หลักการพื้นฐานในการเขียนโปรแกรมเชิงวัตถุตามที่วิเคราะห์และออกแบบไว้ แนวทางในการทวนสอบความสอดคล้องระหว่างแบบและซอร์สโค้ด Prerequisite: Have taken CS 102 or Have taken CS 103 Developing of analytical and problem-solving skills through object- oriented paradigm. Integrating of conceptual and state-of-the-art practical approaches in software development life cycle (SDLC), object-oriented design techniques and tools, object-oriented programming based on the design, consistency verification between the design and source code.",
+      "pdf_pages": [
+        46
+      ],
+      "printed_pages": [
+        "46"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-140",
+      "title": "คพ.140 การวิเคราะห์ข้อมูลเชิงสำรวจและแดชบอร์ดแบบไร้โค้ด 3 (3-0-6)",
+      "text": "คพ.140 การวิเคราะห์ข้อมูลเชิงสำรวจและแดชบอร์ดแบบไร้โค้ด 3 (3-0-6) CS 140 No-Code Exploratory Data Analysis and Dashboard นิยามและกระบวนการวิเคราะห์ข้อมูลเชิงสำรวจ เครื่องมือสเปรดชีต ตารางข้อมูลและการวิเคราะห์ข้อมูลเมื่อตัวแปรต้นเปลี่ยนแปลงไป การสรุปผลข้อมูลในรูปแบบของตาราง การนำข้อมูลเข้า การแปลงและเตรียมข้อมูล การวิเคราะห์ข้อมูลแบบตัวแปรเดี่ยว การวิเคราะห์ข้อมูลแบบพหุตัวแปร สหสัมพันธ์และความเป็นสาเหตุ การออกแบบและสร้างแดชบอร์ด การผสานรวมข้อมูลจากหลายแหล่งข้อมูล กรณีศึกษา Exploratory Data Analysis (EDA) definition and process, spreadsheet tools, data types, data tables and what-if analysis, pivot table, data import, data transformation and preparation, univariate analysis, multivariate analysis, correlation and causation, dashboard design and implementation, data blending, case studies.",
+      "pdf_pages": [
+        46
+      ],
+      "printed_pages": [
+        "46"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-180",
+      "title": "คพ.180 ส่วนต่อประสานและประสบการณ์ผู้ใช้เบื้องต้น 3 (3-0-6)",
+      "text": "คพ.180 ส่วนต่อประสานและประสบการณ์ผู้ใช้เบื้องต้น 3 (3-0-6) CS 180 Introduction to User Interface and User Experience ความสำคัญของการออกแบบส่วนต่อประสานกับผู้ใช้และประสบการณ์ผู้ใช้ต่อการพัฒนาระบบที่ใช้งานได้ กระบวนการออกแบบที่เน้นผู้ใช้เป็นศูนย์กลาง เครื่องมือ การวัดและประเมินผล ส่วนประกอบการออกแบบส่วนต่อประสานกับผู้ใช้ แนะนำส่วนประกอบการออกแบบมาตรฐานและแนวปฏิบัติในการออกแบบเพื่อรองรับการออกแบบที่สามารถนำกลับมาใช้ใหม่ได้ผ่านระบบการออกแบบที่มีอยู่ ส่วนต่อประสานผู้ใช้และแนวทางประสบการณ์ผู้ใช้ Importance of user interface and user experience design to the development of usable systems, user-centered design process, tools, measurement and evaluation, user interface design components, introduce the standard design components and design best practices to support design reusability through existing design system, user interface and user experience guidelines.",
+      "pdf_pages": [
+        47
+      ],
+      "printed_pages": [
+        "47"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-213",
+      "title": "คพ.213 โครงสร้างข้อมูล 3 (3-0-6)",
+      "text": "คพ.213 โครงสร้างข้อมูล 3 (3-0-6) CS 213 Data Structures วิชาบังคับก่อน: เคยศึกษา คพ.111 การวิเคราะห์ขั้นตอนวิธีเบื้องต้น หลักนามธรรมข้อมูล โครงสร้างข้อมูลพื้นฐาน ได้แก่ ข้อมูลเชิงเส้น และข้อมูลแบบไม่เชิงเส้น การจัดสรรหน่วยเก็บแบบพลวัต เทคนิคการค้นหา และการเรียงลำดับข้อมูลในหน่วยความจำ การฝึกปฏิบัตินอกเวลา Prerequisite: Have taken CS 111 Introduction to algorithm analysis, data abstraction, and fundamental data structures including linear data structures and nonlinear data structures, dynamic storage allocation, searching and sorting techniques.",
+      "pdf_pages": [
+        47
+      ],
+      "printed_pages": [
+        "47"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-216",
+      "title": "คพ.216 โครงสร้างข้อมูลและขั้นตอนวิธี 3 (3-0-6)",
+      "text": "คพ.216 โครงสร้างข้อมูลและขั้นตอนวิธี 3 (3-0-6) CS 216 Data Structures and Algorithms วิชาบังคับก่อน: เคยศึกษา คพ.111 การวิเคราะห์เวลาดำเนินงานและความซับซ้อนของขั้นตอนวิธี โครงสร้างข้อมูลแบบต่าง ๆ อาร์เรย์ ลิงค์ลิสต์ สแตค คิว ทรี แฮช กราฟ ไบนารีฮีป การวิเคราะห์ความต้องการด้านเวลา และ หน่วยความจำในการค้นหา ขั้นตอนวิธีเกี่ยวกับการค้นหาและการเรียงลำดับ การแก้ปัญหาแบบบรูทฟอร์ซ การแบ่งแล้วเข้ายึด ขั้นตอนวิธีการแบบละโมบ การชดเชยกันระหว่างเวลากับเนื้อที่ของการคำนวณ Prerequisite: Have taken CS 111 Analysis of running time and complexity of the algorithms, data structures: arrays, linked lists, stacks, queues, trees, hash, graph, binary heap, analysis of running time and memory requirements in searching, algorithms for searching and sorting, algorithm techniques: brute force, divide-and-conquer, greedy algorithms, space and time trade-offs.",
+      "pdf_pages": [
+        48
+      ],
+      "printed_pages": [
+        "48"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-217",
+      "title": "คพ.217 การออกแบบและวิเคราะห์ขั้นตอนวิธี 3 (3-0-6)",
+      "text": "คพ.217 การออกแบบและวิเคราะห์ขั้นตอนวิธี 3 (3-0-6) CS 217 Design and Analysis of Algorithms วิชาบังคับก่อน: เคยศึกษา คพ.213 เทคนิคต่างๆ ที่ใช้ในการออกแบบและวิเคราะห์ขั้นตอนวิธี ได้แก่ วิธีการแบ่งแยกเอาชนะ วิธีละโมบ วิธีกำหนดการพลวัต วิธีการแวะผ่านบัพทุกบัพของกราฟ วิธีการย้อนรอย และวิธีบรานช์แอนบาวด์ Prerequisite: Have taken CS 213 Techniques used in design and analysis of algorithms such as divide- and-conquer, greedy algorithms, dynamic programming, graph traveling, backtracking, branch and bound. Study the topics of sorting, searching, Fourier transform, randomized algorithms, graph algorithms and optimization methods.",
+      "pdf_pages": [
+        48
+      ],
+      "printed_pages": [
+        "48"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-221",
+      "title": "คพ.221 โครงสร้างและระบบคอมพิวเตอร์เบื้องต้น 3 (3-0-6)",
+      "text": "คพ.221 โครงสร้างและระบบคอมพิวเตอร์เบื้องต้น 3 (3-0-6) CS 221 Introduction to Computer System and Organization วิชาบังคับก่อน: เคยศึกษา คพ.101 หรือ เคยศึกษา คป.200 โครงสร้างและสถาปัตยกรรมคอมพิวเตอร์ การออกแบบหน่วยประมวลผลและระบบคอมพิวเตอร์ที่มีประสิทธิภาพ สมรรถนะของระบบคอมพิวเตอร์ ระบบแทนข้อมูลและการจัดการข้อมูลแบบครบหน่วย ลำดับขั้นของหน่วยความจำในระบบคอมพิวเตอร์ ไพพ์ไลนิง การจัดลำดับงานแบบสถิตและแบบพลวัตร การประมวลผลซูเปอร์สเกลาและเวกเตอร์ แคช สถาปัตยกรรมชุดคำสั่งเครื่อง มัลติโพรเซสเซอร์ และสถาปัตยกรรมทางเลือกอื่น Prerequisite: Have taken CS 101 or Have taken AM 200 Structure and architecture of digital computers, concepts in designing efficient computer processors and computer systems, computer system efficiency, data representation and manipulation of atomic data, memory hierarchy, pipelining, static and dynamic scheduling, superscalar and vector executions, cache, machine instruction architecture, multi-processors, contemporary architecture.",
+      "pdf_pages": [
+        49
+      ],
+      "printed_pages": [
+        "49"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-222",
+      "title": "คพ.222 ระบบปฏิบัติการ 3 (3-0-6)",
+      "text": "คพ.222 ระบบปฏิบัติการ 3 (3-0-6) CS 222 Operating Systems วิชาบังคับก่อน: เคยศึกษา คพ.221 แนวคิดพื้นฐานการออกแบบและการสร้างระบบปฏิบัติการ องค์ประกอบและโครงสร้างของระบบปฏิบัติการ สภาพแวดล้อมแบบคอมมานด์ไลน์ การจัดการโปรเซส การจัดลำดับการประมวลผลของซีพียู การจัดการหน่วยความจำ การจัดการระบบไฟล์ การจัดการอุปกรณ์ ภาวะทำงานพร้อมกันและการประสานจังหวะ ความปลอดภัยระบบคอมพิวเตอร์ กรณีศึกษา Prerequisite: Have taken CS 221 Basic concepts of operating systems design and implementation, operating system structure and components, command line environment, process management, cpu scheduling, memory management, file management, device management, concurrency and synchronization, computer security and case studies.",
+      "pdf_pages": [
+        49
+      ],
+      "printed_pages": [
+        "49"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-223",
+      "title": "คพ.223 เทคโนโลยีจำลองสภาพแวดล้อมเสมือน 3 (3-0-6)",
+      "text": "คพ.223 เทคโนโลยีจำลองสภาพแวดล้อมเสมือน 3 (3-0-6) CS 223 Virtualization Technology วิชาบังคับก่อน: เคยศึกษา คพ.222 หรือ เคยศึกษา คพ.233 แนวคิดพื้นฐานเกี่ยวกับการจำลองสภาพแวดล้อมเสมือน การจำลองสภาพแวดล้อมเสมือนแบบไฮเปอร์ไวเซอร์ เทคโนโลยีเครื่องเสมือน การจำลองสภาพแวดล้อมเสมือนแบบคอนเทนเนอร์ เทคโนโลยีคอนเทนเนอร์ เครือข่ายเสมือน การจัดการและประสานการทำงาน Prerequisite: Have taken CS 222 or Have taken CS 233 Basic concepts of virtualization, hypervisor-based virtualization, virtual machine technology, container-based virtualization, container technology, virtual network, orchestration.",
+      "pdf_pages": [
+        50
+      ],
+      "printed_pages": [
+        "50"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-224",
+      "title": "คพ.224 การดูแลและติดตามประสิทธิภาพระบบปฏิบัติการลีนุกซ์ 3 (3-0-6)",
+      "text": "คพ.224 การดูแลและติดตามประสิทธิภาพระบบปฏิบัติการลีนุกซ์ 3 (3-0-6) CS 224 Linux Administration and Performance Monitoring วิชาบังคับก่อน: เคยศึกษา หรือ ศึกษาพร้อมกับ คพ.222 หรือ เคยศึกษา หรือ ศึกษาพร้อมกับ คพ.233 ลีนุกซ์คอมมานด์ไลน์ การติดตั้งและปรับค่าซอฟต์แวร์ ผู้ใช้และกลุ่มผู้ใช้ การจัดการอุปกรณ์สำรองข้อมูล การตั้งค่าเครือข่ายและไฟร์วอล การจัดการและป้องกันความปลอดภัยระบบไฟล์ การเขียนเชลล์สคริปต์ การติดตามประสิทธิภาพ การแก้ไขปัญหาระบบ Prerequisite: Have taken or Study with CS 222 or Have taken or Study with CS 233 Linux command line, software installation and configuration, users and groups, managing storages, network and firewall configuration, managing and securing file systems, shell scripting, performance monitoring, system problem troubleshooting.",
+      "pdf_pages": [
+        50
+      ],
+      "printed_pages": [
+        "50"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-232",
+      "title": "คพ.232 เทคโนโลยีกลุ่มเมฆเบื้องต้น 3 (3-0-6)",
+      "text": "คพ.232 เทคโนโลยีกลุ่มเมฆเบื้องต้น 3 (3-0-6) CS 232 Introduction to Cloud Computing Technology วิชาบังคับก่อน: เคยศึกษา หรือ ศึกษาพร้อมกับ คพ.222 หรือ เคยศึกษา คพ.233 คุณลักษณะของการประมวลผลแบบกลุ่มเมฆ รูปแบบการให้บริการของการประมวลผลแบบกลุ่มเมฆ เช่น ไอเอเอเอส พีเอเอเอส และเอสเอเอเอส ทักษะการพัฒนาแอปพลิเคชันเพื่อให้บริการผ่านเทคโนโลยีกลุ่มเมฆ การรักษาความปลอดภัยบนกลุ่มเมฆ Prerequisite: Have taken or Study with CS 222 or Have taken CS 233 Cloud computing concepts and characteristics, cloud computing service models e.g. Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and software as a service (SaaS), cloud application development, cloud security.",
+      "pdf_pages": [
+        51
+      ],
+      "printed_pages": [
+        "51"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-233",
+      "title": "คพ.233 สถาปัตยกรรมคอมพิวเตอร์และระบบปฏิบัติการ 3 (3-0-6)",
+      "text": "คพ.233 สถาปัตยกรรมคอมพิวเตอร์และระบบปฏิบัติการ 3 (3-0-6) CS 233 Computer Architecture and Operating Systems วิชาบังคับก่อน: เคยศึกษา คพ.101 หรือ เคยศึกษา คป.200 สถาปัตยกรรมชุดคําสั่ง การประมวลผลแบบสายท่อ มัลติโพรเซสเซอร์ การจัดการหน่วยความจํา แคชและการ จัดระบบหน่วยความจําเสมือน การประสานเวลาของโปรเซส การจัดตารางซีพียู มัลติเธรดดิ้ง ระบบไฟล์ การควบคุมอินพุตเอาต์พุตและอุปกรณ์ Prerequisite: Have taken CS 101 or Have taken AM 200 Instruction set architectures (ISA), pipeline processing, multiprocessors, memory management, cache and virtual memory organization, process synchronization, CPU scheduling, multithreading, file system, input/output control and devices.",
+      "pdf_pages": [
+        51
+      ],
+      "printed_pages": [
+        "51"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-234",
+      "title": "คพ.234 เครือข่ายคอมพิวเตอร์และความปลอดภัยทางไซเบอร์ 3 (3-0-6)",
+      "text": "คพ.234 เครือข่ายคอมพิวเตอร์และความปลอดภัยทางไซเบอร์ 3 (3-0-6) CS 234 Computer Network and Cyber-Security วิชาบังคับก่อน: เคยศึกษา คพ.233 แนวคิดและคำศัพท์ด้านความปลอดภัย เครื่องมือรักษาความปลอดภัย: การพิสูจน์ตัวตน การควบคุมการเข้าถึงและการเข้ารหัส องค์ประกอบพื้นฐานของเครือข่าย ลำดับขั้นอินเทอร์เน็ตและโปรโตคอล การโจมตีทางไซเบอร์และการป้องกัน ความปลอดภัยของเว็บและอีเมล์ Prerequisite: Have taken CS 233 Security concepts and terminology, security tools: authentication, access control and cryptography, basic network components, Internet layer and protocol, cyber attack and defence, web and email security.",
+      "pdf_pages": [
+        52
+      ],
+      "printed_pages": [
+        "52"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-240",
+      "title": "คพ.240 หลักการวิทยาการข้อมูล 3 (3-0-6)",
+      "text": "คพ.240 หลักการวิทยาการข้อมูล 3 (3-0-6) CS 240 Principles of Data Science หลักการพื้นฐานของวิทยาการข้อมูลที่เกี่ยวข้องกับอัลกอริทึม กระบวนการ วิธีการและหลักการคิด รวมทั้งเครื่องมือที่ใช้ในการวิเคราะห์ข้อมูล หัวข้อพื้นฐานในวิทยาการข้อมูล ได้แก่ การจัดการข้อมูล การวิเคราะห์ข้อมูลเชิงสถิติ และเชิงการเรียนรู้ของเครื่องจักร การนำเสนอข้อมูลด้วยทัศนสารสนเทศและการทำงานกับข้อมูลขนาดใหญ่ Fundamental principles of data science including algorithms, processes, methods, data-analytic thinking and tools to support problem-focused data-analytic thinking. Introduction to topics in data science: data manipulation, data analysis with statistics and machine learning, data communication with information visualization, and data at scale.",
+      "pdf_pages": [
+        52
+      ],
+      "printed_pages": [
+        "52"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-241",
+      "title": "คพ.241 ภาษาโปรแกรมและกรอบความคิด 3 (3-0-6)",
+      "text": "คพ.241 ภาษาโปรแกรมและกรอบความคิด 3 (3-0-6) CS 241 Programming Languages and Paradigms วิชาบังคับก่อน: เคยศึกษา คพ.111 หลักการของภาษาโปรแกรม ไวยากรณ์และวากยะสัมพันธ์ ศึกษากรอบแนวคิดของภาษาโปรแกรมประเภทต่างๆ การโปรแกรมโดยคำนึงถึงสมรรถนะ การโปรแกรมโดยอาศัยส่วนต่อประสานโปรแกรมประยุกต์ ไลบรารี่สำหรับจัดการข้อมูล และการโปรแกรมเชิงเหตุการณ์ Prerequisite: Have taken CS 111 Principles of programming languages, syntax and semantics. Different programming paradigms, performance-aware programming. Programming using Application Programming Interface (API), library for data manipulation event-driven programming.",
+      "pdf_pages": [
+        53
+      ],
+      "printed_pages": [
+        "53"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-242",
+      "title": "คพ.242 ภาษาไพทอนและการประยุกต์ 3 (3-0-6)",
+      "text": "คพ.242 ภาษาไพทอนและการประยุกต์ 3 (3-0-6) CS 242 Python Programming and Applications วิชาบังคับก่อน: เคยศึกษา คพ.240 แนะนำทักษะการเขียนโปรแกรม การแก้ปัญหา และการคิดอัลกอริทึมในภาษาไพทอน หัวข้อรวมถึงตัวแปร อินพุต/เอาต์พุต คำสั่งเงื่อนไข นิพจน์บูลีน โครงสร้างการควบคุม ฟังก์ชัน และประเภทข้อมูลบิวด์อินในภาษา ศึกษาการสร้างแอปพลิเคชันด้วยภาษาไพทอนและไลบรารียอดนิยม ในสาขาวิทยาการข้อมูล หรือเครือข่าย หรือการพัฒนาเว็บ มีการฝึกปฏิบัติผ่านการทำโครงงาน Prerequisite: Have taken CS 240 Introduces the skills of programming, problem solving and algorithmic thinking in Python. Topics include variables, input/output, conditional statements, boolean expressions, control structures, functions and build-in data types . Learn to build applications with Python programming and its popular libraries in the field of data science, or network or web development. Practice through assigned project.",
+      "pdf_pages": [
+        53
+      ],
+      "printed_pages": [
+        "53"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-246",
+      "title": "คพ.246 การแสดงข้อมูล 3 (3-0-6)",
+      "text": "คพ.246 การแสดงข้อมูล 3 (3-0-6) CS 246 Data Visualization วิชาบังคับก่อน: เคยศึกษา คพ.240 หรือ ศึกษาพร้อมกับ คพ.240 ทฤษฎีและเทคนิคในการแสดงข้อมูล หลักการออกแบบ พัฒนาและการประเมินการแสดงข้อมูล การได้มา การแยก และการวิเคราะห์ข้อมูลขนาดใหญ่ เทคนิคและเครื่องมือสำหรับแสดงข้อมูลในรูปแบบต่างๆ เพื่อสื่อสารสิ่งที่ค้นพบหรือคำตอบของปัญหาสำหรับสนับสนุนการตัดสินใจ Prerequisite: Have taken CS 240 or Study with CS 240 Key visualization techniques and theory. The design, implementation and evaluation of complementary visual and verbal representations of patterns. How to acquire, parse, and analyze large datasets in order to convey findings answer questions, drive decisions, and provide persuasive evidence supported by data.",
+      "pdf_pages": [
+        54
+      ],
+      "printed_pages": [
+        "54"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-251",
+      "title": "คพ.251 ระบบฐานข้อมูล 1 3 (3-0-6)",
+      "text": "คพ.251 ระบบฐานข้อมูล 1 3 (3-0-6) CS 251 Database Systems 1 วิชาบังคับก่อน: เคยศึกษา คพ.213 หรือ เคยศึกษา คพ.216 แนวคิดพื้นฐานและสถาปัตยกรรมของระบบฐานข้อมูล การจำลองข้อมูลเชิงแนวคิด การออกแบบฐานข้อมูลและการทำให้เกิดผล ภาษาสอบถาม เมตาเดตา การจัดระเบียบแฟ้มและหน่วยเก็บข้อมูลเชิงกายภาพ แนะนำการจัดการรายการเปลี่ยนแปลง มีฝึกปฏิบัตินอกเวลา Prerequisite: Have taken CS 213 or Have taken CS216 Fundamental database concepts and architecture, conceptual data models, design and implementation, query languages, metadata, physical data storage, file organizations, and introduction to transaction management.",
+      "pdf_pages": [
+        54
+      ],
+      "printed_pages": [
+        "54"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-255",
+      "title": "คพ.255 การเขียนโปรแกรมสำหรับธุรกิจ 3 (3-0-6)",
+      "text": "คพ.255 การเขียนโปรแกรมสำหรับธุรกิจ 3 (3-0-6) CS 255 Computer Programming for Business วิชาบังคับก่อน: เคยศึกษา คพ.102 หรือ เคยศึกษา คพ.103 การแก้ปัญหาทางธุรกิจแบบเบื้องต้นด้วยวิธีการทางคอมพิวเตอร์ การออกแบบและพัฒนาอัลกอริทึมด้วยเทคนิคและเครื่องมือทางคอมพิวเตอร์ที่เหมาะสมกับปัญหาทางธุรกิจ การทดสอบ และตรวจหาข้อผิดพลาด การพัฒนาส่วนต่อประสานผู้ใช้เชิงกราฟิกเบื้องต้น การพัฒนาโปรแกรมเชิงเหตุการณ์ Prerequisite: Have taken CS 102 or Have taken CS 103 Computer programming to solve business problems, algorithm design and implementation via programming paradigm and tools suitable for business problems domain, testing and debugging, basic graphical user interface development, event-driven programming.",
+      "pdf_pages": [
+        55
+      ],
+      "printed_pages": [
+        "55"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-261",
+      "title": "คพ.261 วิศวกรรมซอฟต์แวร์เบื้องต้น 3 (3-0-6)",
+      "text": "คพ.261 วิศวกรรมซอฟต์แวร์เบื้องต้น 3 (3-0-6) CS 261 Introduction to Software Engineering วิชาบังคับก่อน: เคยศึกษา คพ.111 คุณลักษณะซอฟต์แวร์ คุณภาพของซอฟต์แวร์และโครงการซอฟต์แวร์ หลักการของวิศวกรรมซอฟต์แวร์ ระเบียบวิธีในการพัฒนาซอฟต์แวร์ กระบวนการพัฒนาซอฟต์แวร์ที่สำคัญ การวางแผนและจัดการโครงการ การประเมินเวลาและค่าใช้จ่าย วิเคราะห์และการระบุข้อกำหนด เทคนิคการวิเคราะห์และออกแบบซอฟต์แวร์ แนะนำสถาปัตยกรรมซอฟต์แวร์ เทคนิคการพัฒนาโปรแกรม การตรวจสอบและการทวนสอบซอฟต์แวร์ วิวัฒนาการของซอฟต์แวร์ สภาพแวดล้อมการผลิตซอฟต์แวร์และเครื่องมือช่วยจัดการโครงการ กรณีศึกษา มีฝึกปฏิบัตินอกเวลา Prerequisite: Have taken CS 111 Fundamental of software engineering principles, software development methodology, software process models, basics of software project planning and project management, basics of time and cost estimation, requirement elicitation and specification, software analysis and design, concept of software architecture, software construction techniques including design pattern, component-oriented development, basics of verification and validation, software evolution, software development environment, and sample of CASE tools.",
+      "pdf_pages": [
+        55
+      ],
+      "printed_pages": [
+        "55"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-262",
+      "title": "คพ.262 การทดสอบซอฟต์แวร์เบื้องต้น 3 (3-0-6)",
+      "text": "คพ.262 การทดสอบซอฟต์แวร์เบื้องต้น 3 (3-0-6) CS 262 Introduction to Software Testing วิชาบังคับก่อน: เคยศึกษา คพ.111 แนวคิดการทดสอบและการประกันคุณภาพซอฟต์แวร์ เทคนิคการสร้างข้อมูลการทดสอบแบบแบลคบอกซ์และไวท์บอกซ์ การทดสอบซอฟต์แวร์ในระดับยูนิต โมดูล ระบบย่อย และทั้งระบบ กระบวนการทดสอบและการวางแผนการทดสอบซอฟต์แวร์ Prerequisite: Have taken CS 111 Software testing and quality assurance concepts, test data generation using white-box and black-box techniques, software testing at unit, module, sub-system, and system levels, and software testing process and planning.",
+      "pdf_pages": [
+        56
+      ],
+      "printed_pages": [
+        "56"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-263",
+      "title": "คพ.263 การกำหนดความต้องการทางซอฟต์แวร์ 3 (3-0-6)",
+      "text": "คพ.263 การกำหนดความต้องการทางซอฟต์แวร์ 3 (3-0-6) CS 263 Software Requirement Specification วิชาบังคับก่อน: เคยศึกษา คพ.261 กระบวนการในการหาความต้องการในหลายรูปแบบ ได้แก่ การสืบค้น การวิเคราะห์ การหาข้อตกลง การระบุข้อกำหนด การทวนสอบ ศึกษาระเบียบวิธี แนะนำเทคนิคและเครื่องมือที่จะนำไปใช้เพื่อนิยาม สร้างเอกสาร และประกันความพึงพอใจของลูกค้า Prerequisite: Have taken CS 261 Quantify many aspects of requirement processes include eliciting, analyzing, negotiating, specifying, validating, introducing methods, techniques and tools used to define, document and ensure customer satisfaction.",
+      "pdf_pages": [
+        56
+      ],
+      "printed_pages": [
+        "56"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-264",
+      "title": "คพ.264 ความปลอดภัยทางซอฟต์แวร์และความเป็นส่วนตัวของข้อมูล 3 (3-0-6)",
+      "text": "คพ.264 ความปลอดภัยทางซอฟต์แวร์และความเป็นส่วนตัวของข้อมูล 3 (3-0-6) CS 264 Software Security and Data Privacy วิชาบังคับก่อน: เคยศึกษา คพ.222 หรือ เคยศึกษา คพ.233 ความปลอดภัยของซอฟต์แวร์ขั้นพื้นฐาน ช่องโหว่และการโจมตีของซอฟต์แวร์ การเขียนโปรแกรมอย่างปลอดภัย โปรแกรมประสงค์ร้าย รวมถึงการป้องกันและการจำกัดขอบเขต ความปลอดภัยของระบบปฏิบัติการและฐานข้อมูล ความเป็นส่วนตัวของข้อมูลและการไม่เปิดเผยตัวตน Prerequisite: Have taken CS 222 or Have taken CS 233 Basic software security, software vulnerabilities and attacks, security programming, malwares including protection and confinement, operating system and database security, data privacy and anonymity.",
+      "pdf_pages": [
+        57
+      ],
+      "printed_pages": [
+        "57"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-265",
+      "title": "คพ.265 การพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพาเบื้องต้น 3 (3-0-6)",
+      "text": "คพ.265 การพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพาเบื้องต้น 3 (3-0-6) CS 265 Basic Mobile Development ภาพรวมการพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพา ข้อจำกัดและความต้องการในการออกแบบส่วนต่อประสานผู้ใช้สำหรับอุปกรณ์ที่มีทรัพยากรจำกัด การออกแบบเพื่อรองรับส่วนต่อประสานผู้ใช้ที่หลากหลาย แนวคิดโดยรวม ปัญหาการออกแบบ และขั้นตอนการพัฒนาในทางปฏิบัติ Developing landscape of mobile applications, the specific constraints and requirements of user interface design for limited-resource devices, providing alternative resources, conceptual overview, design issues, and practical development issues.",
+      "pdf_pages": [
+        57
+      ],
+      "printed_pages": [
+        "57"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-271",
+      "title": "คพ.271 ปัญญาประดิษฐ์เบื้องต้น 3 (3-0-6)",
+      "text": "คพ.271 ปัญญาประดิษฐ์เบื้องต้น 3 (3-0-6) CS 271 Artificial Intelligence Fundamentals วิชาบังคับก่อน: เคยศึกษา คพ.213 หรือ เคยศึกษา คพ.216 ปัญหาทางปัญญาประดิษฐ์ การแทนความรู้ การค้นหาแบบไม่มีข้อมูล การค้นหาแบบมีข้อมูล ปัญหาการทําตามเงื่อนไข ตรรกศาสตร์และการให้เหตุผลอัตโนมัติ การค้นหาเชิงปฏิปักษ์ การเรียนรู้ของเครื่องจักรเบื้องต้น Prerequisite: Have taken CS 213 or Have taken CS 216 Problems in artificial intelligent systems, knowledge representation, uniform search, inform search, constraint satisfaction problems, logics and automatic reasoning, adversarial search, introduction to machine learning.",
+      "pdf_pages": [
+        58
+      ],
+      "printed_pages": [
+        "58"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-285",
+      "title": "คพ.285 การประมวลสารสนเทศของมนุษย์ 3 (3-0-6)",
+      "text": "คพ.285 การประมวลสารสนเทศของมนุษย์ 3 (3-0-6) CS 285 Human Information Processing งานวิจัยและทฤษฎีเบื้องต้นเกี่ยวกับการประมวลผลสารสนเทศของมนุษย์ ความใส่ใจ การรู้จำแบบ ความจำ การแทนองค์ความรู้และภาษา กระบวนการแก้ไขปัญหา กระบวนการหาเหตุผล และกระบวนการเรียนรู้ ความสัมพันธ์ระหว่างกระบวนการรู้จำของมนุษย์กับต้นแบบทางคอมพิวเตอร์ และการประมวลนัยสำคัญของเนื้อหาเกี่ยวกับการรู้จำเพื่อสร้างระบบสารสนเทศ Introduction to research and theory on topics in human information processing including perception, attention, pattern recognition, memory, representation of knowledge, language, problem solving, reasoning, and learning, with emphasis on the relationship to computer models of these processes and implications of this body of knowledge for building information systems.",
+      "pdf_pages": [
+        58
+      ],
+      "printed_pages": [
+        "58"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-287",
+      "title": "คพ.287",
+      "text": "คพ.287 CS 287 การออกแบบสุนทรียภาพทางทัศนะ Visual Design 3 (3-0-6) วิชาบังคับก่อน: เคยศึกษา หรือ ศึกษาพร้อมกับ คพ.180 Prerequisite: ความเข้าใจแบบองค์รวมของสุนทรียภาพทางทัศนะ แนวคิดเชิงทฤษฎีและเชิงปฏิบัติของการออกแบบสุนทรียภาพทางทัศนะ การทำความเข้าใจผู้ใช้ หลักการออกแบบ หลักองค์ประกอบการออกแบบ ทฤษฎีสี การออกแบบตัวอักษร ระบบกริด เครื่องมือออกแบบสุนทรียภาพทางทัศนะ Have taken or Study with CS 180 Holistic understanding of visual design, theoretical and practical concepts of visual design, user research, design principles, composition principles, color theory, typography, grid system, visual design tools.",
+      "pdf_pages": [
+        59
+      ],
+      "printed_pages": [
+        "59"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-299",
+      "title": "คพ.299 คอมพิวเตอร์กราฟิก 3 (3-0-6)",
+      "text": "คพ.299 คอมพิวเตอร์กราฟิก 3 (3-0-6) CS 299 Computer Graphics วิชาบังคับก่อน: เคยศึกษา คพ.111 ซอฟต์แวร์และฮาร์ดแวร์สำหรับคอมพิวเตอร์กราฟิกแบบโต้ตอบ วิธีการทั่วไปที่ใช้ในการออกแบบและแสดงผลภาพ การดำเนินการพื้นฐานในปริภูมิ 2 มิติและ 3 มิติ การแปลงในระบบเรขาคณิต การแปลงจุดหรือตำแหน่งที่มองเห็น การตัดภาพ ทฤษฎีสี Prerequisite: Have taken CS 111 Software and hardware principles of interactive graphics, general methods for designing and displaying output, elementary operations in two-and three-dimensional space, transformational geometry, viewing transformations, clipping, color theory.",
+      "pdf_pages": [
+        59
+      ],
+      "printed_pages": [
+        "59"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-301",
+      "title": "คพ.301 การเตรียมความพร้อมสำหรับโครงงานพิเศษและสหกิจศึกษา 3 (3-0-6)",
+      "text": "คพ.301 การเตรียมความพร้อมสำหรับโครงงานพิเศษและสหกิจศึกษา 3 (3-0-6) CS 301 Preparation for Senior Projects and Co-operative Education วิชาบังคับก่อน: เคยศึกษา คพ.251 ฝึกทักษะที่จำเป็นต้องใช้ในการทำงานทั้งด้านวิชาการและภาคธุรกิจ การเขียนใบสมัครงาน การเขียนประวัติ การสัมภาษณ์ การคิดเชิงวิพากษ์ การสืบค้นข้อมูลเพื่อประกอบการทำงาน การทำงานเป็นทีมในการพัฒนาซอฟต์แวร์ การเขียนรายงานและการอ้างอิง การนำเสนอ รวมถึงเทคนิคการเจรจาสื่อสารภายในองค์กร Prerequisite: Have taken CS 251 Preparing students technical professional skills, application and resume writing, interview, critical thinking, searching techniques, teamwork, collaboration in software development teams, professional report writing, academic writing styles, citation and bibliography, presentation techniques, and organization communication.",
+      "pdf_pages": [
+        60
+      ],
+      "printed_pages": [
+        "60"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-303",
+      "title": "คพ.303 โครงงานพิเศษ 1 2 (0-6-0)",
+      "text": "คพ.303 โครงงานพิเศษ 1 2 (0-6-0) CS 303 Special Projects 1 วิชาบังคับก่อน: สอบได้ คพ.301 โครงงานการศึกษาจะกำหนดหรือได้รับอนุมัติจากสาขาวิชา ศึกษาหัวข้อทางวิชาการ โดยมีวัตถุประสงค์ให้นักศึกษาค้นคว้าทางวิชาการ เขียนรายงาน และเสนอต่อคณะกรรมการ Prerequisite: Have earned credits of CS 301 Senior Projects will be assigned or approved by the department. This course prepares students for developing a proposal for doing research, writing research papers, and presenting the proposal to the committee.",
+      "pdf_pages": [
+        60
+      ],
+      "printed_pages": [
+        "60"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-304",
+      "title": "คพ.304 สหกิจศึกษา 1 2 (0-6-0)",
+      "text": "คพ.304 สหกิจศึกษา 1 2 (0-6-0) CS 304 Co-operative Education 1 วิชาบังคับก่อน: สอบได้ คพ.301 การปฏิบัติงานที่ได้รับมอบหมายจากสถานประกอบการที่ได้รับความเห็นชอบจากสาขาวิชา โดยนักศึกษาต้องนำความรู้ทางวิชาการที่ได้เรียนไปประยุกต์ใช้และฝึกทักษะในภาวะแวดล้อมการทำงานจริง ภายใต้การกำกับดูแลของสถานประกอบการนั้น โดยต้องแสดงงานที่ได้รับมอบหมายอย่างชัดเจน พร้อมทั้งแนวคิดที่ใช้ในการออกแบบ พัฒนาและประยุกต์ เมื่อเสร็จสิ้นโครงงานแล้วต้องจัดส่งผลงานในรูปแบบของรายงานตามที่สาขาวิชากำหนด Prerequisite: Have earned credits of CS 301 Supervised practical training on the given assignments from authorized body from the faculty. Student must show the capability in implementation of knowledge and skill in the actual working environmemt. Written report of design, development, and implementation must be submitted the end of practical period.",
+      "pdf_pages": [
+        61
+      ],
+      "printed_pages": [
+        "61"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-305",
+      "title": "คพ.305 จรรยาบรรณทางวิชาชีพและเชิงสังคม 3 (3-0-6)",
+      "text": "คพ.305 จรรยาบรรณทางวิชาชีพและเชิงสังคม 3 (3-0-6) CS 305 วิชาบังคับก่อน: Social and Professional Ethics เคยศึกษา หรือ ศึกษาพร้อมกับ คพ.301 บริบททางสังคมของระบบคอมพิวเตอร์ วิธีการและเครื่องมือในการวิเคราะห์ ความรับผิดชอบและ จรรยาบรรณทางวิชาชีพ กฎหมายทรัพย์สินทางปัญญา การยอมรับความเสี่ยงและการชดใช้ต่อระบบคอมพิวเตอร์ การละเมิดทรัพย์สินทางปัญญา การละเมิดสิทธิส่วนบุคคล อาชญากรรมในระบบคอมพิวเตอร์ Prerequisite: Have taken CS 301 Social context of computing, methods and tools of analysis, professional and ethical responsibilities, intellectual property, risks and liabilities of computer-based systems, privacy and civil liberties, intellectual property infringement, computer crime in computing.",
+      "pdf_pages": [
+        61
+      ],
+      "printed_pages": [
+        "61"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-310",
+      "title": "คพ.310 หัวข้อเลือกสรรทางวิทยาการคอมพิวเตอร์ 3 (3-0-6)",
+      "text": "คพ.310 หัวข้อเลือกสรรทางวิทยาการคอมพิวเตอร์ 3 (3-0-6) CS 310 Selected Topics in Computer Science วิชาบังคับก่อน: เคยศึกษา คพ.111 หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของวิทยาการคอมพิวเตอร์ ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Prerequisite: Have taken CS 111 Topics selected from areas in Computer Science, keep up with the new technology and knowledge.",
+      "pdf_pages": [
+        62
+      ],
+      "printed_pages": [
+        "62"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-314",
+      "title": "คพ.314 ทฤษฎีออโตมาตา 3 (3-0-6)",
+      "text": "คพ.314 ทฤษฎีออโตมาตา 3 (3-0-6) CS 314 Automata Theory วิชาบังคับก่อน: เคยศึกษา คพ.241 มูลฐานของเครื่องจักรนามธรรมและภาษา ทฤษฎีออโตมาตา นิพจน์แบบเรกูลาร์ ภาษาแบบเรกูลาร์ ออโตมาตาแบบกดลง ภาษาไม่พึ่งบริบท เครื่องจักรทัวริง ปัญหาการหยุด ความสามารถและประสิทธิภาพในการแก้ปัญหาของเครื่องคอมพิวเตอร์ Prerequisite: Have taken CS 241 Fundamentals of abstract machine and language, automata theory, regular expression, regular language, pushdown automata, context-free language, Turing machine, the halting problem, undecidability and intractability.",
+      "pdf_pages": [
+        62
+      ],
+      "printed_pages": [
+        "62"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-320",
+      "title": "คพ.320 หัวข้อเลือกสรรด้านระบบปฏิบัติการ 3 (3-0-6)",
+      "text": "คพ.320 หัวข้อเลือกสรรด้านระบบปฏิบัติการ 3 (3-0-6) CS 320 Selected Topics in Operating Systems วิชาบังคับก่อน: เคยศึกษา คพ.222 หรือ เคยศึกษา คพ.233 หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของระบบปฏิบัติการ ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Prerequisite: Have taken CS 222 or Have taken CS 233 Seminar on current research and development in operating systems.",
+      "pdf_pages": [
+        62
+      ],
+      "printed_pages": [
+        "62"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-325",
+      "title": "คพ.325 อินเทอร์เน็ตของสรรพสิ่งเบื้องต้น 3 (3-0-6)",
+      "text": "คพ.325 อินเทอร์เน็ตของสรรพสิ่งเบื้องต้น 3 (3-0-6) CS 325 Introduction to Internet of Things วิชาบังคับก่อน: เคยศึกษา คพ.221 กรอบความคิดและการประยุกต์ใช้ส่วนรับประสาทสัมผัส เพื่อออกแบบระบบฝังตัวในรูปแบบอินเทอร์เน็ตของสรรพสิ่ง เทคนิคการอ่านค่าจากส่วนรับประสาทสัมผัส การโปรแกรมอินเทอร์รัพท์ การเชื่อมต่อกับแอปพลิเคชัน ระบบสังเกตการณ์ ระบบควบคุมตามเงื่อนไขที่กำหนด Prerequisite: Have taken CS 221 Conceptual framework and application of sensory receptors to design an embedded system as Internet of Things module, techniques for reading values from sensory devices, interrupt programming, integrated into the software application, monitoring system, control system according to the specified conditions.",
+      "pdf_pages": [
+        63
+      ],
+      "printed_pages": [
+        "63"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-331",
+      "title": "คพ.331 คอมพิวเตอร์เครือข่าย 3 (3-0-6)",
+      "text": "คพ.331 คอมพิวเตอร์เครือข่าย 3 (3-0-6) CS 331 Net-Centric Computing วิชาบังคับก่อน: เคยศึกษา คพ.222 องค์ประกอบหลักและมาตรฐานเครือข่ายสำหรับการโอนถ่ายข้อมูลผ่านระบบเครือข่ายอินเทอร์เน็ต แบบจำลองแบบลำดับขั้นโอเอสไอ แบบจำลองแบบลำดับขั้นทีซีพี/ไอพี หน้าที่หลักของแต่ละลำดับขั้น โปรโตคอลหลักในแต่ละลำดับขั้นและการทำงานร่วมกัน การเขียนโปรแกรมซ็อกเก็ต Prerequisite: Have taken CS 222 Basic network components and major network standards for computer communications via the Internet. The OSI layered model. The TCP/IP layered model. Basic functions of each layer. Major network protocols in each layers and their interoperability, socket programming.",
+      "pdf_pages": [
+        63
+      ],
+      "printed_pages": [
+        "63"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-332",
+      "title": "คพ.332 ความปลอดภัยของระบบคอมพิวเตอร์ 3 (3-0-6)",
+      "text": "คพ.332 ความปลอดภัยของระบบคอมพิวเตอร์ 3 (3-0-6) CS 332 Computer System Security วิชาบังคับก่อน: เคยศึกษา คพ.331 ความปลอดภัยของระบบคอมพิวเตอร์เบื้องต้น ภัยคุกคามและช่องโหว่ การพิสูจน์ตัวตนและการควบคุมการเข้าถึง การเข้ารหัสและลายมือชื่อดิจิทัล ความปลอดภัยของโปรแกรมและโปรแกรมประสงค์ร้าย ความปลอดภัยของระบบปฏิบัติการ ระบบฐานข้อมูล การโจมตีเครือข่ายและการป้องกัน ความปลอดภัยของแอปพลิเคชันบนเครือข่าย ประเด็นด้านกฏหมายและความเป็นส่วนตัว Prerequisite: Have taken CS 331 Introduction to computer system security, threats and vulnerabilities, authentication and access control, cryptography and digital signature, program security and malwares , security in operating system, database system, network attack and defence, netwok application security, legal and privacy issues.",
+      "pdf_pages": [
+        64
+      ],
+      "printed_pages": [
+        "64"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-335",
+      "title": "คพ.335 เครือข่ายคอมพิวเตอร์ภาคปฏิบัติ 3 (3-0-6)",
+      "text": "คพ.335 เครือข่ายคอมพิวเตอร์ภาคปฏิบัติ 3 (3-0-6) CS 335 Practical Computer Networking วิชาบังคับก่อน: สอบได้ คพ.331 ไม่ต่ำกว่าระดับ C ความรู้ขั้นสูงเกี่ยวกับการสื่อสารผ่านเครือข่ายคอมพิวเตอร์ ทักษะการต่อเชื่อมและการตั้งค่าอุปกรณ์ภายในระบบเครือข่าย การตั้งค่าอุปกรณ์เครือข่ายหลักได้แก่ เราท์เตอร์ สวิตช์ และระบบปลายทาง ไอพีโพรโทคอลเวอร์ชัน 6 การจัดแบ่งเลขที่อยู่แบบไอพี เทคนิคการแปลงหมายเลขไอพี (แนท) โพรโทคอลสนับสนุนการตั้งค่ากำหนดที่โฮสต์แบบพลวัตร (ดีเอชซีพี) สวิตช์เน็ตเวิร์ก ข่ายงานบริเวณเฉพาะที่แบบเสมือน การค้นหาเส้นทางระหว่างข่ายงานเฉพาะที่แบบเสมือน โพรโทคอลค้นหาเส้นทาง การป้องกันการโจมตีระบบคอมพิวเตอร์ผ่านทางเครือข่ายเบื้องต้น การควบคุมการผ่านเข้าออก Prerequisite: Passed with Grade of C or higher in CS 331 Advanced knowledge and hands-on experience in computer communications and networking, basic router, switch, and end-host configurations, internet protocol version 6 (Ipv6). IP addressing, network address translation (NAT), dynamic host configuration protocol (DHCP), switched networks, virtual LAN (VLAN), inter VLAN routing, routing protocols, basic network security, access control List (ACL).",
+      "pdf_pages": [
+        64
+      ],
+      "printed_pages": [
+        "64"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-336",
+      "title": "คพ.336 เทคโนโลยีเครือข่ายไร้สาย 3 (3-0-6)",
+      "text": "คพ.336 เทคโนโลยีเครือข่ายไร้สาย 3 (3-0-6) CS 336 Wireless Network Technology วิชาบังคับก่อน: เคยศึกษา คพ.331 ภาพรวมของการสื่อสารเคลื่อนที่และเครือข่ายไร้สาย พื้นฐานการส่งข้อมูลแบบไร้สาย เทคนิคการควบคุมการเข้าถึงพร้อมกันหลายทาง ระบบโทรศัพท์เคลื่อนที่ เทคโนโลยีของระบบแลนไร้สาย (มาตรฐาน IEEE 802.11) โมบายไอพี เทคโนโลยีบลูทูท เทคโนโลยีซิกบี เทคโนโลยีเซ็นเซอร์ไร้สาย ไวแมกซ์ ความปลอดภัยบนเครือข่ายไร้สาย Prerequisite: Have taken CS 331 Overview of mobile communications and wireless networks, wireless transmission basis, multiple access control techniques, mobile telephone systems, wireless LAN. Mobile IP, Bluetooth, zigbee. WiMAX, wireless network security.",
+      "pdf_pages": [
+        65
+      ],
+      "printed_pages": [
+        "65"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-337",
+      "title": "คพ.337 ระบบคลัสเตอร์คอมพิวเตอร์และการประมวลผลแบบกระจายเบื้องต้น 3 (3-0-6)",
+      "text": "คพ.337 ระบบคลัสเตอร์คอมพิวเตอร์และการประมวลผลแบบกระจายเบื้องต้น 3 (3-0-6) CS 337 Introduction to Cluster Computing and Distributed Computing วิชาบังคับก่อน: เคยศึกษา คพ.222 การสร้างระบบคลัสเตอร์หรือบีวูฟ การทดลองสร้างระบบคลัสเตอร์อย่างง่ายๆ การติดตั้งซอฟต์แวร์ที่ใช้สำหรับบริหารจัดการระบบคลัสเตอร์ การมอนิเตอร์ระบบฯ การกำหนดตารางการทำงานของโพรเซสเซอร์ในระบบการบริหารจัดการผู้ใช้ การดูแลระบบคลัสเตอร์ การรักษาความปลอดภัย Prerequisite: Have taken CS 222 Study the construction of Beowulf and cluster computers, building a small cluster, using cluster installation and configuration tools, cluster monitoring, job scheduling, user management, cluster systems maintenance, security measures and policies.",
+      "pdf_pages": [
+        65
+      ],
+      "printed_pages": [
+        "65"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-340",
+      "title": "คพ.340 หัวข้อเลือกสรรด้านภาษาโปรแกรม 3 (3-0-6)",
+      "text": "คพ.340 หัวข้อเลือกสรรด้านภาษาโปรแกรม 3 (3-0-6) CS 340 Selected Topics in Programming Languages วิชาบังคับก่อน: เคยศึกษา คพ.241 หัวข้อเลือกสรรจาก ความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของภาษาโปรแกรมที่น่าสนใจ ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Prerequisite: Have taken CS 241 Seminar on current research and development in programming languages.",
+      "pdf_pages": [
+        66
+      ],
+      "printed_pages": [
+        "66"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-341",
+      "title": "คพ.341 วิศวกรรมข้อมูลขนาดใหญ่ 3 (3-0-6)",
+      "text": "คพ.341 วิศวกรรมข้อมูลขนาดใหญ่ 3 (3-0-6) CS 341 Big Data Engineering วิชาบังคับก่อน: เคยศึกษา หรือ ศึกษาพร้อมกับ คพ.251 ความท้าทายและระบบนิเวศของข้อมูลขนาดใหญ่ วงจรชีวิตของการวิศวกรรมข้อมูล แหล่งข้อมูลและชนิดข้อมูล การจัดเก็บข้อมูล บัญชีข้อมูล การสร้างดาต้าเลคและดาต้าแวร์เฮาส์ การวางแผนและเตรียมกระบวนการสำหรับดาต้าไปป์ไลน์ รูปแบบอีทีแอล (นำเข้า-จัดระเบียบ-นำไปใช้ประโยชน์) การสืบค้นและประมวลผลข้อมูล การแสดงข้อมูลด้วยภาพ กรณีศึกษา Prerequisite: Have taken or Study with CS 251 Big data challenges and ecosystem, data engineering lifecycle, data sources and types, data storage, data catalog, building data lake and data warehouse, orchestrating data pipelines, ETL (Extract-Transform- Load) patterns, data query and processing, data visualization, case studies.",
+      "pdf_pages": [
+        66
+      ],
+      "printed_pages": [
+        "66"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-342",
+      "title": "คพ.342 การวิเคราะห์และเทคโนโลยีการตลาดดิจิทัล 3 (3-0-6)",
+      "text": "คพ.342 การวิเคราะห์และเทคโนโลยีการตลาดดิจิทัล 3 (3-0-6) CS 342 Digital Marketing Technology and Analytics วิชาบังคับก่อน: เคยศึกษา คพ.240 พื้นฐานเทคโนโลยีของการตลาดดิจิทัล ประเภทของเทคโนโลยีทางการตลาดและโฆษณา การวัดผลและ KPI ของแผนการตลาด การวางแผนการตลาดดิจิทัล การวิเคราะห์ข้อมูลทางการตลาดด้วยเทคนิคการเรียนรู้ของเครื่อง Prerequisite: Have taken CS 240 Foundations of digital marketing technology, types of marketing/ad technologies, fundamentals of measuring results and KPIs for marketing plans, digital marketing plan, marketing analysis using machine learning techniques.",
+      "pdf_pages": [
+        67
+      ],
+      "printed_pages": [
+        "67"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-343",
+      "title": "คพ.343 การเรียนรู้เชิงลึก 3 (3-0-6)",
+      "text": "คพ.343 การเรียนรู้เชิงลึก 3 (3-0-6) CS 343 Applied Deep Learning วิชาบังคับก่อน: เคยศึกษา คพ.240 การทำความเข้าใจแนวคิดการเรียนรู้ของเครื่องและการเรียนรู้เชิงลึกเบื้องต้น หน่วยการรับรู้ (Perceptron) การเรียนรู้ด้วยโครงข่ายประสาทเทียม การเรียนรู้ด้วยโครงข่ายประสาทเทียมเชิงลึก การเรียนรู้เชิงลึกในแบบต่างๆ ได้แก่ CNN, RNN, LSTM, BM การประยุกต์ใช้การเรียนรู้เชิงลึกกับการเรียนรู้แบบทั้งมีผู้สอนและไม่มีผู้สอนสำหรับการแก้ปัญหาโดยใช้ไลบรารี่การเรียนรู้เชิงลึกในภาษาโปรแกรม (Tensorflow, PyTorch) การทำโครงงานเพื่อแก้ปัญหาหัวข้อที่นักศึกษาสนใจโดยใช้การเรียนรู้เชิงลึก Prerequisite: Have taken CS 240 Basic concepts of machine learning and deep learning; Perceptron; Artificial Neural Network; Various types of neural network: Convolution Neural Networks (CNN), Recurrent Neural Networks (RNN), Multilayer Perceptron (MLP), Long-short Term Memory (LSTM), Auto Encoder (AE); Implementing deep learning-based applications in both supervised and unsupervised learning using libraries to solve a selected problem.",
+      "pdf_pages": [
+        67
+      ],
+      "printed_pages": [
+        "67"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-345",
+      "title": "คพ.345 การเรียนรู้ของเครื่องเชิงประยุกต์ 3 (3-0-6)",
+      "text": "คพ.345 การเรียนรู้ของเครื่องเชิงประยุกต์ 3 (3-0-6) CS 345 Practical Machine Learning วิชาบังคับก่อน: เคยศึกษา คพ.240 ศึกษาการเรียนรู้ของเครื่องและวิทยาศาสตร์ข้อมูลด้วยการลงมือปฏิบัติเขียนโปรแกรม อภิปรายเกี่ยวกับการประยุกต์ใช้โมเดลการเรียนรู้ของเครื่อง ทั้งโมเดลการเรียนรู้แบบมีผู้สอนและการเรียนรู้แบบไม่มีผู้สอน กับชุดข้อมูลจริง รวมถึงการจัดเตรียมข้อมูล การเลือกโมเดลและการประเมินผล โดยใช้งานโอเพนซอร์สที่เป็นที่นิยม เช่น scikit-learn และ tensor flow Prerequisite: Have taken CS 240 This class offers a hands-on approach to machine learning and data science. The class discusses the application of machine learning methods both supervised and unsupervised learning on real world dataset, including data preparation, model selection and evaluation. This class relies on available open source implementations such as scikit-learn and tensor flow for all implementations.",
+      "pdf_pages": [
+        68
+      ],
+      "printed_pages": [
+        "68"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-346",
+      "title": "คพ.346 แอปพลิเคชันและการวิเคราะห์ข้อมูลขนาดใหญ่ 3 (3-0-6)",
+      "text": "คพ.346 แอปพลิเคชันและการวิเคราะห์ข้อมูลขนาดใหญ่ 3 (3-0-6) CS 346 Big Data Applications and Analytics วิชาบังคับก่อน: เคยศึกษา หรือ ศึกษาพร้อมกับ คพ.345 ศึกษาเทคโนโลยีที่ทันสมัยในระบบจัดการฐานข้อมูลสมัยใหม่ การจัดการและการทำงานกับชุดข้อมูลที่มีปริมาณมากในระบบประมวลข้อมูลประสิทธิภาพสูงและระบบการวิเคราะห์ข้อมูลขนาดใหญ่ การทำโครงงานที่เกี่ยวข้องกับข้อมูลขนาดใหญ่ที่มีอยู่จริง เช่น ข้อมูลโฆษณาทางอินเทอร์เน็ต ข้อมูลสุขภาพ และข้อมูลจากเครือข่ายสังคมออนไลน์ Prerequisite: Have taken or Study with CS 345 Explore new technologies in modern database management systems. Discuss topics related to managing and using large-scale data sets in both high-performance transaction processing systems and large-scale analytical systems. All class projects will be in the context of real-world application domains, such as Internet advertising, health care, and social network analysis.",
+      "pdf_pages": [
+        68
+      ],
+      "printed_pages": [
+        "68"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-347",
+      "title": "คพ.347 คลังข้อมูลและอัจฉริยะทางธุรกิจ 3 (3-0-6)",
+      "text": "คพ.347 คลังข้อมูลและอัจฉริยะทางธุรกิจ 3 (3-0-6) CS 347 Data Warehousing and Business Intelligence วิชาบังคับก่อน: เคยศึกษา คพ.240 หลักการของคลังข้อมูล สถาปัตยกรรมระบบคลังข้อมูล การออกแบบฐานข้อมูลเชิงกายภาพ ตัวแบบเชิงมิติ การสกัด การแปลง และการโหลดข้อมูล การประยุกต์ใช้คลังข้อมูล การวิเคราะห์เชิงธุรกิจ การประมวลผลเชิงวิเคราะห์แบบออนไลน์ (OLAP) การทำเหมืองข้อมูลเบื้องต้น และการทำมโนภาพข้อมูล (Visualization) ตัวแบบและเทคโนโลยีการจัดเก็บข้อมูล เครื่องมือ และเทคนิคโปรแกรมสำเร็จรูป เพื่อสร้างอัจฉริยะทางธุรกิจ Prerequisite: Have taken CS 240 Data warehousing, data warehouse architecture, physical database design,dimension modeling; extraction, transformation, and loading, its applications to business intelligence, business analytics, OLAP, introduction to data mining, data visualization, data warehouse storage models and technology, business analytics techniques and tools for business intelligence.",
+      "pdf_pages": [
+        69
+      ],
+      "printed_pages": [
+        "69"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-351",
+      "title": "คพ.351 ระบบคอมพิวเตอร์ในธุรกิจและการพาณิชย์อิเล็กทรอนิกส์ 3 (3-0-6)",
+      "text": "คพ.351 ระบบคอมพิวเตอร์ในธุรกิจและการพาณิชย์อิเล็กทรอนิกส์ 3 (3-0-6) CS 351 Business Computing and Electronic Commerce วิชาบังคับก่อน: เคยศึกษา คพ.251 แนวคิดการใช้งานระบบสารสนเทศในการบริหารจัดการธุรกิจ โปรแกรมคอมพิวเตอร์ประยุกต์ในงานธุรกิจ การดำเนินกิจกรรมทางธุรกิจผ่านเครือข่ายคอมพิวเตอร์ โครงสร้างพื้นฐานของพาณิชย์อิเล็กทรอนิกส์ มาตรฐานการดำเนินการและการแลกเปลี่ยนข้อมูลทางอิเล็กทรอนิกส์ Prerequisite: Have taken CS 251 Concepts of information systems in business management, business application software, business processes over computer networks, electronic commerce infrastructures, computing and data exchange standards.",
+      "pdf_pages": [
+        69
+      ],
+      "printed_pages": [
+        "69"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-353",
+      "title": "คพ.353 การค้นคืนสารสนเทศและการค้นหาข้อมูลบนเว็บ 3 (3-0-6)",
+      "text": "คพ.353 การค้นคืนสารสนเทศและการค้นหาข้อมูลบนเว็บ 3 (3-0-6) CS 353 Information Retrieval and Web Search วิชาบังคับก่อน: เคยศึกษา คพ.251 ทฤษฎีและเทคนิคในการจัดทำดรรชนีและการค้นคืนสารสนเทศด้วยระบบคอมพิวเตอร์ หัวข้อรวมถึงการค้นคืนสารสนเทศแบบข้อความทั่วๆไป การสร้างดรรชนี การประมวลผลคิวรี และการจัดลำดับข้อมูลเอกสาร การเรียนรู้ของเครื่องสำหรับข้อความ วิธีการประเมินระบบค้นคืน สถาปัตยกรรมของโปรแกรมค้นหาบนเว็บ การรวบรวมหน้าเว็บและการจัดทำดรรชนีค้นหาเว็บ โครงสร้างเว็บและการวิเคราะห์การเข้าใช้งาน Prerequisite: Have taken CS 251 Theories and techniques on computerized information indexing and retrieval. Topics include text-based information retrieval in general, index building, query processing, and document ranking, text-based machine learning methods, Evaluation methods, Web search engine architecture, Web crawling and indexing, Web structure and usage analytics.",
+      "pdf_pages": [
+        70
+      ],
+      "printed_pages": [
+        "70"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-354",
+      "title": "คพ.354 ระบบฐานข้อมูล 2 3 (3-0-6)",
+      "text": "คพ.354 ระบบฐานข้อมูล 2 3 (3-0-6) CS 354 Database Systems 2 วิชาบังคับก่อน: เคยศึกษา คพ.251 หลักการและเทคนิคการออกแบบระบบการจัดการฐานข้อมูลขั้นสูง เนื้อหาครอบคลุม วิธีเข้าถึง ประสิทธิภาพและการประมวลผลข้อคำถาม การประมวลผลรายการเปลี่ยนแปลง การควบคุมภาวะพร้อมกัน การกู้ข้อมูล และความปลอดภัยของข้อมูล ระบบฐานข้อมูลแบบกระจาย แนวคิด การออกแบบ และการจัดการรายการเปลี่ยนแปลง แนะนำระบบฐานข้อมูลเชิงวัตถุ Prerequisite: Have taken CS 251 Advanced database management system design principles and techniques. Topics may be selected from: access methods, query processing and optimization, transaction management: concurrency control, recovery, and data security; distributed database systems: concepts, design and transaction management, and introduction to object-oriented database systems.",
+      "pdf_pages": [
+        70
+      ],
+      "printed_pages": [
+        "70"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-355",
+      "title": "คพ.355 กลยุทธ์และการเปลี่ยนแปลงสู่ดิจิทัล 3 (3-0-6)",
+      "text": "คพ.355 กลยุทธ์และการเปลี่ยนแปลงสู่ดิจิทัล 3 (3-0-6) CS 355 Digital Strategy and Transformation การวิเคราะห์กลยุทธ์ แนวคิดหลักและเครื่องมือของเทคโนโลยีดิจิทัลยุคใหม่ การวิเคราะห์ข้อมูล ปัญญาประดิษฐ์ แพลตฟอร์มคลาวด์ บล็อกเชน ไอโอที การใช้เทคโนโลยีดิจิทัลในการเพิ่มประสิทธิภาพกระบวนการและบริการขององค์กร Strategic analysis, key concepts and tools of emerging digital technologies (data analysis, artificial intelligence, cloud platform, blockchain, IoT), digital transformation for organizations.",
+      "pdf_pages": [
+        71
+      ],
+      "printed_pages": [
+        "71"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-356",
+      "title": "คพ.356 ระบบสารสนเทศเพื่อการบริหาร 3 (3-0-6)",
+      "text": "คพ.356 ระบบสารสนเทศเพื่อการบริหาร 3 (3-0-6) CS 356 Management Information Systems วิชาบังคับก่อน: เคยศึกษา คพ.251 แนวคิดเบื้องต้นเกี่ยวกับระบบสารสนเทศ องค์กร และการบริหาร โครงสร้างพื้นฐานทางด้านเทคโนโลยีสารสนเทศสำหรับองค์กร ระบบสารสนเทศที่สำคัญในองค์กร อาทิ ระบบสารสนเทศเพื่อการบริหาร ระบบสารสนเทศเพื่อการดำเนินงาน แนวทางการพัฒนาระบบสารสนเทศและการบริหารการใช้งานระบบ ประเด็นทางด้านจริยธรรมและผลกระทบทางด้านสังคมที่เกี่ยวข้องกับการใช้ระบบ Prerequisite: Have taken CS 251 Fundamental of information systems, organizations and management; Information technology infrastructure; Key System Applications: management and enterprise information systems; Building information systems; Managing information systems; Ethics and social impact of information systems.",
+      "pdf_pages": [
+        71
+      ],
+      "printed_pages": [
+        "71"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-360",
+      "title": "คพ.360 หัวข้อเลือกสรรด้านวิศวกรรมซอฟต์แวร์ 3 (3-0-6)",
+      "text": "คพ.360 หัวข้อเลือกสรรด้านวิศวกรรมซอฟต์แวร์ 3 (3-0-6) CS 360 Selected Topics in Software Engineering วิชาบังคับก่อน: เคยศึกษา คพ.261 หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของวิศวกรรมซอฟต์แวร์ ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Prerequisite: Have taken CS 261 Seminar on current research and development in software engineering.",
+      "pdf_pages": [
+        71
+      ],
+      "printed_pages": [
+        "71"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-361",
+      "title": "คพ.361 สถาปัตยกรรมซอฟต์แวร์บนคลาวด์ 3 (3-0-6)",
+      "text": "คพ.361 สถาปัตยกรรมซอฟต์แวร์บนคลาวด์ 3 (3-0-6) CS 361 Cloud-Based Software Architecting วิชาบังคับก่อน: เคยศึกษา คพ.232 หลักการออกแบบสถาปัตยกรรมซอฟต์แวร์ที่อิงตามความต้องการเชิงธุรกิจ องค์ประกอบและบริการบนคลาวด์ คุณสมบัติของระบบที่มีสถาปัตยกรรมที่ดี (ความพร้อมใช้งานที่เสถียรสูง ความทนทานต่อความเสียหาย ความน่าเชื่อถือ และความสามารถในการปรับขนาดได้) แนวการออกแบบที่ดี โครงสร้างพื้นฐานแบบโค้ด Prerequisite: Have taken CS 232 Architectural design principles based on business requirements, cloud- based components and services, well-architected system quality (high availability, fault tolerance, reliability and scalability), design best practices, infrastructure as a code.",
+      "pdf_pages": [
+        72
+      ],
+      "printed_pages": [
+        "72"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-362",
+      "title": "คพ.362 การออกแบบซอฟต์แวร์และระบบ 3 (3-0-6)",
+      "text": "คพ.362 การออกแบบซอฟต์แวร์และระบบ 3 (3-0-6) CS 362 Software System and Design วิชาบังคับก่อน: เคยศึกษา คพ.261 วิเคราะห์ความต้องการของระบบเพื่อออกแบบระบบ แนะนำแนวคิดพื้นฐานของการออกแบบสถาปัตยกรรมระบบและหลักการในการออกแบบซอฟต์แวร์โดยใช้รูปแบบการออกแบบและลักษณะสถาปัตยกรรมผ่านการทำโครงงานแบบเป็นกลุ่ม เข้าใจประด็นที่กระทบการออกแบบและการตัดสินในออกแบบเพื่อรองรับประเด็นเหล่านั้น เช่น ประเด็นการออกแบบเพื่อรองรับประสิทธิภาพการทำงานของระบบ, การออกแบบเพื่อรองรับการใช้งานที่เพิ่มขึ้นของผู้ใช้ หรือการออกแบบที่คำนึงถึงความปลอดภัยของระบบ อธิบายรูปแบบของการออกแบบเพื่อให้ตอบโจทย์ประเด็นที่กระทบการออกแบบ ฝึกฝนการวิเคราะห์และออกแบบผ่านการทำโครงงาน Prerequisite: Have taken CS 261 Analyze system requirements in order to perform system design. Introduce the basic concept of software architecture and principle of software design by applying design patterns and architectural styles through team-based project. Understand concerns impacting the design decisions such as performance, scalability and security. Explain design solutions to address those design concerns. Practice system analysis and design method through project.",
+      "pdf_pages": [
+        72
+      ],
+      "printed_pages": [
+        "72"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-363",
+      "title": "คพ.363 โครงงานทางวิศวกรรมซอฟต์แวร์ 3 (3-0-6)",
+      "text": "คพ.363 โครงงานทางวิศวกรรมซอฟต์แวร์ 3 (3-0-6) CS 363 Software Engineering Project วิชาบังคับก่อน: เคยศึกษา คพ.234 หรือ เคยศึกษา คพ.331 ฝึกปฏิบัติการพัฒนาซอฟต์แวร์ในรูปแบบของการทำงานเป็นทีมผ่านการพัฒนาแอพพลิเคชั่นจริง เช่น เวปแอพพลิเคชั่น หรือแอพพลิเคชั่นสำหรับอุปกรณ์พกพา เรียนรู้กระบวนการพัฒนาซอฟต์แวร์ผ่านการทำงานจริง: การพัฒนาซอฟต์แวร์แบบอไจล์ การเขียนเทสเพื่อเป็นหลักในการเขียนซอฟต์แวร์ การวิเคาะห์ความต้องการของผู้ใช้ การบริหารความต้องการ การทดสอบซอฟต์แวร์ การบริหารคุณภาพของซอฟต์แวร์ การวางแผนและความคุมแผนการทำงาน การออกแบบและสร้างระบบ มีประสบการณ์การใช้เครื่องมือในภาคอุตสาหกรรมเพื่อสนับสนุนการทำงานร่วมกันเป็นทีม Prerequisite: Have taken CS 234 or Have taken CS 331 Practice team-based software development through real application projects such as web application or mobile application. Learn by doing best practices of software development process: agile development, test driven development, user requirements analysis, requirement managements, software testing, quality management, project planning and monitoring, software design and constructions. Experience industrial collaboration tools in order to work as a team.",
+      "pdf_pages": [
+        73
+      ],
+      "printed_pages": [
+        "73"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-364",
+      "title": "คพ.364 การพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพา 3 (3-0-6)",
+      "text": "คพ.364 การพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพา 3 (3-0-6) CS 364 Mobile Application Development วิชาบังคับก่อน: เคยศึกษา คพ.251 ภาพรวมการพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพา แพลตฟอร์มของอุปกรณ์พกพา ข้อจำกัดและความต้องการในการออกแบบส่วนต่อประสานผู้ใช้สำหรับอุปกรณ์ที่มีทรัพยากรจำกัด วัฏจักรของกิจกรรม ทรัพยากรของอุปกรณ์พกพาและโปรแกรมประยุกต์ การออกแบบเพื่อรองรับส่วนต่อประสานผู้ใช้ที่หลากหลาย การรองรับการเปลี่ยนแปลงขณะประมวลผล แนวคิดโดยรวม ปัญหาการออกแบบ และขั้นตอนการพัฒนาในทางปฏิบัติ Prerequisite: Have taken CS 251 Developing landscape of mobile applications, mobile platforms, the specific constraints and requirements of user interface design for limited-resource devices, activity life cycle, mobile and application resources, providing alternative resources, handling runtime changes, conceptual overview, design issues, and practical development issues.",
+      "pdf_pages": [
+        74
+      ],
+      "printed_pages": [
+        "74"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-365",
+      "title": "คพ.365 กระบวนการและไปป์ไลน์เดฟออปส์ 3 (3-0-6)",
+      "text": "คพ.365 กระบวนการและไปป์ไลน์เดฟออปส์ 3 (3-0-6) CS 365 DevOps Pipelines and Processes วิชาบังคับก่อน: เคยศึกษา หรือ ศึกษาพร้อมกับ คพ.232 การจัดการวงจรชีวิตแอปพลิเคชัน กระบวนการรวบรวมซอฟต์แวร์และส่งมอบบริการอย่างอัตโนมัติ การนำระบบขึ้นใช้งานจริงบนคลาวด์ เครื่องมือสำหรับเดฟออปส์ (เช่น การควบคุมเวอร์ชันของโค้ดด้วยกิท การเขียนสคริปต์ การทดสอบระบบอัตโนมัติ คอนเทนเนอร์ การสร้างซีไอซีดีไปป์ไลน์ การติดตามประสิทธิภาพ ค่าวัด และการบันทึกข้อมูลระหว่างการทำงาน) Prerequisite: Have taken or Study with CS 232 Application lifecycle management, Continuous Integration/Continuous Delivery (CI/CD) processes, cloud deployment, DevOps tools (e.g. code version control/git, scripting, automated test, container, CI/CD pipeline, performance monitoring, metrics, and logging).",
+      "pdf_pages": [
+        74
+      ],
+      "printed_pages": [
+        "74"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-366",
+      "title": "คพ.366 ไมโครเซอร์วิสและสถาปัตยกรรมแบบไร้เซิร์ฟเวอร์ 3 (3-0-6)",
+      "text": "คพ.366 ไมโครเซอร์วิสและสถาปัตยกรรมแบบไร้เซิร์ฟเวอร์ 3 (3-0-6) CS 366 Microservices and Serverless Architectures วิชาบังคับก่อน: เคยศึกษา คพ.232 แอปพลิเคชันที่รวมทุกส่วนไว้ด้วยกันและไมโครเซอร์วิส การประมวลผลแบบไร้เซิร์ฟเวอร์ สถาปัตยกรรมแบบแยกส่วนด้วยการใช้คิวข้อความ เว็บเซอร์วิสและเอพีไอ การพิสูจน์ตัวตนและประเด็นทางด้านความปลอดภัย Prerequisite: Have taken CS 232 Monolithic applications and microservices, serverless computing, decoupled architecture with message queues, web services and API, authentication and security issues.",
+      "pdf_pages": [
+        75
+      ],
+      "printed_pages": [
+        "75"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-367",
+      "title": "คพ.367 แนวคิดการพัฒนาเว็บบริการ 3 (3-0-6)",
+      "text": "คพ.367 แนวคิดการพัฒนาเว็บบริการ 3 (3-0-6) CS 367 Web Service Development Concepts วิชาบังคับก่อน: เคยศึกษา คพ.234 หรือ เคยศึกษา คพ.331 แนวคิดและทฤษฎีเกี่ยวกับเว็บบริการ สถาปัตยกรรมเว็บบริการ มาตรฐานที่เกี่ยวข้องทางเว็บบริการ โปรโตคอลการรักษาความปลอดภัยของเว็บบริการ เทคโนโลยีที่ใช้ในการพัฒนาเว็บบริการ การบูรณาการทฤษฎีกับการออกแบบพัฒนาเว็บบริการเพื่อใช้งานจริงในทางธุรกิจ Prerequisite: Have take CS 234 or Have taken CS 331 Basic concepts of web services, web service architecture and related standards, security issues and protocols for web services, industrial technologies relating to web service developments, applying theoretical concepts in designing and developing web services for businesses.",
+      "pdf_pages": [
+        75
+      ],
+      "printed_pages": [
+        "75"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-368",
+      "title": "คพ.368 การเป็นผู้ประกอบการสำหรับผลิตภัณฑ์ดิจิทัล 3 (3-0-6)",
+      "text": "คพ.368 การเป็นผู้ประกอบการสำหรับผลิตภัณฑ์ดิจิทัล 3 (3-0-6) CS 368 Entrepreneurship for Digital Product ศึกษากระบวนการของผู้ประกอบการโดยเน้นที่การพัฒนาและบริหารผลิตภัณฑ์ดิจิทัล การสร้างแนวคิด ความคิดสร้างสรรค์ รูปแบบของการทำธุรกิจเริ่มต้น ฝึกปฏิบัติกิจกรรมของผู้ประกอบการ การสร้างวิสัยทัศน์ของสินค้า การวิเคราะห์กรณีธุรกิจ การวิเคราะห์โอกาสของผลิตภัณฑ์ การระบุตำแหน่งในตลาดของผลิตภัณฑ์ การออกแบบและพัฒนาผลิตภัณฑ์ Study of the entrepreneurial process focusing on the digital product development and management; ideation, innovation, startup models. Practice entrepreneurial activities: product vision creation, business case analysis, opportunities analysis, market position identification, digital product design and development.",
+      "pdf_pages": [
+        76
+      ],
+      "printed_pages": [
+        "76"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-370",
+      "title": "คพ.370 หัวข้อเลือกสรรด้านระบบปัญญาประดิษฐ์ 3 (3-0-6)",
+      "text": "คพ.370 หัวข้อเลือกสรรด้านระบบปัญญาประดิษฐ์ 3 (3-0-6) CS 370 Selected Topics in Artificial Intelligent Systems วิชาบังคับก่อน: เคยศึกษา คพ.271 หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีทางด้านปัญญาประดิษฐ์ ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Prerequisite: Have taken CS 271 Seminar on current research and development in artificial intelligent systems.",
+      "pdf_pages": [
+        76
+      ],
+      "printed_pages": [
+        "76"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-371",
+      "title": "คพ.371 ปัญญาประดิษฐ์กับการประยุกต์ 3 (3-0-6)",
+      "text": "คพ.371 ปัญญาประดิษฐ์กับการประยุกต์ 3 (3-0-6) CS 371 Artificial Intelligence in Practice วิชาบังคับก่อน: เคยศึกษา คพ.271 การให้เหตุผลเชิงสถิติ การให้เหตุผลแบบนอนโมโนโทนิก การแสดงความรู้แบบเฟรม การแสดงความรู้แบบกราฟมโนภาพ โครงข่ายแบบเบย์ โครงข่ายแบบมาร์คอฟ แบบจำลองความน่าจะเป็นเชิงสัมพันธ์ แบบจำลองฮิดเดนมาร์คอฟ และ ทฤษฎีการตัดสินใจ การพัฒนาระบบด้วยภาษาโปรแกรมทางด้านปัญญาประดิษฐ์ Prerequisite: Have taken CS 271 Probabilistic reasoning, non-monotonic reasoning, frame, conceptual graph, Bayesian networks, markov networks, relational probability models, hidden Markov models, decision theory, artificial intelligence programming.",
+      "pdf_pages": [
+        77
+      ],
+      "printed_pages": [
+        "77"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-372",
+      "title": "คพ.372 การเรียนรู้ของเครื่อง 3 (3-0-6)",
+      "text": "คพ.372 การเรียนรู้ของเครื่อง 3 (3-0-6) CS 372 Machine Learning วิชาบังคับก่อน: เคยศึกษา คพ.271 ทฤษฎีการเรียนรู้ การเรียนรู้เชิงอุปนัยและนิรนัย การเรียนรู้เบย์อย่างง่าย ต้นไม้ตัดสินใจ การเรียนรู้แบบมีผู้สอน การเรียนรู้แบบไม่มีผู้สอน การเรียนรู้แบบเสริมแรง ปัญหาการเข้ากันมากเกินไป การประเมินความถูกต้อง การประเมินประสิทธิภาพ และ ตัวอย่างการประยุกต์ใช้การเรียนรู้ของเครื่อง เช่น การทําเหมืองข้อมูล การควบคุมหุ่นยนต์ การนําทางแบบอัตโนมัติ และ ชีวสารสนเทศศาสตร์ Prerequisite: Have taken CS 271 Learning theory, inductive and deductive learning, naïve bayesian learning, decision trees, supervised learning, unsupervised learning, reinforcement learning, overfitting problem, validation, performance evaluation, and applications of machine learning.",
+      "pdf_pages": [
+        77
+      ],
+      "printed_pages": [
+        "77"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-373",
+      "title": "คพ.373 กลยุทธ์การค้นหาขั้นสูง 3 (3-0-6)",
+      "text": "คพ.373 กลยุทธ์การค้นหาขั้นสูง 3 (3-0-6) CS 373 Advanced Search Strategies วิชาบังคับก่อน: เคยศึกษา คพ.271 ปริภูมิค้นหา การค้นหาเชิงการจัดกลุ่ม การค้นหาแบบฮิวริสติก การค้นหาแบบสุ่ม ต้นไม้ค้นหา ขั้นตอนวิธีการจําลองการอบเหนียว ขั้นตอนวิธีเชิงวิวัฒน์ ปัญหาโลคอลออฟติมัม ปัญหาการลู่เข้าสู่เป้าหมายได้ช้า การประเมินประสิทธิภาพของคําตอบ ตัวอย่างของการประยุกต์ใช้ Prerequisite: Have taken CS 271 Search space, combinatorial search, heuristic search, stochastic search, search tree, simulated annealing algorithm, evolutionary algorithm, local optimum problem, ridge and plateau problem, Performance evaluation, example of applications.",
+      "pdf_pages": [
+        78
+      ],
+      "printed_pages": [
+        "78"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-374",
+      "title": "คพ.374 การประมวลภาษาธรรมชาติ 3 (3-0-6)",
+      "text": "คพ.374 การประมวลภาษาธรรมชาติ 3 (3-0-6) CS 374 Natural Language Processing วิชาบังคับก่อน: เคยศึกษา คพ.271 รู้จักกับภาษาธรรมชาติและข้อจำกัดในการประมวลผล การทำให้เป็นมาตรฐานของข้อความ การวัดระยะห่างระหว่างข้อความ นิพจน์ปรกติ การติดประเภทชนิดคำ แบบจำลองทางภาษา เวกเตอร์ความหมายและการฝัง การวิเคราะห์ความรู้สึก ไวยากรณ์หน่วยประกอบ การแปลด้วยเครื่อง การจำแนกข้อความ ความหมายแอบแฝงและเวิร์ดเน็ต Prerequisite: Have taken CS 271 Introduction to natural language and its limitation in processing, text normalization, text distance measurement, regular expression, part of speech tagging, language model, vector semantics and embedding, sentiment classification, constituency grammars, machine translation, text classification, word senses and WordNet.",
+      "pdf_pages": [
+        78
+      ],
+      "printed_pages": [
+        "78"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-381",
+      "title": "คพ.381 การประมวลภาพดิจิทัล 3 (3-0-6)",
+      "text": "คพ.381 การประมวลภาพดิจิทัล 3 (3-0-6) CS 381 Digital Image Processing วิชาบังคับก่อน: เคยศึกษา คพ.213 ความรู้พื้นฐานเกี่ยวกับภาพดิจิทัล การแทนค่าข้อมูลสี การแปลงข้อมูลภาพ การปรับปรุงคุณภาพของภาพ ตัวกรองในโดเมนพื้นที่และโดเมนความถี่ การแบ่งภาพเป็นหลายส่วนอย่างมีความหมาย ไบนารีมอร์โฟโลยี การแทนค่าและการบรรยายลักษณะข้อมูลภาพ การประยุกต์ใช้ข้อมูลภาพดิจิทัล Prerequisite: Have taken CS 213 Digital image fundamentals, color models, image transform, image enhancement, spatial-domain and frequency-domain filters, image segmentation, binary morphology, image representation and description, applications of digital image processing.",
+      "pdf_pages": [
+        79
+      ],
+      "printed_pages": [
+        "79"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-382",
+      "title": "คพ.382 ทัศนศาสตร์คอมพิวเตอร์เบื้องต้น 3 (3-0-6)",
+      "text": "คพ.382 ทัศนศาสตร์คอมพิวเตอร์เบื้องต้น 3 (3-0-6) CS 382 Introduction to Computer Vision วิชาบังคับก่อน: เคยศึกษา คพ.381 การได้มาซึ่งภาพดิจิทัล การประมวลผลก่อน การตรวจหาวัตถุในภาพ การหาคุณลักษณะวัตถุ การรู้จำวัตถุ การวิเคราะห์การเคลื่อนไหว การประยุกต์ใช้ทัศนศาสตร์คอมพิวเตอร์ Prerequisite: Have taken CS 381 Image acquisition, image preprocessing, object detection, feature extraction, object recognition, motion analysis, applications for computer vision.",
+      "pdf_pages": [
+        79
+      ],
+      "printed_pages": [
+        "79"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-384",
+      "title": "คพ.384 การปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์ 3 (3-0-6)",
+      "text": "คพ.384 การปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์ 3 (3-0-6) CS 384 Human - Computer Interaction วิชาบังคับก่อน: เคยศึกษา คพ.180 ตระหนักถึงความสำคัญการศึกษาปฏิสัมพันธ์ระหว่างคอมพิวเตอร์และมนุษย์มีผลต่อการพัฒนาระบบคอมพิวเตอร์ให้ยอมรับได้และมีความสามารถใช้งานได้ ศึกษาบริบทที่สำคัญต่อการปฏิสัมพันธ์ระหว่างคอมพิวเตอร์และมนุษย์ กระบวนการพัฒนาระบบแบบผู้ใช้เป็นศูนย์กลาง การประเมินและมาตรวัดความสามารถใช้งานได้ ปัจจัยทางมนุษย์ที่เกี่ยวข้องกับการประมวลผลสารสนเทศของมนุษย์ และ กฎเกณฑ์และหลักการที่ใช้ตลอดจน ข้อผิดพลาดที่เกิดขึ้นบ่อยๆ ในการออกแบบส่วนต่อประสาน Prerequisite: Have taken CS 180 Importance of human-computer interaction (HCI) to the development of acceptable and usable systems, context for HCI, human-information processing model applicable to HCI, evaluation, measure of usability, and user interface principle and guidelines.",
+      "pdf_pages": [
+        80
+      ],
+      "printed_pages": [
+        "80"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-385",
+      "title": "คพ.385 โครงงานทางการออกแบบผลิตภัณฑ์และบริการด้านดิจิทัล 3 (3-0-6)",
+      "text": "คพ.385 โครงงานทางการออกแบบผลิตภัณฑ์และบริการด้านดิจิทัล 3 (3-0-6) CS 385 Digital Product and Service Design Project วิชาบังคับก่อน: เคยศึกษา คพ.384 แนวการปฏิบัติและความเข้าใจแบบองค์รวมเกี่ยวกับการออกแบบผลิตภัณฑ์และบริการดิจิทัล ทำความเข้าใจผู้มีส่วนได้ส่วนเสีย การประยุกต์วิธีการออกแบบที่เน้นมนุษย์เป็นศูนย์กลาง เช่น การคิดเชิงออกแบบ การทำแผนที่การเดินทางของผู้ใช้ พิมพ์เขียวบริการ เพื่อจัดลำดับความสำคัญและออกแบบผลิตภัณฑ์ การวางแผน Minimal Viable Product (MVP) ตามแนวทางการพัฒนาผลิตภัณฑ์แบบลีน Prerequisite: Have taken CS 384 Practical concepts and holistic understanding of digital product and service design, understanding stakeholders, apply human-centered design approach, such as design thinking, user journey mapping, service blueprint, to prioritize and design products, planning Minimal Viable Product (MVP) based on lean product development approach.",
+      "pdf_pages": [
+        80
+      ],
+      "printed_pages": [
+        "80"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-390",
+      "title": "คพ.390 หัวข้อเลือกสรรด้านการวิเคราะห์ข้อมูลมัลติมีเดีย 3 (3-0-6)",
+      "text": "คพ.390 หัวข้อเลือกสรรด้านการวิเคราะห์ข้อมูลมัลติมีเดีย 3 (3-0-6) CS 390 Selected Topics in Multimedia Content Analysis วิชาบังคับก่อน: เคยศึกษา คพ.381 หัวข้อเลือกสรรจากความก้าวหน้างานวิจัยและเทคโนโลยีด้านการวิเคราะห์ข้อมูลมัลติมีเดียที่เปลี่ยนแปลงตามเทคโนโลยี Prerequisite: Have taken CS 381 Selected Topic on current research and development in multimedia content analysis.",
+      "pdf_pages": [
+        81
+      ],
+      "printed_pages": [
+        "81"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-403",
+      "title": "คพ.403 โครงงานพิเศษ 2 4 (0-12-0)",
+      "text": "คพ.403 โครงงานพิเศษ 2 4 (0-12-0) CS 403 Special Projects 2 วิชาบังคับก่อน: สอบได้ คพ.303 ไม่ต่ำกว่า C ศึกษาค้นคว้าโครงงานที่ได้เสนอในลักษณะวิชา คพ.303 ให้ลึกซึ้งกว้างขวางยิ่งขึ้น เขียนรายงานและเสนอต่อคณะกรรมการ จัดพิมพ์เป็นรูปเล่ม Prerequisite: Passed CS 303 with Grade of C or higher Study the Projects proposed in CS 303 in details, implement the proposed idea, write papers and present results to the committee.",
+      "pdf_pages": [
+        81
+      ],
+      "printed_pages": [
+        "81"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-404",
+      "title": "คพ.404 สหกิจศึกษา 2 4 (0-12-0)",
+      "text": "คพ.404 สหกิจศึกษา 2 4 (0-12-0) CS 404 Co-operative Education 2 วิชาบังคับก่อน: สอบได้ คพ.304 ไม่ต่ำกว่า C การปฏิบัติงานที่ได้รับมอบหมายจากสถานประกอบการที่ได้รับความเห็นชอบจากสาขาวิชา โดยนักศึกษาต้องนำความรู้ทางวิชาการที่ได้เรียนไปประยุกต์ใช้และฝึกทักษะในภาวะแวดล้อมการทำงานจริง ภายใต้การกำกับดูแลของสถานประกอบการนั้น โดยต้องแสดงงานที่ได้รับมอบหมายอย่างชัดเจน พร้อมทั้งแนวคิดที่ใช้ในการออกแบบ พัฒนาและประยุกต์ เมื่อเสร็จสิ้นโครงงานแล้วต้องจัดส่งผลงานในรูปแบบของรายงานตามที่สาขาวิชากำหนด Prerequisite: Passed CS 304 with Grade of C or higher Supervised practical training on the given assignments from authorized body from the faculty. Student must show the capability in implementation of knowledge and skill in the actual working environmemt. Written report of design, development, and implementation must be submitted the end of practical period.",
+      "pdf_pages": [
+        81
+      ],
+      "printed_pages": [
+        "81"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-420",
+      "title": "คพ.420 หัวข้อเลือกสรรด้านสถาปัตยกรรมคอมพิวเตอร์ 3 (3-0-6)",
+      "text": "คพ.420 หัวข้อเลือกสรรด้านสถาปัตยกรรมคอมพิวเตอร์ 3 (3-0-6) CS 420 Selected Topics in Computer Architecture วิชาบังคับก่อน: เคยศึกษา คพ.221 หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของสถาปัตยกรรมคอมพิวเตอร์ ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Prerequisite: Have taken CS 221 Seminar on current research and development in computer architecture.",
+      "pdf_pages": [
+        82
+      ],
+      "printed_pages": [
+        "82"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-430",
+      "title": "คพ.430 หัวข้อเลือกสรรด้านคอมพิวเตอร์เครือข่าย 3 (3-0-6)",
+      "text": "คพ.430 หัวข้อเลือกสรรด้านคอมพิวเตอร์เครือข่าย 3 (3-0-6) CS 430 Selected Topics in Net-Centric Computing วิชาบังคับก่อน: เคยศึกษา คพ.331 หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของระบบเครือข่าย ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Prerequisite: Have taken CS 331 Seminar on current research and development in computer and telecommunication networking.",
+      "pdf_pages": [
+        82
+      ],
+      "printed_pages": [
+        "82"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-440",
+      "title": "คพ.440 หัวข้อเลือกสรรด้านวิทยาการข้อมูล 3 (3-0-6)",
+      "text": "คพ.440 หัวข้อเลือกสรรด้านวิทยาการข้อมูล 3 (3-0-6) CS 440 Selected Topics in Data Science วิชาบังคับก่อน: เคยศึกษา หรือ ศึกษาพร้อมกับ คพ.345 หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของวิทยาการข้อมูลที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Prerequisite: Have taken or Study with CS 345 The purpose of Selected Topics in Data Science being a topics course is to respond to new researches and technologies in the rapidly evolving fields of Data Science.",
+      "pdf_pages": [
+        82
+      ],
+      "printed_pages": [
+        "82"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-450",
+      "title": "คพ. 450 หัวข้อเลือกสรรด้านระบบสารสนเทศ 3 (3-0-6)",
+      "text": "คพ. 450 หัวข้อเลือกสรรด้านระบบสารสนเทศ 3 (3-0-6) CS 450 Selected Topics in Information Systems วิชาบังคับก่อน: เคยศึกษา คพ.251 หรือ เคยศึกษา คพ.356 หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของระบบสารสนเทศ ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Prerequisite: Have taken CS 251 or Have taken CS 356 Seminar on current research and development in information systems.",
+      "pdf_pages": [
+        83
+      ],
+      "printed_pages": [
+        "83"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-480",
+      "title": "คพ.480 หัวข้อเลือกสรรด้านการปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์ 3 (3-0-6)",
+      "text": "คพ.480 หัวข้อเลือกสรรด้านการปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์ 3 (3-0-6) CS 480 Selected Topics in Human-Computer Interaction วิชาบังคับก่อน: เคยศึกษา คพ.384 หัวข้อเลือกสรรจากความก้าวหน้างานวิจัยและเทคโนโลยีด้านการปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์ Prerequisite: Have taken CS 384 Seminar on current research and development in human-computer interaction.",
+      "pdf_pages": [
+        83
+      ],
+      "printed_pages": [
+        "83"
+      ],
+      "kind": "course"
+    },
+    {
+      "id": "cs-490",
+      "title": "คพ.490 หัวข้อเลือกสรรด้านคอมพิวเตอร์กราฟิก 3 (3-0-6)",
+      "text": "คพ.490 หัวข้อเลือกสรรด้านคอมพิวเตอร์กราฟิก 3 (3-0-6) CS 490 Selected Topics in Computer Graphics วิชาบังคับก่อน: เคยศึกษา คพ.299 หรือ ศึกษาพร้อมกับ คพ.299 หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของคอมพิวเตอร์กราฟิกที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Prerequisite: Have taken CS 299 or Study with CS 299 Seminar on current research and development in computer graphics.",
+      "pdf_pages": [
+        83
+      ],
+      "printed_pages": [
+        "83"
+      ],
+      "kind": "course"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "policy-15:0",
+      "unit_id": "policy-15",
+      "text": "ระบบและระยะเวลาการศึกษา\nหมวดที่ 4 โครงสร้างหลักสูตร รายวิชา และหน่วยกิต 4.1 ระบบการจัดการศึกษาและระยะเวลาการศึกษา 4.1.1 ระบบ ใช้ระบบการศึกษาแบบทวิภาค โดย 1 ปีการศึกษาแบ่งออกเป็น 2 ภาคการศึกษาปกติ 1 ภาคการศึกษาปกติมีระยะเวลาศึกษาไม่น้อยกว่า 15 สัปดาห์ และอาจเปิดภาคฤดูร้อนได้โดยใช้เวลาการศึกษาไม่น้อยกว่า 6 สัปดาห์ แต่ให้เพิ่มชั่วโมงการศึกษาในแต่ละรายวิชาให้เท่ากับภาคปกติ การจัดการศึกษาภาคฤดูร้อน - สำหรับนักศึกษาเข้าแผนสหกิจศึกษา ปีการศึกษาที่ 3 วิชา คพ.304 สหกิจศึกษา 1 - สำหรับนักศึกษาไม่เข้าแผนสหกิจศึกษา นักศึกษาสามารถลงทะเบียนในภาคฤดูร้อนได้ตามความจำเป็นของแต่ละบุคคล 4.1.2 ระยะเวลาการศึกษาสูงสุด [ไม่เลือก] ไม่กำหนด",
+      "start": 0,
+      "end": 598
+    },
+    {
+      "id": "policy-15:1",
+      "unit_id": "policy-15",
+      "text": "ระบบและระยะเวลาการศึกษา\nามจำเป็นของแต่ละบุคคล 4.1.2 ระยะเวลาการศึกษาสูงสุด [ไม่เลือก] ไม่กำหนด [เลือก] ไม่เกิน.......16.............ภาคการศึกษาปกติ 4.2 การดำเนินการหลักสูตร 4.2.1 วัน-เวลาในการดำเนินการเรียนการสอน [เลือก] วัน – เวลาราชการปกติ [ไม่เลือก] นอกวัน – เวลาราชการ 4.2.2 ระบบการศึกษา [เลือก] แบบชั้นเรียน (Onsite) [ไม่เลือก] แบบทางไกล (Online) [ไม่เลือก] แบบประสมประสาน (Hybrid) [ไม่เลือก] อื่นๆ (ระบุ)",
+      "start": 528,
+      "end": 914
+    },
+    {
+      "id": "policy-16:0",
+      "unit_id": "policy-16",
+      "text": "โครงสร้างและหน่วยกิตหลักสูตร\n4.3 โครงสร้างหลักสูตร รายวิชา และหน่วยกิต 4.3.1 หลักสูตร 4.3.1.1 จำนวนหน่วยกิตรวม จำนวนหน่วยกิตรวมตลอดหลักสูตร 123 หน่วยกิต 4.3.1.2 โครงสร้างหลักสูตร นักศึกษาจะต้องจดทะเบียนศึกษารายวิชา รวมไม่น้อยกว่า 123 หน่วยกิต โดยศึกษารายวิชาต่าง ๆ ครบตามโครงสร้างองค์ประกอบ และข้อกำหนดของหลักสูตรดังนี้ 1) วิชาศึกษาทั่วไป 30 หน่วยกิต 2) วิชาเฉพาะ ไม่น้อยกว่า 87 หน่วยกิต 2.1) วิชาแกน 12 หน่วยกิต 2.2) วิชาเฉพาะด้าน 42 หน่วยกิต - กลุ่มประเด็นด้านองค์การระบบสารสนเทศ (ACM CC2020 - Users and Organizations) 3 หน่วยกิต - กลุ่มเทคโนโลยีเพื่องานประยุกต์ (ACM CC2020 - Users and Organizations, System Architecture and",
+      "start": 0,
+      "end": 598
+    },
+    {
+      "id": "policy-16:1",
+      "unit_id": "policy-16",
+      "text": "โครงสร้างและหน่วยกิตหลักสูตร\nระยุกต์ (ACM CC2020 - Users and Organizations, System Architecture and Infrastructure) 9 หน่วยกิต - กลุ่มเทคโนโลยีและวิธีการทางซอฟต์แวร์ (ACM CC2020 - System Architecture and Infrastructure, Software Development, Software Fundamentals) 12 หน่วยกิต - กลุ่มโครงสร้างพื้นฐานของระบบ (ACM CC2020 - Users and Organizations, Systems Modeling, System Architecture and Infrastructure, Software Fundamentals) 15 หน่วยกิต - กลุ่มฮาร์ดแวร์และสถาปัตยกรรมคอมพิวเตอร์ (ACM CC2020 – Software Fundamentals, Hardware) 3 หน่วยกิต 2.3) วิชาเอก 30 หน่วยกิต 2.3.1) วิชาเอก คอมพิวเตอร์และวิทยาการสารสนเทศ 2.3.2) วิชาเอก",
+      "start": 528,
+      "end": 1124
+    },
+    {
+      "id": "policy-16:2",
+      "unit_id": "policy-16",
+      "text": "โครงสร้างและหน่วยกิตหลักสูตร\n หน่วยกิต 2.3.1) วิชาเอก คอมพิวเตอร์และวิทยาการสารสนเทศ 2.3.2) วิชาเอก คอมพิวเตอร์ประยุกต์ 2.4) วิชาบังคับนอกสาขา 3 หน่วยกิต 3) วิชาเลือกเสรี 6 หน่วยกิต รวม 123 หน่วยกิต",
+      "start": 1054,
+      "end": 1223
+    },
+    {
+      "id": "policy-17:0",
+      "unit_id": "policy-17",
+      "text": "ความหมายของรหัสวิชา\n4.3.2 รายวิชาในหลักสูตร 4.3.2.1 รหัสวิชา รายวิชาในหลักสูตรประกอบด้วย อักษรย่อ 2 หรือ 3 ตัว และเลขรหัส 3 ตัว โดยมีความหมายดังนี้ อักษรย่อ คพ./ CS หมายถึง อักษรย่อของสาขาวิชาวิทยาการคอมพิวเตอร์ ตัวเลข มีความหมาย ดังนี้ เลขหลักหน่วย เลข 0-5 หมายถึง วิชาบังคับ เลข 6-9 หมายถึง วิชาเลือก เลขหลักสิบ เลข 0-1 หมายถึง วิชาในหมวด วิชาพื้นฐานคอมพิวเตอร์ และทางด้าน ปัญหาพิเศษ เลข 2-3 หมายถึง หมวดวิชาสถาปัตยกรรมคอมพิวเตอร์ และหมวดวิชาเครือข่ายคอมพิวเตอร์และระบบปฏิบัติการ เลข 4-5 หมายถึง หมวดวิชาทางด้านภาษาโปรแกรม และหมวดวิชาระบบฐานข้อมูลและระบบสารสนเทศ เลข 6-7 หมายถึง หมวดวิชาวิศวกรรมซอฟต์แวร์",
+      "start": 0,
+      "end": 586
+    },
+    {
+      "id": "policy-17:1",
+      "unit_id": "policy-17",
+      "text": "ความหมายของรหัสวิชา\nระบบฐานข้อมูลและระบบสารสนเทศ เลข 6-7 หมายถึง หมวดวิชาวิศวกรรมซอฟต์แวร์ และหมวดวิชาปัญญาประดิษฐ์ เลข 8-9 หมายถึง หมวดวิชาส่วนต่อประสานผู้ใช้และมัลติมีเดีย และหมวดวิชาคอมพิวเตอร์กราฟิก เลขหลักร้อย เลข 1 หมายถึง รายวิชาที่จัดสอนในหลักสูตรชั้นปีที่ 1 ขึ้นไป เลข 2 หมายถึง รายวิชาที่จัดสอนในหลักสูตรชั้นปีที่ 2 ขึ้นไป เลข 3 หมายถึง รายวิชาที่จัดสอนในหลักสูตรชั้นปีที่ 3 ขึ้นไป เลข 4 หมายถึง รายวิชาที่จัดสอนในหลักสูตรชั้นปีที่ 4 ขึ้นไป",
+      "start": 516,
+      "end": 946
+    },
+    {
+      "id": "policy-24:0",
+      "unit_id": "policy-24",
+      "text": "วิชาเลือกเสรีและวิชาโท\n3) วิชาเลือกเสรี ไม่น้อยกว่า 6 หน่วยกิต นักศึกษาสามารถเลือกศึกษาวิชาใดก็ได้ที่เปิดสอนในมหาวิทยาลัยธรรมศาสตร์เป็นวิชาเลือกเสรี จำนวนไม่น้อยกว่า 6 หน่วยกิต ทั้งนี้ นักศึกษาไม่สามารถนำรายวิชาในหลักสูตรวิชาศึ กษาทั่วไปที่เป็นรหัสระดับ 100 ไปนับเป็นวิชาเลือกเสรี 4) วิชาโท 4.1) วิชาโทวิทยาการคอมพิวเตอร์ (สำหรับนักศึกษานอกสาขาวิชาวิทยาการคอมพิวเตอร์เท่านั้น) นักศึกษาผู้ประสงค์จะศึกษาวิชาวิทยาการคอมพิวเตอร์เป็นวิชาโท ต้องศึกษารายวิชาในสาขาวิชาวิทยาการคอมพิวเตอร์ไม่น้อยกว่า 15 หน่วยกิต ตามเงื่อนไขดังต่อไปนี้ รหัสวิชา ชื่อวิชา หน่วยกิต (บรรยาย-ปฏิบัติ-ศึกษาด้วยตนเอง) คพ.100",
+      "start": 0,
+      "end": 570
+    },
+    {
+      "id": "policy-24:1",
+      "unit_id": "policy-24",
+      "text": "วิชาเลือกเสรีและวิชาโท\nปนี้ รหัสวิชา ชื่อวิชา หน่วยกิต (บรรยาย-ปฏิบัติ-ศึกษาด้วยตนเอง) คพ.100 การพัฒนาเว็บแอปพลิเคชันเบื้องต้น 3 (3-0-6) CS 100 Basic Web Development คพ.103 การโปรแกรมคอมพิวเตอร์เบื้องต้น 3 (3-0-6) CS 103 Introduction to Computer Programming คพ.104 การโปรแกรมคอมพิวเตอร์เบื้องต้นด้วยภาษาไพทอน 3 (3-0-6) CS 104 Introduction to Computer Programming using Python คพ.140 การวิเคราะห์ข้อมูลเชิงสำรวจและแดชบอร์ด แบบไร้โค้ด 3 (3-0-6) CS 140 No-Code Exploratory Data Analysis and Dashboard คพ.180 ส่วนต่อประสานและประสบการณ์ผู้ใช้เบื้องต้น 3 (3-0-6) CS 180 Introduction to User Interface and User Experience คพ.240",
+      "start": 500,
+      "end": 1098
+    },
+    {
+      "id": "policy-24:2",
+      "unit_id": "policy-24",
+      "text": "วิชาเลือกเสรีและวิชาโท\n-0-6) CS 180 Introduction to User Interface and User Experience คพ.240 หลักการวิทยาการข้อมูล 3 (3-0-6) CS 240 Principles of Data Science คพ.265 การพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพาเบื้องต้น 3 (3-0-6) CS 265 Basic Mobile Development",
+      "start": 1028,
+      "end": 1263
+    },
+    {
+      "id": "policy-107:0",
+      "unit_id": "policy-107",
+      "text": "เกณฑ์การสำเร็จการศึกษา\nหมวดที่ 7 การประเมินผลการเรียนและเกณฑ์การสำเร็จการศึกษา 7.1 การประเมินผลการเรียนของนักศึกษา การประเมินผลการเรียน ให้เป็นไปตามข้อบังคับมหาวิทยาลัยธรรมศาสตร์ ว่าด้วยการศึกษาระดับปริญญาตรี พ.ศ. 2561 ข้อ 35-48 7.2 เกณฑ์การสำเร็จการศึกษาตามหลักสูตร 7.2.1 สอบผ่านและได้รับหน่วยกิตสะสมรายวิชาครบตามโครงสร้างหลักสูตร และมีหน่วยกิตสะสม ไม่ต่ำกว่า 123 หน่วยกิต 7.2.2 ได้ค่าระดับเฉลี่ยสะสมไม่ต่ำกว่า 2.00 (จากระบบ 4 ระดับคะแนน) 7.2.1 ต้องปฏิบัติตามเงื่อนไขอื่นๆ ที่คณะ วิทยาศาสตร์และเทคโนโลยี และมหาวิทยาลัยธรรมศาสตร์กำหนด 7.2.3 ได้ค่าระดับไม่ต่ำกว่า C ในรายวิชา คพ.101, คพ.102 และ คพ.111 7.2.4",
+      "start": 0,
+      "end": 583
+    },
+    {
+      "id": "policy-107:1",
+      "unit_id": "policy-107",
+      "text": "เกณฑ์การสำเร็จการศึกษา\n.2.3 ได้ค่าระดับไม่ต่ำกว่า C ในรายวิชา คพ.101, คพ.102 และ คพ.111 7.2.4 ได้ค่าเฉลี่ยรวมได้ค่าเฉลี่ยรวมทั้ง 8 รายวิชา ไม่ต่ำกว่า 2.00 ได้แก่ รายวิชา คพ.100, คพ.101, คพ.102, คพ.111, คพ.232, คพ.240, คพ.251, และ คพ.261 ทั้งนี้ การจดทะเบียนซ้ำในรายวิชาใดจาก 8 รายวิชาดังกล่าว กระทำได้เฉพาะในรายวิชาที่ได้ต่ำกว่าระดับ C เท่านั้น",
+      "start": 513,
+      "end": 834
+    },
+    {
+      "id": "cs-100:0",
+      "unit_id": "cs-100",
+      "text": "คพ.100 การพัฒนาเว็บแอปพลิเคชันเบื้องต้น 3 (3-0-6)\nคพ.100 การพัฒนาเว็บแอปพลิเคชันเบื้องต้น 3 (3-0-6) CS 100 Basic Web Development แนวคิดพื้นฐานในการพัฒนาเว็บ สถาปัตยกรรมเว็บ เอชทีเอ็มแอลและซีเอสเอสเบื้องต้น วงจรการพัฒนาด้วยกิท การโปรแกรมจาวาสคริปต์ ฟอร์มและการยืนยันความถูกต้อง ส่วนประกอบของเว็บที่สามารถตอบสนองได้ การนำเว็บขึ้นให้บริการ Basic concepts of web development, web architecture, HTML & CSS fundamentals, development cycle with Git, JavaScript programming, form & validation, responsive web components, web deployment.",
+      "start": 0,
+      "end": 478
+    },
+    {
+      "id": "cs-101:0",
+      "unit_id": "cs-101",
+      "text": "คพ.101 โครงสร้างแบบไม่ต่อเนื่อง 3 (3-0-6)\nคพ.101 โครงสร้างแบบไม่ต่อเนื่อง 3 (3-0-6) CS 101 Discrete Structures ตรรกศาสตร์เบื้องต้นและการประยุกต์ใช้ในวงจรดิจิทัลพื้นฐาน วิธีการพิสูจน์ เซต ฟังก์ชัน ความสัมพันธ์ พีชคณิตบูลีน พื้นฐานการนับ และ กราฟ โดยเน้นการประยุกต์ใช้ในด้านวิทยาการคอมพิวเตอร์ Intensive introduction to discrete mathematics as applied in computer science: basic logic and its main application in digital logic, proof techniques, sets, functions, relations, Boolean algebra, basic of counting, and graphs.",
+      "start": 0,
+      "end": 477
+    },
+    {
+      "id": "cs-102:0",
+      "unit_id": "cs-102",
+      "text": "คพ.102 พื้นฐานการแก้ปัญหาและการโปรแกรมคอมพิวเตอร์ 3 (3-0-6)\nคพ.102 พื้นฐานการแก้ปัญหาและการโปรแกรมคอมพิวเตอร์ 3 (3-0-6) CS 102 Problem Solving Basics and Computer Programming การแก้ปัญหาด้วยวิธีการทางคอมพิวเตอร์ การออกแบบและการโปรแกรมเชิงโครงสร้าง ชนิดของข้อมูล โครงสร้างการควบคุม ฟังก์ชันและการส่งค่าพารามิเตอร์ ฟังก์ชันเวียนเกิด การทดสอบ และตรวจหาข้อผิดพลาด Algorithmic problem solving, structural design and programming, programming language syntax and semantics, data types, control structures, functions and parameter passing, recursive functions, testing and debugging.",
+      "start": 0,
+      "end": 515
+    },
+    {
+      "id": "cs-103:0",
+      "unit_id": "cs-103",
+      "text": "คพ.103 การโปรแกรมคอมพิวเตอร์เบื้องต้น 3 (3-0-6)\nคพ.103 การโปรแกรมคอมพิวเตอร์เบื้องต้น 3 (3-0-6) CS 103 Introduction to Computer Programming (ไม่นับหน่วยกิตสำหรับนักศึกษาสาขาวิชาวิทยาการคอมพิวเตอร์ และผู้ศึกษา คพ.102) การแก้ปัญหาด้วยวิธีการทางคอมพิวเตอร์ การออกแบบและการโปรแกรมเชิงโครงสร้าง ชนิดของข้อมูล โครงสร้างการควบคุม ฟังก์ชันและการส่งค่าพารามิเตอร์ ฟังก์ชันเวียนเกิด การทดสอบ และตรวจหาข้อผิดพลาด Algorithmic problem solving, structural design and programming, programming language syntax and semantics, data types, control structures, functions and parameter passing, recursive functions, testing and debugging.",
+      "start": 0,
+      "end": 569
+    },
+    {
+      "id": "cs-104:0",
+      "unit_id": "cs-104",
+      "text": "คพ.104 การโปรแกรมคอมพิวเตอร์เบื้องต้นด้วยภาษาไพทอน 3 (3-0-6)\nคพ.104 การโปรแกรมคอมพิวเตอร์เบื้องต้นด้วยภาษาไพทอน 3 (3-0-6) CS 104 Introduction to Computer Programming using Python (ไม่นับหน่วยกิตสำหรับนักศึกษาสาขาวิชาวิทยาการคอมพิวเตอร์ และผู้ศึกษา คพ.254/242) พื้นฐานการแก้ปัญหาด้วยวิธีการทางคอมพิวเตอร์ด้วยภาษาไพทอน การโปรแกรมเชิงโครงสร้าง ชนิดของข้อมูลพื้นฐาน โครงสร้างการควบคุม ฟังก์ชัน โครงสร้างข้อมูลพื้นฐาน ลิสต์ ทูเพิล เซ็ต ดิกชันนารี เรนจ์ ไลบราลีภาษาไพทอนสำหรับการประมวลผลเชิงตัวเลข อาร์เรย์และแมทริกซ์ ไลบราลีภาษาไพทอน สำหรับแสดงข้อมูล Basic computer programming and problem solving using Python. Structural design and Programming, basic data types.",
+      "start": 0,
+      "end": 598
+    },
+    {
+      "id": "cs-104:1",
+      "unit_id": "cs-104",
+      "text": "คพ.104 การโปรแกรมคอมพิวเตอร์เบื้องต้นด้วยภาษาไพทอน 3 (3-0-6)\ning using Python. Structural design and Programming, basic data types. Control Structures. Functions, Python built-in data structures: lists, tuples, sets, dictionaries, and range, numerical processing library, arrays and matrix, library for data visualization.",
+      "start": 528,
+      "end": 789
+    },
+    {
+      "id": "cs-111:0",
+      "unit_id": "cs-111",
+      "text": "คพ.111 แนวคิดเชิงวัตถุ 3 (3-0-6)\nคพ.111 แนวคิดเชิงวัตถุ 3 (3-0-6) CS 111 Object-Oriented Concepts วิชาบังคับก่อน: เคยศึกษา คพ.102 หรือ เคยศึกษา คพ.103 พัฒนาทักษะการวิเคราะห์และการแก้ปัญหาด้วยแนวคิดเชิงวัตถุ บูรณาการแนวคิดและแนวทางเชิงปฏิบัติที่ทันสมัยในวัฏจักรการพัฒนาซอฟต์แวร์ หลักการพื้นฐานในการเขียนโปรแกรมเชิงวัตถุตามที่วิเคราะห์และออกแบบไว้ แนวทางในการทวนสอบความสอดคล้องระหว่างแบบและซอร์สโค้ด Prerequisite: Have taken CS 102 or Have taken CS 103 Developing of analytical and problem-solving skills through object- oriented paradigm. Integrating of conceptual and state-of-the-art practical approaches in software development",
+      "start": 0,
+      "end": 596
+    },
+    {
+      "id": "cs-111:1",
+      "unit_id": "cs-111",
+      "text": "คพ.111 แนวคิดเชิงวัตถุ 3 (3-0-6)\ntual and state-of-the-art practical approaches in software development life cycle (SDLC), object-oriented design techniques and tools, object-oriented programming based on the design, consistency verification between the design and source code.",
+      "start": 526,
+      "end": 770
+    },
+    {
+      "id": "cs-140:0",
+      "unit_id": "cs-140",
+      "text": "คพ.140 การวิเคราะห์ข้อมูลเชิงสำรวจและแดชบอร์ดแบบไร้โค้ด 3 (3-0-6)\nคพ.140 การวิเคราะห์ข้อมูลเชิงสำรวจและแดชบอร์ดแบบไร้โค้ด 3 (3-0-6) CS 140 No-Code Exploratory Data Analysis and Dashboard นิยามและกระบวนการวิเคราะห์ข้อมูลเชิงสำรวจ เครื่องมือสเปรดชีต ตารางข้อมูลและการวิเคราะห์ข้อมูลเมื่อตัวแปรต้นเปลี่ยนแปลงไป การสรุปผลข้อมูลในรูปแบบของตาราง การนำข้อมูลเข้า การแปลงและเตรียมข้อมูล การวิเคราะห์ข้อมูลแบบตัวแปรเดี่ยว การวิเคราะห์ข้อมูลแบบพหุตัวแปร สหสัมพันธ์และความเป็นสาเหตุ การออกแบบและสร้างแดชบอร์ด การผสานรวมข้อมูลจากหลายแหล่งข้อมูล กรณีศึกษา Exploratory Data Analysis (EDA) definition and process, spreadsheet tools, data types, data tables and what-if analysis,",
+      "start": 0,
+      "end": 597
+    },
+    {
+      "id": "cs-140:1",
+      "unit_id": "cs-140",
+      "text": "คพ.140 การวิเคราะห์ข้อมูลเชิงสำรวจและแดชบอร์ดแบบไร้โค้ด 3 (3-0-6)\ncess, spreadsheet tools, data types, data tables and what-if analysis, pivot table, data import, data transformation and preparation, univariate analysis, multivariate analysis, correlation and causation, dashboard design and implementation, data blending, case studies.",
+      "start": 527,
+      "end": 797
+    },
+    {
+      "id": "cs-180:0",
+      "unit_id": "cs-180",
+      "text": "คพ.180 ส่วนต่อประสานและประสบการณ์ผู้ใช้เบื้องต้น 3 (3-0-6)\nคพ.180 ส่วนต่อประสานและประสบการณ์ผู้ใช้เบื้องต้น 3 (3-0-6) CS 180 Introduction to User Interface and User Experience ความสำคัญของการออกแบบส่วนต่อประสานกับผู้ใช้และประสบการณ์ผู้ใช้ต่อการพัฒนาระบบที่ใช้งานได้ กระบวนการออกแบบที่เน้นผู้ใช้เป็นศูนย์กลาง เครื่องมือ การวัดและประเมินผล ส่วนประกอบการออกแบบส่วนต่อประสานกับผู้ใช้ แนะนำส่วนประกอบการออกแบบมาตรฐานและแนวปฏิบัติในการออกแบบเพื่อรองรับการออกแบบที่สามารถนำกลับมาใช้ใหม่ได้ผ่านระบบการออกแบบที่มีอยู่ ส่วนต่อประสานผู้ใช้และแนวทางประสบการณ์ผู้ใช้ Importance of user interface and user experience design to the development of usable systems,",
+      "start": 0,
+      "end": 588
+    },
+    {
+      "id": "cs-180:1",
+      "unit_id": "cs-180",
+      "text": "คพ.180 ส่วนต่อประสานและประสบการณ์ผู้ใช้เบื้องต้น 3 (3-0-6)\nrface and user experience design to the development of usable systems, user-centered design process, tools, measurement and evaluation, user interface design components, introduce the standard design components and design best practices to support design reusability through existing design system, user interface and user experience guidelines.",
+      "start": 518,
+      "end": 863
+    },
+    {
+      "id": "cs-213:0",
+      "unit_id": "cs-213",
+      "text": "คพ.213 โครงสร้างข้อมูล 3 (3-0-6)\nคพ.213 โครงสร้างข้อมูล 3 (3-0-6) CS 213 Data Structures วิชาบังคับก่อน: เคยศึกษา คพ.111 การวิเคราะห์ขั้นตอนวิธีเบื้องต้น หลักนามธรรมข้อมูล โครงสร้างข้อมูลพื้นฐาน ได้แก่ ข้อมูลเชิงเส้น และข้อมูลแบบไม่เชิงเส้น การจัดสรรหน่วยเก็บแบบพลวัต เทคนิคการค้นหา และการเรียงลำดับข้อมูลในหน่วยความจำ การฝึกปฏิบัตินอกเวลา Prerequisite: Have taken CS 111 Introduction to algorithm analysis, data abstraction, and fundamental data structures including linear data structures and nonlinear data structures, dynamic storage allocation, searching and sorting techniques.",
+      "start": 0,
+      "end": 550
+    },
+    {
+      "id": "cs-216:0",
+      "unit_id": "cs-216",
+      "text": "คพ.216 โครงสร้างข้อมูลและขั้นตอนวิธี 3 (3-0-6)\nคพ.216 โครงสร้างข้อมูลและขั้นตอนวิธี 3 (3-0-6) CS 216 Data Structures and Algorithms วิชาบังคับก่อน: เคยศึกษา คพ.111 การวิเคราะห์เวลาดำเนินงานและความซับซ้อนของขั้นตอนวิธี โครงสร้างข้อมูลแบบต่าง ๆ อาร์เรย์ ลิงค์ลิสต์ สแตค คิว ทรี แฮช กราฟ ไบนารีฮีป การวิเคราะห์ความต้องการด้านเวลา และ หน่วยความจำในการค้นหา ขั้นตอนวิธีเกี่ยวกับการค้นหาและการเรียงลำดับ การแก้ปัญหาแบบบรูทฟอร์ซ การแบ่งแล้วเข้ายึด ขั้นตอนวิธีการแบบละโมบ การชดเชยกันระหว่างเวลากับเนื้อที่ของการคำนวณ Prerequisite: Have taken CS 111 Analysis of running time and complexity of the algorithms, data structures: arrays, linked lists, stacks,",
+      "start": 0,
+      "end": 599
+    },
+    {
+      "id": "cs-216:1",
+      "unit_id": "cs-216",
+      "text": "คพ.216 โครงสร้างข้อมูลและขั้นตอนวิธี 3 (3-0-6)\nxity of the algorithms, data structures: arrays, linked lists, stacks, queues, trees, hash, graph, binary heap, analysis of running time and memory requirements in searching, algorithms for searching and sorting, algorithm techniques: brute force, divide-and-conquer, greedy algorithms, space and time trade-offs.",
+      "start": 529,
+      "end": 842
+    },
+    {
+      "id": "cs-217:0",
+      "unit_id": "cs-217",
+      "text": "คพ.217 การออกแบบและวิเคราะห์ขั้นตอนวิธี 3 (3-0-6)\nคพ.217 การออกแบบและวิเคราะห์ขั้นตอนวิธี 3 (3-0-6) CS 217 Design and Analysis of Algorithms วิชาบังคับก่อน: เคยศึกษา คพ.213 เทคนิคต่างๆ ที่ใช้ในการออกแบบและวิเคราะห์ขั้นตอนวิธี ได้แก่ วิธีการแบ่งแยกเอาชนะ วิธีละโมบ วิธีกำหนดการพลวัต วิธีการแวะผ่านบัพทุกบัพของกราฟ วิธีการย้อนรอย และวิธีบรานช์แอนบาวด์ Prerequisite: Have taken CS 213 Techniques used in design and analysis of algorithms such as divide- and-conquer, greedy algorithms, dynamic programming, graph traveling, backtracking, branch and bound. Study the topics of sorting, searching, Fourier transform, randomized algorithms, graph",
+      "start": 0,
+      "end": 590
+    },
+    {
+      "id": "cs-217:1",
+      "unit_id": "cs-217",
+      "text": "คพ.217 การออกแบบและวิเคราะห์ขั้นตอนวิธี 3 (3-0-6)\nof sorting, searching, Fourier transform, randomized algorithms, graph algorithms and optimization methods.",
+      "start": 520,
+      "end": 627
+    },
+    {
+      "id": "cs-221:0",
+      "unit_id": "cs-221",
+      "text": "คพ.221 โครงสร้างและระบบคอมพิวเตอร์เบื้องต้น 3 (3-0-6)\nคพ.221 โครงสร้างและระบบคอมพิวเตอร์เบื้องต้น 3 (3-0-6) CS 221 Introduction to Computer System and Organization วิชาบังคับก่อน: เคยศึกษา คพ.101 หรือ เคยศึกษา คป.200 โครงสร้างและสถาปัตยกรรมคอมพิวเตอร์ การออกแบบหน่วยประมวลผลและระบบคอมพิวเตอร์ที่มีประสิทธิภาพ สมรรถนะของระบบคอมพิวเตอร์ ระบบแทนข้อมูลและการจัดการข้อมูลแบบครบหน่วย ลำดับขั้นของหน่วยความจำในระบบคอมพิวเตอร์ ไพพ์ไลนิง การจัดลำดับงานแบบสถิตและแบบพลวัตร การประมวลผลซูเปอร์สเกลาและเวกเตอร์ แคช สถาปัตยกรรมชุดคำสั่งเครื่อง มัลติโพรเซสเซอร์ และสถาปัตยกรรมทางเลือกอื่น Prerequisite: Have taken CS 101 or Have taken AM 200 Structure and architecture",
+      "start": 0,
+      "end": 599
+    },
+    {
+      "id": "cs-221:1",
+      "unit_id": "cs-221",
+      "text": "คพ.221 โครงสร้างและระบบคอมพิวเตอร์เบื้องต้น 3 (3-0-6)\nite: Have taken CS 101 or Have taken AM 200 Structure and architecture of digital computers, concepts in designing efficient computer processors and computer systems, computer system efficiency, data representation and manipulation of atomic data, memory hierarchy, pipelining, static and dynamic scheduling, superscalar and vector executions, cache, machine instruction architecture, multi-processors, contemporary architecture.",
+      "start": 529,
+      "end": 958
+    },
+    {
+      "id": "cs-222:0",
+      "unit_id": "cs-222",
+      "text": "คพ.222 ระบบปฏิบัติการ 3 (3-0-6)\nคพ.222 ระบบปฏิบัติการ 3 (3-0-6) CS 222 Operating Systems วิชาบังคับก่อน: เคยศึกษา คพ.221 แนวคิดพื้นฐานการออกแบบและการสร้างระบบปฏิบัติการ องค์ประกอบและโครงสร้างของระบบปฏิบัติการ สภาพแวดล้อมแบบคอมมานด์ไลน์ การจัดการโปรเซส การจัดลำดับการประมวลผลของซีพียู การจัดการหน่วยความจำ การจัดการระบบไฟล์ การจัดการอุปกรณ์ ภาวะทำงานพร้อมกันและการประสานจังหวะ ความปลอดภัยระบบคอมพิวเตอร์ กรณีศึกษา Prerequisite: Have taken CS 221 Basic concepts of operating systems design and implementation, operating system structure and components, command line environment, process management, cpu scheduling, memory management,",
+      "start": 0,
+      "end": 599
+    },
+    {
+      "id": "cs-222:1",
+      "unit_id": "cs-222",
+      "text": "คพ.222 ระบบปฏิบัติการ 3 (3-0-6)\nne environment, process management, cpu scheduling, memory management, file management, device management, concurrency and synchronization, computer security and case studies.",
+      "start": 529,
+      "end": 704
+    },
+    {
+      "id": "cs-223:0",
+      "unit_id": "cs-223",
+      "text": "คพ.223 เทคโนโลยีจำลองสภาพแวดล้อมเสมือน 3 (3-0-6)\nคพ.223 เทคโนโลยีจำลองสภาพแวดล้อมเสมือน 3 (3-0-6) CS 223 Virtualization Technology วิชาบังคับก่อน: เคยศึกษา คพ.222 หรือ เคยศึกษา คพ.233 แนวคิดพื้นฐานเกี่ยวกับการจำลองสภาพแวดล้อมเสมือน การจำลองสภาพแวดล้อมเสมือนแบบไฮเปอร์ไวเซอร์ เทคโนโลยีเครื่องเสมือน การจำลองสภาพแวดล้อมเสมือนแบบคอนเทนเนอร์ เทคโนโลยีคอนเทนเนอร์ เครือข่ายเสมือน การจัดการและประสานการทำงาน Prerequisite: Have taken CS 222 or Have taken CS 233 Basic concepts of virtualization, hypervisor-based virtualization, virtual machine technology, container-based virtualization, container technology, virtual network, orchestration.",
+      "start": 0,
+      "end": 586
+    },
+    {
+      "id": "cs-224:0",
+      "unit_id": "cs-224",
+      "text": "คพ.224 การดูแลและติดตามประสิทธิภาพระบบปฏิบัติการลีนุกซ์ 3 (3-0-6)\nคพ.224 การดูแลและติดตามประสิทธิภาพระบบปฏิบัติการลีนุกซ์ 3 (3-0-6) CS 224 Linux Administration and Performance Monitoring วิชาบังคับก่อน: เคยศึกษา หรือ ศึกษาพร้อมกับ คพ.222 หรือ เคยศึกษา หรือ ศึกษาพร้อมกับ คพ.233 ลีนุกซ์คอมมานด์ไลน์ การติดตั้งและปรับค่าซอฟต์แวร์ ผู้ใช้และกลุ่มผู้ใช้ การจัดการอุปกรณ์สำรองข้อมูล การตั้งค่าเครือข่ายและไฟร์วอล การจัดการและป้องกันความปลอดภัยระบบไฟล์ การเขียนเชลล์สคริปต์ การติดตามประสิทธิภาพ การแก้ไขปัญหาระบบ Prerequisite: Have taken or Study with CS 222 or Have taken or Study with CS 233 Linux command line, software installation and configuration, users and groups,",
+      "start": 0,
+      "end": 599
+    },
+    {
+      "id": "cs-224:1",
+      "unit_id": "cs-224",
+      "text": "คพ.224 การดูแลและติดตามประสิทธิภาพระบบปฏิบัติการลีนุกซ์ 3 (3-0-6)\nmmand line, software installation and configuration, users and groups, managing storages, network and firewall configuration, managing and securing file systems, shell scripting, performance monitoring, system problem troubleshooting.",
+      "start": 529,
+      "end": 763
+    },
+    {
+      "id": "cs-232:0",
+      "unit_id": "cs-232",
+      "text": "คพ.232 เทคโนโลยีกลุ่มเมฆเบื้องต้น 3 (3-0-6)\nคพ.232 เทคโนโลยีกลุ่มเมฆเบื้องต้น 3 (3-0-6) CS 232 Introduction to Cloud Computing Technology วิชาบังคับก่อน: เคยศึกษา หรือ ศึกษาพร้อมกับ คพ.222 หรือ เคยศึกษา คพ.233 คุณลักษณะของการประมวลผลแบบกลุ่มเมฆ รูปแบบการให้บริการของการประมวลผลแบบกลุ่มเมฆ เช่น ไอเอเอเอส พีเอเอเอส และเอสเอเอเอส ทักษะการพัฒนาแอปพลิเคชันเพื่อให้บริการผ่านเทคโนโลยีกลุ่มเมฆ การรักษาความปลอดภัยบนกลุ่มเมฆ Prerequisite: Have taken or Study with CS 222 or Have taken CS 233 Cloud computing concepts and characteristics, cloud computing service models e.g. Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and",
+      "start": 0,
+      "end": 592
+    },
+    {
+      "id": "cs-232:1",
+      "unit_id": "cs-232",
+      "text": "คพ.232 เทคโนโลยีกลุ่มเมฆเบื้องต้น 3 (3-0-6)\n Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and software as a service (SaaS), cloud application development, cloud security.",
+      "start": 522,
+      "end": 669
+    },
+    {
+      "id": "cs-233:0",
+      "unit_id": "cs-233",
+      "text": "คพ.233 สถาปัตยกรรมคอมพิวเตอร์และระบบปฏิบัติการ 3 (3-0-6)\nคพ.233 สถาปัตยกรรมคอมพิวเตอร์และระบบปฏิบัติการ 3 (3-0-6) CS 233 Computer Architecture and Operating Systems วิชาบังคับก่อน: เคยศึกษา คพ.101 หรือ เคยศึกษา คป.200 สถาปัตยกรรมชุดคําสั่ง การประมวลผลแบบสายท่อ มัลติโพรเซสเซอร์ การจัดการหน่วยความจํา แคชและการ จัดระบบหน่วยความจําเสมือน การประสานเวลาของโปรเซส การจัดตารางซีพียู มัลติเธรดดิ้ง ระบบไฟล์ การควบคุมอินพุตเอาต์พุตและอุปกรณ์ Prerequisite: Have taken CS 101 or Have taken AM 200 Instruction set architectures (ISA), pipeline processing, multiprocessors, memory management, cache and virtual memory organization, process synchronization, CPU",
+      "start": 0,
+      "end": 591
+    },
+    {
+      "id": "cs-233:1",
+      "unit_id": "cs-233",
+      "text": "คพ.233 สถาปัตยกรรมคอมพิวเตอร์และระบบปฏิบัติการ 3 (3-0-6)\nt, cache and virtual memory organization, process synchronization, CPU scheduling, multithreading, file system, input/output control and devices.",
+      "start": 521,
+      "end": 666
+    },
+    {
+      "id": "cs-234:0",
+      "unit_id": "cs-234",
+      "text": "คพ.234 เครือข่ายคอมพิวเตอร์และความปลอดภัยทางไซเบอร์ 3 (3-0-6)\nคพ.234 เครือข่ายคอมพิวเตอร์และความปลอดภัยทางไซเบอร์ 3 (3-0-6) CS 234 Computer Network and Cyber-Security วิชาบังคับก่อน: เคยศึกษา คพ.233 แนวคิดและคำศัพท์ด้านความปลอดภัย เครื่องมือรักษาความปลอดภัย: การพิสูจน์ตัวตน การควบคุมการเข้าถึงและการเข้ารหัส องค์ประกอบพื้นฐานของเครือข่าย ลำดับขั้นอินเทอร์เน็ตและโปรโตคอล การโจมตีทางไซเบอร์และการป้องกัน ความปลอดภัยของเว็บและอีเมล์ Prerequisite: Have taken CS 233 Security concepts and terminology, security tools: authentication, access control and cryptography, basic network components, Internet layer and protocol, cyber attack and defence, web and email",
+      "start": 0,
+      "end": 596
+    },
+    {
+      "id": "cs-234:1",
+      "unit_id": "cs-234",
+      "text": "คพ.234 เครือข่ายคอมพิวเตอร์และความปลอดภัยทางไซเบอร์ 3 (3-0-6)\n, Internet layer and protocol, cyber attack and defence, web and email security.",
+      "start": 526,
+      "end": 606
+    },
+    {
+      "id": "cs-240:0",
+      "unit_id": "cs-240",
+      "text": "คพ.240 หลักการวิทยาการข้อมูล 3 (3-0-6)\nคพ.240 หลักการวิทยาการข้อมูล 3 (3-0-6) CS 240 Principles of Data Science หลักการพื้นฐานของวิทยาการข้อมูลที่เกี่ยวข้องกับอัลกอริทึม กระบวนการ วิธีการและหลักการคิด รวมทั้งเครื่องมือที่ใช้ในการวิเคราะห์ข้อมูล หัวข้อพื้นฐานในวิทยาการข้อมูล ได้แก่ การจัดการข้อมูล การวิเคราะห์ข้อมูลเชิงสถิติ และเชิงการเรียนรู้ของเครื่องจักร การนำเสนอข้อมูลด้วยทัศนสารสนเทศและการทำงานกับข้อมูลขนาดใหญ่ Fundamental principles of data science including algorithms, processes, methods, data-analytic thinking and tools to support problem-focused data-analytic thinking. Introduction to topics in data science: data",
+      "start": 0,
+      "end": 589
+    },
+    {
+      "id": "cs-240:1",
+      "unit_id": "cs-240",
+      "text": "คพ.240 หลักการวิทยาการข้อมูล 3 (3-0-6)\nd data-analytic thinking. Introduction to topics in data science: data manipulation, data analysis with statistics and machine learning, data communication with information visualization, and data at scale.",
+      "start": 519,
+      "end": 725
+    },
+    {
+      "id": "cs-241:0",
+      "unit_id": "cs-241",
+      "text": "คพ.241 ภาษาโปรแกรมและกรอบความคิด 3 (3-0-6)\nคพ.241 ภาษาโปรแกรมและกรอบความคิด 3 (3-0-6) CS 241 Programming Languages and Paradigms วิชาบังคับก่อน: เคยศึกษา คพ.111 หลักการของภาษาโปรแกรม ไวยากรณ์และวากยะสัมพันธ์ ศึกษากรอบแนวคิดของภาษาโปรแกรมประเภทต่างๆ การโปรแกรมโดยคำนึงถึงสมรรถนะ การโปรแกรมโดยอาศัยส่วนต่อประสานโปรแกรมประยุกต์ ไลบรารี่สำหรับจัดการข้อมูล และการโปรแกรมเชิงเหตุการณ์ Prerequisite: Have taken CS 111 Principles of programming languages, syntax and semantics. Different programming paradigms, performance-aware programming. Programming using Application Programming Interface (API), library for data manipulation event-driven",
+      "start": 0,
+      "end": 592
+    },
+    {
+      "id": "cs-241:1",
+      "unit_id": "cs-241",
+      "text": "คพ.241 ภาษาโปรแกรมและกรอบความคิด 3 (3-0-6)\nrogramming Interface (API), library for data manipulation event-driven programming.",
+      "start": 522,
+      "end": 605
+    },
+    {
+      "id": "cs-242:0",
+      "unit_id": "cs-242",
+      "text": "คพ.242 ภาษาไพทอนและการประยุกต์ 3 (3-0-6)\nคพ.242 ภาษาไพทอนและการประยุกต์ 3 (3-0-6) CS 242 Python Programming and Applications วิชาบังคับก่อน: เคยศึกษา คพ.240 แนะนำทักษะการเขียนโปรแกรม การแก้ปัญหา และการคิดอัลกอริทึมในภาษาไพทอน หัวข้อรวมถึงตัวแปร อินพุต/เอาต์พุต คำสั่งเงื่อนไข นิพจน์บูลีน โครงสร้างการควบคุม ฟังก์ชัน และประเภทข้อมูลบิวด์อินในภาษา ศึกษาการสร้างแอปพลิเคชันด้วยภาษาไพทอนและไลบรารียอดนิยม ในสาขาวิทยาการข้อมูล หรือเครือข่าย หรือการพัฒนาเว็บ มีการฝึกปฏิบัติผ่านการทำโครงงาน Prerequisite: Have taken CS 240 Introduces the skills of programming, problem solving and algorithmic thinking in Python. Topics include variables,",
+      "start": 0,
+      "end": 591
+    },
+    {
+      "id": "cs-242:1",
+      "unit_id": "cs-242",
+      "text": "คพ.242 ภาษาไพทอนและการประยุกต์ 3 (3-0-6)\n solving and algorithmic thinking in Python. Topics include variables, input/output, conditional statements, boolean expressions, control structures, functions and build-in data types . Learn to build applications with Python programming and its popular libraries in the field of data science, or network or web development. Practice through assigned project.",
+      "start": 521,
+      "end": 880
+    },
+    {
+      "id": "cs-246:0",
+      "unit_id": "cs-246",
+      "text": "คพ.246 การแสดงข้อมูล 3 (3-0-6)\nคพ.246 การแสดงข้อมูล 3 (3-0-6) CS 246 Data Visualization วิชาบังคับก่อน: เคยศึกษา คพ.240 หรือ ศึกษาพร้อมกับ คพ.240 ทฤษฎีและเทคนิคในการแสดงข้อมูล หลักการออกแบบ พัฒนาและการประเมินการแสดงข้อมูล การได้มา การแยก และการวิเคราะห์ข้อมูลขนาดใหญ่ เทคนิคและเครื่องมือสำหรับแสดงข้อมูลในรูปแบบต่างๆ เพื่อสื่อสารสิ่งที่ค้นพบหรือคำตอบของปัญหาสำหรับสนับสนุนการตัดสินใจ Prerequisite: Have taken CS 240 or Study with CS 240 Key visualization techniques and theory. The design, implementation and evaluation of complementary visual and verbal representations of patterns. How to acquire, parse, and analyze large",
+      "start": 0,
+      "end": 593
+    },
+    {
+      "id": "cs-246:1",
+      "unit_id": "cs-246",
+      "text": "คพ.246 การแสดงข้อมูล 3 (3-0-6)\n representations of patterns. How to acquire, parse, and analyze large datasets in order to convey findings answer questions, drive decisions, and provide persuasive evidence supported by data.",
+      "start": 523,
+      "end": 716
+    },
+    {
+      "id": "cs-251:0",
+      "unit_id": "cs-251",
+      "text": "คพ.251 ระบบฐานข้อมูล 1 3 (3-0-6)\nคพ.251 ระบบฐานข้อมูล 1 3 (3-0-6) CS 251 Database Systems 1 วิชาบังคับก่อน: เคยศึกษา คพ.213 หรือ เคยศึกษา คพ.216 แนวคิดพื้นฐานและสถาปัตยกรรมของระบบฐานข้อมูล การจำลองข้อมูลเชิงแนวคิด การออกแบบฐานข้อมูลและการทำให้เกิดผล ภาษาสอบถาม เมตาเดตา การจัดระเบียบแฟ้มและหน่วยเก็บข้อมูลเชิงกายภาพ แนะนำการจัดการรายการเปลี่ยนแปลง มีฝึกปฏิบัตินอกเวลา Prerequisite: Have taken CS 213 or Have taken CS216 Fundamental database concepts and architecture, conceptual data models, design and implementation, query languages, metadata, physical data storage, file organizations, and introduction to transaction management.",
+      "start": 0,
+      "end": 599
+    },
+    {
+      "id": "cs-255:0",
+      "unit_id": "cs-255",
+      "text": "คพ.255 การเขียนโปรแกรมสำหรับธุรกิจ 3 (3-0-6)\nคพ.255 การเขียนโปรแกรมสำหรับธุรกิจ 3 (3-0-6) CS 255 Computer Programming for Business วิชาบังคับก่อน: เคยศึกษา คพ.102 หรือ เคยศึกษา คพ.103 การแก้ปัญหาทางธุรกิจแบบเบื้องต้นด้วยวิธีการทางคอมพิวเตอร์ การออกแบบและพัฒนาอัลกอริทึมด้วยเทคนิคและเครื่องมือทางคอมพิวเตอร์ที่เหมาะสมกับปัญหาทางธุรกิจ การทดสอบ และตรวจหาข้อผิดพลาด การพัฒนาส่วนต่อประสานผู้ใช้เชิงกราฟิกเบื้องต้น การพัฒนาโปรแกรมเชิงเหตุการณ์ Prerequisite: Have taken CS 102 or Have taken CS 103 Computer programming to solve business problems, algorithm design and implementation via programming paradigm and tools suitable for business problems",
+      "start": 0,
+      "end": 597
+    },
+    {
+      "id": "cs-255:1",
+      "unit_id": "cs-255",
+      "text": "คพ.255 การเขียนโปรแกรมสำหรับธุรกิจ 3 (3-0-6)\ntion via programming paradigm and tools suitable for business problems domain, testing and debugging, basic graphical user interface development, event-driven programming.",
+      "start": 527,
+      "end": 698
+    },
+    {
+      "id": "cs-261:0",
+      "unit_id": "cs-261",
+      "text": "คพ.261 วิศวกรรมซอฟต์แวร์เบื้องต้น 3 (3-0-6)\nคพ.261 วิศวกรรมซอฟต์แวร์เบื้องต้น 3 (3-0-6) CS 261 Introduction to Software Engineering วิชาบังคับก่อน: เคยศึกษา คพ.111 คุณลักษณะซอฟต์แวร์ คุณภาพของซอฟต์แวร์และโครงการซอฟต์แวร์ หลักการของวิศวกรรมซอฟต์แวร์ ระเบียบวิธีในการพัฒนาซอฟต์แวร์ กระบวนการพัฒนาซอฟต์แวร์ที่สำคัญ การวางแผนและจัดการโครงการ การประเมินเวลาและค่าใช้จ่าย วิเคราะห์และการระบุข้อกำหนด เทคนิคการวิเคราะห์และออกแบบซอฟต์แวร์ แนะนำสถาปัตยกรรมซอฟต์แวร์ เทคนิคการพัฒนาโปรแกรม การตรวจสอบและการทวนสอบซอฟต์แวร์ วิวัฒนาการของซอฟต์แวร์ สภาพแวดล้อมการผลิตซอฟต์แวร์และเครื่องมือช่วยจัดการโครงการ กรณีศึกษา มีฝึกปฏิบัตินอกเวลา Prerequisite: Have",
+      "start": 0,
+      "end": 596
+    },
+    {
+      "id": "cs-261:1",
+      "unit_id": "cs-261",
+      "text": "คพ.261 วิศวกรรมซอฟต์แวร์เบื้องต้น 3 (3-0-6)\nงมือช่วยจัดการโครงการ กรณีศึกษา มีฝึกปฏิบัตินอกเวลา Prerequisite: Have taken CS 111 Fundamental of software engineering principles, software development methodology, software process models, basics of software project planning and project management, basics of time and cost estimation, requirement elicitation and specification, software analysis and design, concept of software architecture, software construction techniques including design pattern, component-oriented development, basics of verification and validation, software evolution, software development environment, and sample of CASE",
+      "start": 526,
+      "end": 1122
+    },
+    {
+      "id": "cs-261:2",
+      "unit_id": "cs-261",
+      "text": "คพ.261 วิศวกรรมซอฟต์แวร์เบื้องต้น 3 (3-0-6)\nftware evolution, software development environment, and sample of CASE tools.",
+      "start": 1052,
+      "end": 1129
+    },
+    {
+      "id": "cs-262:0",
+      "unit_id": "cs-262",
+      "text": "คพ.262 การทดสอบซอฟต์แวร์เบื้องต้น 3 (3-0-6)\nคพ.262 การทดสอบซอฟต์แวร์เบื้องต้น 3 (3-0-6) CS 262 Introduction to Software Testing วิชาบังคับก่อน: เคยศึกษา คพ.111 แนวคิดการทดสอบและการประกันคุณภาพซอฟต์แวร์ เทคนิคการสร้างข้อมูลการทดสอบแบบแบลคบอกซ์และไวท์บอกซ์ การทดสอบซอฟต์แวร์ในระดับยูนิต โมดูล ระบบย่อย และทั้งระบบ กระบวนการทดสอบและการวางแผนการทดสอบซอฟต์แวร์ Prerequisite: Have taken CS 111 Software testing and quality assurance concepts, test data generation using white-box and black-box techniques, software testing at unit, module, sub-system, and system levels, and software testing process and planning.",
+      "start": 0,
+      "end": 563
+    },
+    {
+      "id": "cs-263:0",
+      "unit_id": "cs-263",
+      "text": "คพ.263 การกำหนดความต้องการทางซอฟต์แวร์ 3 (3-0-6)\nคพ.263 การกำหนดความต้องการทางซอฟต์แวร์ 3 (3-0-6) CS 263 Software Requirement Specification วิชาบังคับก่อน: เคยศึกษา คพ.261 กระบวนการในการหาความต้องการในหลายรูปแบบ ได้แก่ การสืบค้น การวิเคราะห์ การหาข้อตกลง การระบุข้อกำหนด การทวนสอบ ศึกษาระเบียบวิธี แนะนำเทคนิคและเครื่องมือที่จะนำไปใช้เพื่อนิยาม สร้างเอกสาร และประกันความพึงพอใจของลูกค้า Prerequisite: Have taken CS 261 Quantify many aspects of requirement processes include eliciting, analyzing, negotiating, specifying, validating, introducing methods, techniques and tools used to define, document and ensure customer satisfaction.",
+      "start": 0,
+      "end": 584
+    },
+    {
+      "id": "cs-264:0",
+      "unit_id": "cs-264",
+      "text": "คพ.264 ความปลอดภัยทางซอฟต์แวร์และความเป็นส่วนตัวของข้อมูล 3 (3-0-6)\nคพ.264 ความปลอดภัยทางซอฟต์แวร์และความเป็นส่วนตัวของข้อมูล 3 (3-0-6) CS 264 Software Security and Data Privacy วิชาบังคับก่อน: เคยศึกษา คพ.222 หรือ เคยศึกษา คพ.233 ความปลอดภัยของซอฟต์แวร์ขั้นพื้นฐาน ช่องโหว่และการโจมตีของซอฟต์แวร์ การเขียนโปรแกรมอย่างปลอดภัย โปรแกรมประสงค์ร้าย รวมถึงการป้องกันและการจำกัดขอบเขต ความปลอดภัยของระบบปฏิบัติการและฐานข้อมูล ความเป็นส่วนตัวของข้อมูลและการไม่เปิดเผยตัวตน Prerequisite: Have taken CS 222 or Have taken CS 233 Basic software security, software vulnerabilities and attacks, security programming, malwares including protection and confinement, operating system",
+      "start": 0,
+      "end": 599
+    },
+    {
+      "id": "cs-264:1",
+      "unit_id": "cs-264",
+      "text": "คพ.264 ความปลอดภัยทางซอฟต์แวร์และความเป็นส่วนตัวของข้อมูล 3 (3-0-6)\nmming, malwares including protection and confinement, operating system and database security, data privacy and anonymity.",
+      "start": 529,
+      "end": 650
+    },
+    {
+      "id": "cs-265:0",
+      "unit_id": "cs-265",
+      "text": "คพ.265 การพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพาเบื้องต้น 3 (3-0-6)\nคพ.265 การพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพาเบื้องต้น 3 (3-0-6) CS 265 Basic Mobile Development ภาพรวมการพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพา ข้อจำกัดและความต้องการในการออกแบบส่วนต่อประสานผู้ใช้สำหรับอุปกรณ์ที่มีทรัพยากรจำกัด การออกแบบเพื่อรองรับส่วนต่อประสานผู้ใช้ที่หลากหลาย แนวคิดโดยรวม ปัญหาการออกแบบ และขั้นตอนการพัฒนาในทางปฏิบัติ Developing landscape of mobile applications, the specific constraints and requirements of user interface design for limited-resource devices, providing alternative resources, conceptual overview, design issues, and practical development issues.",
+      "start": 0,
+      "end": 584
+    },
+    {
+      "id": "cs-271:0",
+      "unit_id": "cs-271",
+      "text": "คพ.271 ปัญญาประดิษฐ์เบื้องต้น 3 (3-0-6)\nคพ.271 ปัญญาประดิษฐ์เบื้องต้น 3 (3-0-6) CS 271 Artificial Intelligence Fundamentals วิชาบังคับก่อน: เคยศึกษา คพ.213 หรือ เคยศึกษา คพ.216 ปัญหาทางปัญญาประดิษฐ์ การแทนความรู้ การค้นหาแบบไม่มีข้อมูล การค้นหาแบบมีข้อมูล ปัญหาการทําตามเงื่อนไข ตรรกศาสตร์และการให้เหตุผลอัตโนมัติ การค้นหาเชิงปฏิปักษ์ การเรียนรู้ของเครื่องจักรเบื้องต้น Prerequisite: Have taken CS 213 or Have taken CS 216 Problems in artificial intelligent systems, knowledge representation, uniform search, inform search, constraint satisfaction problems, logics and automatic reasoning, adversarial search, introduction to machine",
+      "start": 0,
+      "end": 593
+    },
+    {
+      "id": "cs-271:1",
+      "unit_id": "cs-271",
+      "text": "คพ.271 ปัญญาประดิษฐ์เบื้องต้น 3 (3-0-6)\ns and automatic reasoning, adversarial search, introduction to machine learning.",
+      "start": 523,
+      "end": 603
+    },
+    {
+      "id": "cs-285:0",
+      "unit_id": "cs-285",
+      "text": "คพ.285 การประมวลสารสนเทศของมนุษย์ 3 (3-0-6)\nคพ.285 การประมวลสารสนเทศของมนุษย์ 3 (3-0-6) CS 285 Human Information Processing งานวิจัยและทฤษฎีเบื้องต้นเกี่ยวกับการประมวลผลสารสนเทศของมนุษย์ ความใส่ใจ การรู้จำแบบ ความจำ การแทนองค์ความรู้และภาษา กระบวนการแก้ไขปัญหา กระบวนการหาเหตุผล และกระบวนการเรียนรู้ ความสัมพันธ์ระหว่างกระบวนการรู้จำของมนุษย์กับต้นแบบทางคอมพิวเตอร์ และการประมวลนัยสำคัญของเนื้อหาเกี่ยวกับการรู้จำเพื่อสร้างระบบสารสนเทศ Introduction to research and theory on topics in human information processing including perception, attention, pattern recognition, memory, representation of knowledge, language, problem solving, reasoning,",
+      "start": 0,
+      "end": 598
+    },
+    {
+      "id": "cs-285:1",
+      "unit_id": "cs-285",
+      "text": "คพ.285 การประมวลสารสนเทศของมนุษย์ 3 (3-0-6)\nry, representation of knowledge, language, problem solving, reasoning, and learning, with emphasis on the relationship to computer models of these processes and implications of this body of knowledge for building information systems.",
+      "start": 528,
+      "end": 761
+    },
+    {
+      "id": "cs-287:0",
+      "unit_id": "cs-287",
+      "text": "คพ.287\nคพ.287 CS 287 การออกแบบสุนทรียภาพทางทัศนะ Visual Design 3 (3-0-6) วิชาบังคับก่อน: เคยศึกษา หรือ ศึกษาพร้อมกับ คพ.180 Prerequisite: ความเข้าใจแบบองค์รวมของสุนทรียภาพทางทัศนะ แนวคิดเชิงทฤษฎีและเชิงปฏิบัติของการออกแบบสุนทรียภาพทางทัศนะ การทำความเข้าใจผู้ใช้ หลักการออกแบบ หลักองค์ประกอบการออกแบบ ทฤษฎีสี การออกแบบตัวอักษร ระบบกริด เครื่องมือออกแบบสุนทรียภาพทางทัศนะ Have taken or Study with CS 180 Holistic understanding of visual design, theoretical and practical concepts of visual design, user research, design principles, composition principles, color theory, typography, grid system, visual design",
+      "start": 0,
+      "end": 599
+    },
+    {
+      "id": "cs-287:1",
+      "unit_id": "cs-287",
+      "text": "คพ.287\nition principles, color theory, typography, grid system, visual design tools.",
+      "start": 529,
+      "end": 606
+    },
+    {
+      "id": "cs-299:0",
+      "unit_id": "cs-299",
+      "text": "คพ.299 คอมพิวเตอร์กราฟิก 3 (3-0-6)\nคพ.299 คอมพิวเตอร์กราฟิก 3 (3-0-6) CS 299 Computer Graphics วิชาบังคับก่อน: เคยศึกษา คพ.111 ซอฟต์แวร์และฮาร์ดแวร์สำหรับคอมพิวเตอร์กราฟิกแบบโต้ตอบ วิธีการทั่วไปที่ใช้ในการออกแบบและแสดงผลภาพ การดำเนินการพื้นฐานในปริภูมิ 2 มิติและ 3 มิติ การแปลงในระบบเรขาคณิต การแปลงจุดหรือตำแหน่งที่มองเห็น การตัดภาพ ทฤษฎีสี Prerequisite: Have taken CS 111 Software and hardware principles of interactive graphics, general methods for designing and displaying output, elementary operations in two-and three-dimensional space, transformational geometry, viewing transformations, clipping, color theory.",
+      "start": 0,
+      "end": 583
+    },
+    {
+      "id": "cs-301:0",
+      "unit_id": "cs-301",
+      "text": "คพ.301 การเตรียมความพร้อมสำหรับโครงงานพิเศษและสหกิจศึกษา 3 (3-0-6)\nคพ.301 การเตรียมความพร้อมสำหรับโครงงานพิเศษและสหกิจศึกษา 3 (3-0-6) CS 301 Preparation for Senior Projects and Co-operative Education วิชาบังคับก่อน: เคยศึกษา คพ.251 ฝึกทักษะที่จำเป็นต้องใช้ในการทำงานทั้งด้านวิชาการและภาคธุรกิจ การเขียนใบสมัครงาน การเขียนประวัติ การสัมภาษณ์ การคิดเชิงวิพากษ์ การสืบค้นข้อมูลเพื่อประกอบการทำงาน การทำงานเป็นทีมในการพัฒนาซอฟต์แวร์ การเขียนรายงานและการอ้างอิง การนำเสนอ รวมถึงเทคนิคการเจรจาสื่อสารภายในองค์กร Prerequisite: Have taken CS 251 Preparing students technical professional skills, application and resume writing, interview, critical thinking, searching",
+      "start": 0,
+      "end": 592
+    },
+    {
+      "id": "cs-301:1",
+      "unit_id": "cs-301",
+      "text": "คพ.301 การเตรียมความพร้อมสำหรับโครงงานพิเศษและสหกิจศึกษา 3 (3-0-6)\npplication and resume writing, interview, critical thinking, searching techniques, teamwork, collaboration in software development teams, professional report writing, academic writing styles, citation and bibliography, presentation techniques, and organization communication.",
+      "start": 522,
+      "end": 797
+    },
+    {
+      "id": "cs-303:0",
+      "unit_id": "cs-303",
+      "text": "คพ.303 โครงงานพิเศษ 1 2 (0-6-0)\nคพ.303 โครงงานพิเศษ 1 2 (0-6-0) CS 303 Special Projects 1 วิชาบังคับก่อน: สอบได้ คพ.301 โครงงานการศึกษาจะกำหนดหรือได้รับอนุมัติจากสาขาวิชา ศึกษาหัวข้อทางวิชาการ โดยมีวัตถุประสงค์ให้นักศึกษาค้นคว้าทางวิชาการ เขียนรายงาน และเสนอต่อคณะกรรมการ Prerequisite: Have earned credits of CS 301 Senior Projects will be assigned or approved by the department. This course prepares students for developing a proposal for doing research, writing research papers, and presenting the proposal to the committee.",
+      "start": 0,
+      "end": 494
+    },
+    {
+      "id": "cs-304:0",
+      "unit_id": "cs-304",
+      "text": "คพ.304 สหกิจศึกษา 1 2 (0-6-0)\nคพ.304 สหกิจศึกษา 1 2 (0-6-0) CS 304 Co-operative Education 1 วิชาบังคับก่อน: สอบได้ คพ.301 การปฏิบัติงานที่ได้รับมอบหมายจากสถานประกอบการที่ได้รับความเห็นชอบจากสาขาวิชา โดยนักศึกษาต้องนำความรู้ทางวิชาการที่ได้เรียนไปประยุกต์ใช้และฝึกทักษะในภาวะแวดล้อมการทำงานจริง ภายใต้การกำกับดูแลของสถานประกอบการนั้น โดยต้องแสดงงานที่ได้รับมอบหมายอย่างชัดเจน พร้อมทั้งแนวคิดที่ใช้ในการออกแบบ พัฒนาและประยุกต์ เมื่อเสร็จสิ้นโครงงานแล้วต้องจัดส่งผลงานในรูปแบบของรายงานตามที่สาขาวิชากำหนด Prerequisite: Have earned credits of CS 301 Supervised practical training on the given assignments from authorized body from",
+      "start": 0,
+      "end": 596
+    },
+    {
+      "id": "cs-304:1",
+      "unit_id": "cs-304",
+      "text": "คพ.304 สหกิจศึกษา 1 2 (0-6-0)\n practical training on the given assignments from authorized body from the faculty. Student must show the capability in implementation of knowledge and skill in the actual working environmemt. Written report of design, development, and implementation must be submitted the end of practical period.",
+      "start": 526,
+      "end": 823
+    },
+    {
+      "id": "cs-305:0",
+      "unit_id": "cs-305",
+      "text": "คพ.305 จรรยาบรรณทางวิชาชีพและเชิงสังคม 3 (3-0-6)\nคพ.305 จรรยาบรรณทางวิชาชีพและเชิงสังคม 3 (3-0-6) CS 305 วิชาบังคับก่อน: Social and Professional Ethics เคยศึกษา หรือ ศึกษาพร้อมกับ คพ.301 บริบททางสังคมของระบบคอมพิวเตอร์ วิธีการและเครื่องมือในการวิเคราะห์ ความรับผิดชอบและ จรรยาบรรณทางวิชาชีพ กฎหมายทรัพย์สินทางปัญญา การยอมรับความเสี่ยงและการชดใช้ต่อระบบคอมพิวเตอร์ การละเมิดทรัพย์สินทางปัญญา การละเมิดสิทธิส่วนบุคคล อาชญากรรมในระบบคอมพิวเตอร์ Prerequisite: Have taken CS 301 Social context of computing, methods and tools of analysis, professional and ethical responsibilities, intellectual property, risks and liabilities of computer-based systems,",
+      "start": 0,
+      "end": 599
+    },
+    {
+      "id": "cs-305:1",
+      "unit_id": "cs-305",
+      "text": "คพ.305 จรรยาบรรณทางวิชาชีพและเชิงสังคม 3 (3-0-6)\nntellectual property, risks and liabilities of computer-based systems, privacy and civil liberties, intellectual property infringement, computer crime in computing.",
+      "start": 529,
+      "end": 693
+    },
+    {
+      "id": "cs-310:0",
+      "unit_id": "cs-310",
+      "text": "คพ.310 หัวข้อเลือกสรรทางวิทยาการคอมพิวเตอร์ 3 (3-0-6)\nคพ.310 หัวข้อเลือกสรรทางวิทยาการคอมพิวเตอร์ 3 (3-0-6) CS 310 Selected Topics in Computer Science วิชาบังคับก่อน: เคยศึกษา คพ.111 หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของวิทยาการคอมพิวเตอร์ ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Prerequisite: Have taken CS 111 Topics selected from areas in Computer Science, keep up with the new technology and knowledge.",
+      "start": 0,
+      "end": 368
+    },
+    {
+      "id": "cs-314:0",
+      "unit_id": "cs-314",
+      "text": "คพ.314 ทฤษฎีออโตมาตา 3 (3-0-6)\nคพ.314 ทฤษฎีออโตมาตา 3 (3-0-6) CS 314 Automata Theory วิชาบังคับก่อน: เคยศึกษา คพ.241 มูลฐานของเครื่องจักรนามธรรมและภาษา ทฤษฎีออโตมาตา นิพจน์แบบเรกูลาร์ ภาษาแบบเรกูลาร์ ออโตมาตาแบบกดลง ภาษาไม่พึ่งบริบท เครื่องจักรทัวริง ปัญหาการหยุด ความสามารถและประสิทธิภาพในการแก้ปัญหาของเครื่องคอมพิวเตอร์ Prerequisite: Have taken CS 241 Fundamentals of abstract machine and language, automata theory, regular expression, regular language, pushdown automata, context-free language, Turing machine, the halting problem, undecidability and intractability.",
+      "start": 0,
+      "end": 539
+    },
+    {
+      "id": "cs-320:0",
+      "unit_id": "cs-320",
+      "text": "คพ.320 หัวข้อเลือกสรรด้านระบบปฏิบัติการ 3 (3-0-6)\nคพ.320 หัวข้อเลือกสรรด้านระบบปฏิบัติการ 3 (3-0-6) CS 320 Selected Topics in Operating Systems วิชาบังคับก่อน: เคยศึกษา คพ.222 หรือ เคยศึกษา คพ.233 หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของระบบปฏิบัติการ ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Prerequisite: Have taken CS 222 or Have taken CS 233 Seminar on current research and development in operating systems.",
+      "start": 0,
+      "end": 373
+    },
+    {
+      "id": "cs-325:0",
+      "unit_id": "cs-325",
+      "text": "คพ.325 อินเทอร์เน็ตของสรรพสิ่งเบื้องต้น 3 (3-0-6)\nคพ.325 อินเทอร์เน็ตของสรรพสิ่งเบื้องต้น 3 (3-0-6) CS 325 Introduction to Internet of Things วิชาบังคับก่อน: เคยศึกษา คพ.221 กรอบความคิดและการประยุกต์ใช้ส่วนรับประสาทสัมผัส เพื่อออกแบบระบบฝังตัวในรูปแบบอินเทอร์เน็ตของสรรพสิ่ง เทคนิคการอ่านค่าจากส่วนรับประสาทสัมผัส การโปรแกรมอินเทอร์รัพท์ การเชื่อมต่อกับแอปพลิเคชัน ระบบสังเกตการณ์ ระบบควบคุมตามเงื่อนไขที่กำหนด Prerequisite: Have taken CS 221 Conceptual framework and application of sensory receptors to design an embedded system as Internet of Things module, techniques for reading values from sensory devices, interrupt programming, integrated",
+      "start": 0,
+      "end": 595
+    },
+    {
+      "id": "cs-325:1",
+      "unit_id": "cs-325",
+      "text": "คพ.325 อินเทอร์เน็ตของสรรพสิ่งเบื้องต้น 3 (3-0-6)\nreading values from sensory devices, interrupt programming, integrated into the software application, monitoring system, control system according to the specified conditions.",
+      "start": 525,
+      "end": 699
+    },
+    {
+      "id": "cs-331:0",
+      "unit_id": "cs-331",
+      "text": "คพ.331 คอมพิวเตอร์เครือข่าย 3 (3-0-6)\nคพ.331 คอมพิวเตอร์เครือข่าย 3 (3-0-6) CS 331 Net-Centric Computing วิชาบังคับก่อน: เคยศึกษา คพ.222 องค์ประกอบหลักและมาตรฐานเครือข่ายสำหรับการโอนถ่ายข้อมูลผ่านระบบเครือข่ายอินเทอร์เน็ต แบบจำลองแบบลำดับขั้นโอเอสไอ แบบจำลองแบบลำดับขั้นทีซีพี/ไอพี หน้าที่หลักของแต่ละลำดับขั้น โปรโตคอลหลักในแต่ละลำดับขั้นและการทำงานร่วมกัน การเขียนโปรแกรมซ็อกเก็ต Prerequisite: Have taken CS 222 Basic network components and major network standards for computer communications via the Internet. The OSI layered model. The TCP/IP layered model. Basic functions of each layer. Major network protocols in each layers and",
+      "start": 0,
+      "end": 597
+    },
+    {
+      "id": "cs-331:1",
+      "unit_id": "cs-331",
+      "text": "คพ.331 คอมพิวเตอร์เครือข่าย 3 (3-0-6)\nic functions of each layer. Major network protocols in each layers and their interoperability, socket programming.",
+      "start": 527,
+      "end": 641
+    },
+    {
+      "id": "cs-332:0",
+      "unit_id": "cs-332",
+      "text": "คพ.332 ความปลอดภัยของระบบคอมพิวเตอร์ 3 (3-0-6)\nคพ.332 ความปลอดภัยของระบบคอมพิวเตอร์ 3 (3-0-6) CS 332 Computer System Security วิชาบังคับก่อน: เคยศึกษา คพ.331 ความปลอดภัยของระบบคอมพิวเตอร์เบื้องต้น ภัยคุกคามและช่องโหว่ การพิสูจน์ตัวตนและการควบคุมการเข้าถึง การเข้ารหัสและลายมือชื่อดิจิทัล ความปลอดภัยของโปรแกรมและโปรแกรมประสงค์ร้าย ความปลอดภัยของระบบปฏิบัติการ ระบบฐานข้อมูล การโจมตีเครือข่ายและการป้องกัน ความปลอดภัยของแอปพลิเคชันบนเครือข่าย ประเด็นด้านกฏหมายและความเป็นส่วนตัว Prerequisite: Have taken CS 331 Introduction to computer system security, threats and vulnerabilities, authentication and access control, cryptography and digital",
+      "start": 0,
+      "end": 593
+    },
+    {
+      "id": "cs-332:1",
+      "unit_id": "cs-332",
+      "text": "คพ.332 ความปลอดภัยของระบบคอมพิวเตอร์ 3 (3-0-6)\nabilities, authentication and access control, cryptography and digital signature, program security and malwares , security in operating system, database system, network attack and defence, netwok application security, legal and privacy issues.",
+      "start": 523,
+      "end": 766
+    },
+    {
+      "id": "cs-335:0",
+      "unit_id": "cs-335",
+      "text": "คพ.335 เครือข่ายคอมพิวเตอร์ภาคปฏิบัติ 3 (3-0-6)\nคพ.335 เครือข่ายคอมพิวเตอร์ภาคปฏิบัติ 3 (3-0-6) CS 335 Practical Computer Networking วิชาบังคับก่อน: สอบได้ คพ.331 ไม่ต่ำกว่าระดับ C ความรู้ขั้นสูงเกี่ยวกับการสื่อสารผ่านเครือข่ายคอมพิวเตอร์ ทักษะการต่อเชื่อมและการตั้งค่าอุปกรณ์ภายในระบบเครือข่าย การตั้งค่าอุปกรณ์เครือข่ายหลักได้แก่ เราท์เตอร์ สวิตช์ และระบบปลายทาง ไอพีโพรโทคอลเวอร์ชัน 6 การจัดแบ่งเลขที่อยู่แบบไอพี เทคนิคการแปลงหมายเลขไอพี (แนท) โพรโทคอลสนับสนุนการตั้งค่ากำหนดที่โฮสต์แบบพลวัตร (ดีเอชซีพี) สวิตช์เน็ตเวิร์ก ข่ายงานบริเวณเฉพาะที่แบบเสมือน การค้นหาเส้นทางระหว่างข่ายงานเฉพาะที่แบบเสมือน โพรโทคอลค้นหาเส้นทาง",
+      "start": 0,
+      "end": 575
+    },
+    {
+      "id": "cs-335:1",
+      "unit_id": "cs-335",
+      "text": "คพ.335 เครือข่ายคอมพิวเตอร์ภาคปฏิบัติ 3 (3-0-6)\nอน การค้นหาเส้นทางระหว่างข่ายงานเฉพาะที่แบบเสมือน โพรโทคอลค้นหาเส้นทาง การป้องกันการโจมตีระบบคอมพิวเตอร์ผ่านทางเครือข่ายเบื้องต้น การควบคุมการผ่านเข้าออก Prerequisite: Passed with Grade of C or higher in CS 331 Advanced knowledge and hands-on experience in computer communications and networking, basic router, switch, and end-host configurations, internet protocol version 6 (Ipv6). IP addressing, network address translation (NAT), dynamic host configuration protocol (DHCP), switched networks, virtual LAN (VLAN), inter VLAN routing, routing protocols, basic network security, access control List",
+      "start": 505,
+      "end": 1104
+    },
+    {
+      "id": "cs-335:2",
+      "unit_id": "cs-335",
+      "text": "คพ.335 เครือข่ายคอมพิวเตอร์ภาคปฏิบัติ 3 (3-0-6)\nouting, routing protocols, basic network security, access control List (ACL).",
+      "start": 1034,
+      "end": 1111
+    },
+    {
+      "id": "cs-336:0",
+      "unit_id": "cs-336",
+      "text": "คพ.336 เทคโนโลยีเครือข่ายไร้สาย 3 (3-0-6)\nคพ.336 เทคโนโลยีเครือข่ายไร้สาย 3 (3-0-6) CS 336 Wireless Network Technology วิชาบังคับก่อน: เคยศึกษา คพ.331 ภาพรวมของการสื่อสารเคลื่อนที่และเครือข่ายไร้สาย พื้นฐานการส่งข้อมูลแบบไร้สาย เทคนิคการควบคุมการเข้าถึงพร้อมกันหลายทาง ระบบโทรศัพท์เคลื่อนที่ เทคโนโลยีของระบบแลนไร้สาย (มาตรฐาน IEEE 802.11) โมบายไอพี เทคโนโลยีบลูทูท เทคโนโลยีซิกบี เทคโนโลยีเซ็นเซอร์ไร้สาย ไวแมกซ์ ความปลอดภัยบนเครือข่ายไร้สาย Prerequisite: Have taken CS 331 Overview of mobile communications and wireless networks, wireless transmission basis, multiple access control techniques, mobile telephone systems, wireless LAN.",
+      "start": 0,
+      "end": 594
+    },
+    {
+      "id": "cs-336:1",
+      "unit_id": "cs-336",
+      "text": "คพ.336 เทคโนโลยีเครือข่ายไร้สาย 3 (3-0-6)\nple access control techniques, mobile telephone systems, wireless LAN. Mobile IP, Bluetooth, zigbee. WiMAX, wireless network security.",
+      "start": 524,
+      "end": 658
+    },
+    {
+      "id": "cs-337:0",
+      "unit_id": "cs-337",
+      "text": "คพ.337 ระบบคลัสเตอร์คอมพิวเตอร์และการประมวลผลแบบกระจายเบื้องต้น 3 (3-0-6)\nคพ.337 ระบบคลัสเตอร์คอมพิวเตอร์และการประมวลผลแบบกระจายเบื้องต้น 3 (3-0-6) CS 337 Introduction to Cluster Computing and Distributed Computing วิชาบังคับก่อน: เคยศึกษา คพ.222 การสร้างระบบคลัสเตอร์หรือบีวูฟ การทดลองสร้างระบบคลัสเตอร์อย่างง่ายๆ การติดตั้งซอฟต์แวร์ที่ใช้สำหรับบริหารจัดการระบบคลัสเตอร์ การมอนิเตอร์ระบบฯ การกำหนดตารางการทำงานของโพรเซสเซอร์ในระบบการบริหารจัดการผู้ใช้ การดูแลระบบคลัสเตอร์ การรักษาความปลอดภัย Prerequisite: Have taken CS 222 Study the construction of Beowulf and cluster computers, building a small cluster, using cluster installation and configuration tools, cluster",
+      "start": 0,
+      "end": 594
+    },
+    {
+      "id": "cs-337:1",
+      "unit_id": "cs-337",
+      "text": "คพ.337 ระบบคลัสเตอร์คอมพิวเตอร์และการประมวลผลแบบกระจายเบื้องต้น 3 (3-0-6)\nl cluster, using cluster installation and configuration tools, cluster monitoring, job scheduling, user management, cluster systems maintenance, security measures and policies.",
+      "start": 524,
+      "end": 700
+    },
+    {
+      "id": "cs-340:0",
+      "unit_id": "cs-340",
+      "text": "คพ.340 หัวข้อเลือกสรรด้านภาษาโปรแกรม 3 (3-0-6)\nคพ.340 หัวข้อเลือกสรรด้านภาษาโปรแกรม 3 (3-0-6) CS 340 Selected Topics in Programming Languages วิชาบังคับก่อน: เคยศึกษา คพ.241 หัวข้อเลือกสรรจาก ความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของภาษาโปรแกรมที่น่าสนใจ ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Prerequisite: Have taken CS 241 Seminar on current research and development in programming languages.",
+      "start": 0,
+      "end": 344
+    },
+    {
+      "id": "cs-341:0",
+      "unit_id": "cs-341",
+      "text": "คพ.341 วิศวกรรมข้อมูลขนาดใหญ่ 3 (3-0-6)\nคพ.341 วิศวกรรมข้อมูลขนาดใหญ่ 3 (3-0-6) CS 341 Big Data Engineering วิชาบังคับก่อน: เคยศึกษา หรือ ศึกษาพร้อมกับ คพ.251 ความท้าทายและระบบนิเวศของข้อมูลขนาดใหญ่ วงจรชีวิตของการวิศวกรรมข้อมูล แหล่งข้อมูลและชนิดข้อมูล การจัดเก็บข้อมูล บัญชีข้อมูล การสร้างดาต้าเลคและดาต้าแวร์เฮาส์ การวางแผนและเตรียมกระบวนการสำหรับดาต้าไปป์ไลน์ รูปแบบอีทีแอล (นำเข้า-จัดระเบียบ-นำไปใช้ประโยชน์) การสืบค้นและประมวลผลข้อมูล การแสดงข้อมูลด้วยภาพ กรณีศึกษา Prerequisite: Have taken or Study with CS 251 Big data challenges and ecosystem, data engineering lifecycle, data sources and types, data storage, data catalog,",
+      "start": 0,
+      "end": 592
+    },
+    {
+      "id": "cs-341:1",
+      "unit_id": "cs-341",
+      "text": "คพ.341 วิศวกรรมข้อมูลขนาดใหญ่ 3 (3-0-6)\nneering lifecycle, data sources and types, data storage, data catalog, building data lake and data warehouse, orchestrating data pipelines, ETL (Extract-Transform- Load) patterns, data query and processing, data visualization, case studies.",
+      "start": 522,
+      "end": 762
+    },
+    {
+      "id": "cs-342:0",
+      "unit_id": "cs-342",
+      "text": "คพ.342 การวิเคราะห์และเทคโนโลยีการตลาดดิจิทัล 3 (3-0-6)\nคพ.342 การวิเคราะห์และเทคโนโลยีการตลาดดิจิทัล 3 (3-0-6) CS 342 Digital Marketing Technology and Analytics วิชาบังคับก่อน: เคยศึกษา คพ.240 พื้นฐานเทคโนโลยีของการตลาดดิจิทัล ประเภทของเทคโนโลยีทางการตลาดและโฆษณา การวัดผลและ KPI ของแผนการตลาด การวางแผนการตลาดดิจิทัล การวิเคราะห์ข้อมูลทางการตลาดด้วยเทคนิคการเรียนรู้ของเครื่อง Prerequisite: Have taken CS 240 Foundations of digital marketing technology, types of marketing/ad technologies, fundamentals of measuring results and KPIs for marketing plans, digital marketing plan, marketing analysis using machine learning techniques.",
+      "start": 0,
+      "end": 577
+    },
+    {
+      "id": "cs-343:0",
+      "unit_id": "cs-343",
+      "text": "คพ.343 การเรียนรู้เชิงลึก 3 (3-0-6)\nคพ.343 การเรียนรู้เชิงลึก 3 (3-0-6) CS 343 Applied Deep Learning วิชาบังคับก่อน: เคยศึกษา คพ.240 การทำความเข้าใจแนวคิดการเรียนรู้ของเครื่องและการเรียนรู้เชิงลึกเบื้องต้น หน่วยการรับรู้ (Perceptron) การเรียนรู้ด้วยโครงข่ายประสาทเทียม การเรียนรู้ด้วยโครงข่ายประสาทเทียมเชิงลึก การเรียนรู้เชิงลึกในแบบต่างๆ ได้แก่ CNN, RNN, LSTM, BM การประยุกต์ใช้การเรียนรู้เชิงลึกกับการเรียนรู้แบบทั้งมีผู้สอนและไม่มีผู้สอนสำหรับการแก้ปัญหาโดยใช้ไลบรารี่การเรียนรู้เชิงลึกในภาษาโปรแกรม (Tensorflow, PyTorch) การทำโครงงานเพื่อแก้ปัญหาหัวข้อที่นักศึกษาสนใจโดยใช้การเรียนรู้เชิงลึก Prerequisite: Have taken CS 240 Basic",
+      "start": 0,
+      "end": 598
+    },
+    {
+      "id": "cs-343:1",
+      "unit_id": "cs-343",
+      "text": "คพ.343 การเรียนรู้เชิงลึก 3 (3-0-6)\nึกษาสนใจโดยใช้การเรียนรู้เชิงลึก Prerequisite: Have taken CS 240 Basic concepts of machine learning and deep learning; Perceptron; Artificial Neural Network; Various types of neural network: Convolution Neural Networks (CNN), Recurrent Neural Networks (RNN), Multilayer Perceptron (MLP), Long-short Term Memory (LSTM), Auto Encoder (AE); Implementing deep learning-based applications in both supervised and unsupervised learning using libraries to solve a selected problem.",
+      "start": 528,
+      "end": 1001
+    },
+    {
+      "id": "cs-345:0",
+      "unit_id": "cs-345",
+      "text": "คพ.345 การเรียนรู้ของเครื่องเชิงประยุกต์ 3 (3-0-6)\nคพ.345 การเรียนรู้ของเครื่องเชิงประยุกต์ 3 (3-0-6) CS 345 Practical Machine Learning วิชาบังคับก่อน: เคยศึกษา คพ.240 ศึกษาการเรียนรู้ของเครื่องและวิทยาศาสตร์ข้อมูลด้วยการลงมือปฏิบัติเขียนโปรแกรม อภิปรายเกี่ยวกับการประยุกต์ใช้โมเดลการเรียนรู้ของเครื่อง ทั้งโมเดลการเรียนรู้แบบมีผู้สอนและการเรียนรู้แบบไม่มีผู้สอน กับชุดข้อมูลจริง รวมถึงการจัดเตรียมข้อมูล การเลือกโมเดลและการประเมินผล โดยใช้งานโอเพนซอร์สที่เป็นที่นิยม เช่น scikit-learn และ tensor flow Prerequisite: Have taken CS 240 This class offers a hands-on approach to machine learning and data science. The class discusses the application of",
+      "start": 0,
+      "end": 597
+    },
+    {
+      "id": "cs-345:1",
+      "unit_id": "cs-345",
+      "text": "คพ.345 การเรียนรู้ของเครื่องเชิงประยุกต์ 3 (3-0-6)\nhine learning and data science. The class discusses the application of machine learning methods both supervised and unsupervised learning on real world dataset, including data preparation, model selection and evaluation. This class relies on available open source implementations such as scikit-learn and tensor flow for all implementations.",
+      "start": 527,
+      "end": 868
+    },
+    {
+      "id": "cs-346:0",
+      "unit_id": "cs-346",
+      "text": "คพ.346 แอปพลิเคชันและการวิเคราะห์ข้อมูลขนาดใหญ่ 3 (3-0-6)\nคพ.346 แอปพลิเคชันและการวิเคราะห์ข้อมูลขนาดใหญ่ 3 (3-0-6) CS 346 Big Data Applications and Analytics วิชาบังคับก่อน: เคยศึกษา หรือ ศึกษาพร้อมกับ คพ.345 ศึกษาเทคโนโลยีที่ทันสมัยในระบบจัดการฐานข้อมูลสมัยใหม่ การจัดการและการทำงานกับชุดข้อมูลที่มีปริมาณมากในระบบประมวลข้อมูลประสิทธิภาพสูงและระบบการวิเคราะห์ข้อมูลขนาดใหญ่ การทำโครงงานที่เกี่ยวข้องกับข้อมูลขนาดใหญ่ที่มีอยู่จริง เช่น ข้อมูลโฆษณาทางอินเทอร์เน็ต ข้อมูลสุขภาพ และข้อมูลจากเครือข่ายสังคมออนไลน์ Prerequisite: Have taken or Study with CS 345 Explore new technologies in modern database management systems. Discuss topics related to managing",
+      "start": 0,
+      "end": 597
+    },
+    {
+      "id": "cs-346:1",
+      "unit_id": "cs-346",
+      "text": "คพ.346 แอปพลิเคชันและการวิเคราะห์ข้อมูลขนาดใหญ่ 3 (3-0-6)\nmodern database management systems. Discuss topics related to managing and using large-scale data sets in both high-performance transaction processing systems and large-scale analytical systems. All class projects will be in the context of real-world application domains, such as Internet advertising, health care, and social network analysis.",
+      "start": 527,
+      "end": 870
+    },
+    {
+      "id": "cs-347:0",
+      "unit_id": "cs-347",
+      "text": "คพ.347 คลังข้อมูลและอัจฉริยะทางธุรกิจ 3 (3-0-6)\nคพ.347 คลังข้อมูลและอัจฉริยะทางธุรกิจ 3 (3-0-6) CS 347 Data Warehousing and Business Intelligence วิชาบังคับก่อน: เคยศึกษา คพ.240 หลักการของคลังข้อมูล สถาปัตยกรรมระบบคลังข้อมูล การออกแบบฐานข้อมูลเชิงกายภาพ ตัวแบบเชิงมิติ การสกัด การแปลง และการโหลดข้อมูล การประยุกต์ใช้คลังข้อมูล การวิเคราะห์เชิงธุรกิจ การประมวลผลเชิงวิเคราะห์แบบออนไลน์ (OLAP) การทำเหมืองข้อมูลเบื้องต้น และการทำมโนภาพข้อมูล (Visualization) ตัวแบบและเทคโนโลยีการจัดเก็บข้อมูล เครื่องมือ และเทคนิคโปรแกรมสำเร็จรูป เพื่อสร้างอัจฉริยะทางธุรกิจ Prerequisite: Have taken CS 240 Data warehousing, data warehouse architecture, physical",
+      "start": 0,
+      "end": 595
+    },
+    {
+      "id": "cs-347:1",
+      "unit_id": "cs-347",
+      "text": "คพ.347 คลังข้อมูลและอัจฉริยะทางธุรกิจ 3 (3-0-6)\ne taken CS 240 Data warehousing, data warehouse architecture, physical database design,dimension modeling; extraction, transformation, and loading, its applications to business intelligence, business analytics, OLAP, introduction to data mining, data visualization, data warehouse storage models and technology, business analytics techniques and tools for business intelligence.",
+      "start": 525,
+      "end": 903
+    },
+    {
+      "id": "cs-351:0",
+      "unit_id": "cs-351",
+      "text": "คพ.351 ระบบคอมพิวเตอร์ในธุรกิจและการพาณิชย์อิเล็กทรอนิกส์ 3 (3-0-6)\nคพ.351 ระบบคอมพิวเตอร์ในธุรกิจและการพาณิชย์อิเล็กทรอนิกส์ 3 (3-0-6) CS 351 Business Computing and Electronic Commerce วิชาบังคับก่อน: เคยศึกษา คพ.251 แนวคิดการใช้งานระบบสารสนเทศในการบริหารจัดการธุรกิจ โปรแกรมคอมพิวเตอร์ประยุกต์ในงานธุรกิจ การดำเนินกิจกรรมทางธุรกิจผ่านเครือข่ายคอมพิวเตอร์ โครงสร้างพื้นฐานของพาณิชย์อิเล็กทรอนิกส์ มาตรฐานการดำเนินการและการแลกเปลี่ยนข้อมูลทางอิเล็กทรอนิกส์ Prerequisite: Have taken CS 251 Concepts of information systems in business management, business application software, business processes over computer networks, electronic commerce infrastructures, computing",
+      "start": 0,
+      "end": 597
+    },
+    {
+      "id": "cs-351:1",
+      "unit_id": "cs-351",
+      "text": "คพ.351 ระบบคอมพิวเตอร์ในธุรกิจและการพาณิชย์อิเล็กทรอนิกส์ 3 (3-0-6)\nover computer networks, electronic commerce infrastructures, computing and data exchange standards.",
+      "start": 527,
+      "end": 626
+    },
+    {
+      "id": "cs-353:0",
+      "unit_id": "cs-353",
+      "text": "คพ.353 การค้นคืนสารสนเทศและการค้นหาข้อมูลบนเว็บ 3 (3-0-6)\nคพ.353 การค้นคืนสารสนเทศและการค้นหาข้อมูลบนเว็บ 3 (3-0-6) CS 353 Information Retrieval and Web Search วิชาบังคับก่อน: เคยศึกษา คพ.251 ทฤษฎีและเทคนิคในการจัดทำดรรชนีและการค้นคืนสารสนเทศด้วยระบบคอมพิวเตอร์ หัวข้อรวมถึงการค้นคืนสารสนเทศแบบข้อความทั่วๆไป การสร้างดรรชนี การประมวลผลคิวรี และการจัดลำดับข้อมูลเอกสาร การเรียนรู้ของเครื่องสำหรับข้อความ วิธีการประเมินระบบค้นคืน สถาปัตยกรรมของโปรแกรมค้นหาบนเว็บ การรวบรวมหน้าเว็บและการจัดทำดรรชนีค้นหาเว็บ โครงสร้างเว็บและการวิเคราะห์การเข้าใช้งาน Prerequisite: Have taken CS 251 Theories and techniques on computerized information indexing and retrieval.",
+      "start": 0,
+      "end": 596
+    },
+    {
+      "id": "cs-353:1",
+      "unit_id": "cs-353",
+      "text": "คพ.353 การค้นคืนสารสนเทศและการค้นหาข้อมูลบนเว็บ 3 (3-0-6)\nies and techniques on computerized information indexing and retrieval. Topics include text-based information retrieval in general, index building, query processing, and document ranking, text-based machine learning methods, Evaluation methods, Web search engine architecture, Web crawling and indexing, Web structure and usage analytics.",
+      "start": 526,
+      "end": 863
+    },
+    {
+      "id": "cs-354:0",
+      "unit_id": "cs-354",
+      "text": "คพ.354 ระบบฐานข้อมูล 2 3 (3-0-6)\nคพ.354 ระบบฐานข้อมูล 2 3 (3-0-6) CS 354 Database Systems 2 วิชาบังคับก่อน: เคยศึกษา คพ.251 หลักการและเทคนิคการออกแบบระบบการจัดการฐานข้อมูลขั้นสูง เนื้อหาครอบคลุม วิธีเข้าถึง ประสิทธิภาพและการประมวลผลข้อคำถาม การประมวลผลรายการเปลี่ยนแปลง การควบคุมภาวะพร้อมกัน การกู้ข้อมูล และความปลอดภัยของข้อมูล ระบบฐานข้อมูลแบบกระจาย แนวคิด การออกแบบ และการจัดการรายการเปลี่ยนแปลง แนะนำระบบฐานข้อมูลเชิงวัตถุ Prerequisite: Have taken CS 251 Advanced database management system design principles and techniques. Topics may be selected from: access methods, query processing and optimization, transaction management:",
+      "start": 0,
+      "end": 599
+    },
+    {
+      "id": "cs-354:1",
+      "unit_id": "cs-354",
+      "text": "คพ.354 ระบบฐานข้อมูล 2 3 (3-0-6)\nss methods, query processing and optimization, transaction management: concurrency control, recovery, and data security; distributed database systems: concepts, design and transaction management, and introduction to object-oriented database systems.",
+      "start": 529,
+      "end": 778
+    },
+    {
+      "id": "cs-355:0",
+      "unit_id": "cs-355",
+      "text": "คพ.355 กลยุทธ์และการเปลี่ยนแปลงสู่ดิจิทัล 3 (3-0-6)\nคพ.355 กลยุทธ์และการเปลี่ยนแปลงสู่ดิจิทัล 3 (3-0-6) CS 355 Digital Strategy and Transformation การวิเคราะห์กลยุทธ์ แนวคิดหลักและเครื่องมือของเทคโนโลยีดิจิทัลยุคใหม่ การวิเคราะห์ข้อมูล ปัญญาประดิษฐ์ แพลตฟอร์มคลาวด์ บล็อกเชน ไอโอที การใช้เทคโนโลยีดิจิทัลในการเพิ่มประสิทธิภาพกระบวนการและบริการขององค์กร Strategic analysis, key concepts and tools of emerging digital technologies (data analysis, artificial intelligence, cloud platform, blockchain, IoT), digital transformation for organizations.",
+      "start": 0,
+      "end": 493
+    },
+    {
+      "id": "cs-356:0",
+      "unit_id": "cs-356",
+      "text": "คพ.356 ระบบสารสนเทศเพื่อการบริหาร 3 (3-0-6)\nคพ.356 ระบบสารสนเทศเพื่อการบริหาร 3 (3-0-6) CS 356 Management Information Systems วิชาบังคับก่อน: เคยศึกษา คพ.251 แนวคิดเบื้องต้นเกี่ยวกับระบบสารสนเทศ องค์กร และการบริหาร โครงสร้างพื้นฐานทางด้านเทคโนโลยีสารสนเทศสำหรับองค์กร ระบบสารสนเทศที่สำคัญในองค์กร อาทิ ระบบสารสนเทศเพื่อการบริหาร ระบบสารสนเทศเพื่อการดำเนินงาน แนวทางการพัฒนาระบบสารสนเทศและการบริหารการใช้งานระบบ ประเด็นทางด้านจริยธรรมและผลกระทบทางด้านสังคมที่เกี่ยวข้องกับการใช้ระบบ Prerequisite: Have taken CS 251 Fundamental of information systems, organizations and management; Information technology infrastructure; Key System Applications:",
+      "start": 0,
+      "end": 599
+    },
+    {
+      "id": "cs-356:1",
+      "unit_id": "cs-356",
+      "text": "คพ.356 ระบบสารสนเทศเพื่อการบริหาร 3 (3-0-6)\nement; Information technology infrastructure; Key System Applications: management and enterprise information systems; Building information systems; Managing information systems; Ethics and social impact of information systems.",
+      "start": 529,
+      "end": 755
+    },
+    {
+      "id": "cs-360:0",
+      "unit_id": "cs-360",
+      "text": "คพ.360 หัวข้อเลือกสรรด้านวิศวกรรมซอฟต์แวร์ 3 (3-0-6)\nคพ.360 หัวข้อเลือกสรรด้านวิศวกรรมซอฟต์แวร์ 3 (3-0-6) CS 360 Selected Topics in Software Engineering วิชาบังคับก่อน: เคยศึกษา คพ.261 หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของวิศวกรรมซอฟต์แวร์ ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Prerequisite: Have taken CS 261 Seminar on current research and development in software engineering.",
+      "start": 0,
+      "end": 343
+    },
+    {
+      "id": "cs-361:0",
+      "unit_id": "cs-361",
+      "text": "คพ.361 สถาปัตยกรรมซอฟต์แวร์บนคลาวด์ 3 (3-0-6)\nคพ.361 สถาปัตยกรรมซอฟต์แวร์บนคลาวด์ 3 (3-0-6) CS 361 Cloud-Based Software Architecting วิชาบังคับก่อน: เคยศึกษา คพ.232 หลักการออกแบบสถาปัตยกรรมซอฟต์แวร์ที่อิงตามความต้องการเชิงธุรกิจ องค์ประกอบและบริการบนคลาวด์ คุณสมบัติของระบบที่มีสถาปัตยกรรมที่ดี (ความพร้อมใช้งานที่เสถียรสูง ความทนทานต่อความเสียหาย ความน่าเชื่อถือ และความสามารถในการปรับขนาดได้) แนวการออกแบบที่ดี โครงสร้างพื้นฐานแบบโค้ด Prerequisite: Have taken CS 232 Architectural design principles based on business requirements, cloud- based components and services, well-architected system quality (high availability, fault tolerance,",
+      "start": 0,
+      "end": 593
+    },
+    {
+      "id": "cs-361:1",
+      "unit_id": "cs-361",
+      "text": "คพ.361 สถาปัตยกรรมซอฟต์แวร์บนคลาวด์ 3 (3-0-6)\n, well-architected system quality (high availability, fault tolerance, reliability and scalability), design best practices, infrastructure as a code.",
+      "start": 523,
+      "end": 672
+    },
+    {
+      "id": "cs-362:0",
+      "unit_id": "cs-362",
+      "text": "คพ.362 การออกแบบซอฟต์แวร์และระบบ 3 (3-0-6)\nคพ.362 การออกแบบซอฟต์แวร์และระบบ 3 (3-0-6) CS 362 Software System and Design วิชาบังคับก่อน: เคยศึกษา คพ.261 วิเคราะห์ความต้องการของระบบเพื่อออกแบบระบบ แนะนำแนวคิดพื้นฐานของการออกแบบสถาปัตยกรรมระบบและหลักการในการออกแบบซอฟต์แวร์โดยใช้รูปแบบการออกแบบและลักษณะสถาปัตยกรรมผ่านการทำโครงงานแบบเป็นกลุ่ม เข้าใจประด็นที่กระทบการออกแบบและการตัดสินในออกแบบเพื่อรองรับประเด็นเหล่านั้น เช่น ประเด็นการออกแบบเพื่อรองรับประสิทธิภาพการทำงานของระบบ, การออกแบบเพื่อรองรับการใช้งานที่เพิ่มขึ้นของผู้ใช้ หรือการออกแบบที่คำนึงถึงความปลอดภัยของระบบ อธิบายรูปแบบของการออกแบบเพื่อให้ตอบโจทย์ประเด็นที่กระทบการออกแบบ",
+      "start": 0,
+      "end": 592
+    },
+    {
+      "id": "cs-362:1",
+      "unit_id": "cs-362",
+      "text": "คพ.362 การออกแบบซอฟต์แวร์และระบบ 3 (3-0-6)\nงระบบ อธิบายรูปแบบของการออกแบบเพื่อให้ตอบโจทย์ประเด็นที่กระทบการออกแบบ ฝึกฝนการวิเคราะห์และออกแบบผ่านการทำโครงงาน Prerequisite: Have taken CS 261 Analyze system requirements in order to perform system design. Introduce the basic concept of software architecture and principle of software design by applying design patterns and architectural styles through team-based project. Understand concerns impacting the design decisions such as performance, scalability and security. Explain design solutions to address those design concerns. Practice system analysis and design method through project.",
+      "start": 522,
+      "end": 1114
+    },
+    {
+      "id": "cs-363:0",
+      "unit_id": "cs-363",
+      "text": "คพ.363 โครงงานทางวิศวกรรมซอฟต์แวร์ 3 (3-0-6)\nคพ.363 โครงงานทางวิศวกรรมซอฟต์แวร์ 3 (3-0-6) CS 363 Software Engineering Project วิชาบังคับก่อน: เคยศึกษา คพ.234 หรือ เคยศึกษา คพ.331 ฝึกปฏิบัติการพัฒนาซอฟต์แวร์ในรูปแบบของการทำงานเป็นทีมผ่านการพัฒนาแอพพลิเคชั่นจริง เช่น เวปแอพพลิเคชั่น หรือแอพพลิเคชั่นสำหรับอุปกรณ์พกพา เรียนรู้กระบวนการพัฒนาซอฟต์แวร์ผ่านการทำงานจริง: การพัฒนาซอฟต์แวร์แบบอไจล์ การเขียนเทสเพื่อเป็นหลักในการเขียนซอฟต์แวร์ การวิเคาะห์ความต้องการของผู้ใช้ การบริหารความต้องการ การทดสอบซอฟต์แวร์ การบริหารคุณภาพของซอฟต์แวร์ การวางแผนและความคุมแผนการทำงาน การออกแบบและสร้างระบบ",
+      "start": 0,
+      "end": 541
+    },
+    {
+      "id": "cs-363:1",
+      "unit_id": "cs-363",
+      "text": "คพ.363 โครงงานทางวิศวกรรมซอฟต์แวร์ 3 (3-0-6)\nุณภาพของซอฟต์แวร์ การวางแผนและความคุมแผนการทำงาน การออกแบบและสร้างระบบ มีประสบการณ์การใช้เครื่องมือในภาคอุตสาหกรรมเพื่อสนับสนุนการทำงานร่วมกันเป็นทีม Prerequisite: Have taken CS 234 or Have taken CS 331 Practice team-based software development through real application projects such as web application or mobile application. Learn by doing best practices of software development process: agile development, test driven development, user requirements analysis, requirement managements, software testing, quality management, project planning and monitoring, software design and constructions.",
+      "start": 471,
+      "end": 1061
+    },
+    {
+      "id": "cs-363:2",
+      "unit_id": "cs-363",
+      "text": "คพ.363 โครงงานทางวิศวกรรมซอฟต์แวร์ 3 (3-0-6)\nt, project planning and monitoring, software design and constructions. Experience industrial collaboration tools in order to work as a team.",
+      "start": 991,
+      "end": 1131
+    },
+    {
+      "id": "cs-364:0",
+      "unit_id": "cs-364",
+      "text": "คพ.364 การพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพา 3 (3-0-6)\nคพ.364 การพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพา 3 (3-0-6) CS 364 Mobile Application Development วิชาบังคับก่อน: เคยศึกษา คพ.251 ภาพรวมการพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพา แพลตฟอร์มของอุปกรณ์พกพา ข้อจำกัดและความต้องการในการออกแบบส่วนต่อประสานผู้ใช้สำหรับอุปกรณ์ที่มีทรัพยากรจำกัด วัฏจักรของกิจกรรม ทรัพยากรของอุปกรณ์พกพาและโปรแกรมประยุกต์ การออกแบบเพื่อรองรับส่วนต่อประสานผู้ใช้ที่หลากหลาย การรองรับการเปลี่ยนแปลงขณะประมวลผล แนวคิดโดยรวม ปัญหาการออกแบบ และขั้นตอนการพัฒนาในทางปฏิบัติ Prerequisite: Have taken CS 251 Developing landscape of mobile applications, mobile platforms, the specific",
+      "start": 0,
+      "end": 594
+    },
+    {
+      "id": "cs-364:1",
+      "unit_id": "cs-364",
+      "text": "คพ.364 การพัฒนาโปรแกรมประยุกต์สำหรับอุปกรณ์พกพา 3 (3-0-6)\noping landscape of mobile applications, mobile platforms, the specific constraints and requirements of user interface design for limited-resource devices, activity life cycle, mobile and application resources, providing alternative resources, handling runtime changes, conceptual overview, design issues, and practical development issues.",
+      "start": 524,
+      "end": 862
+    },
+    {
+      "id": "cs-365:0",
+      "unit_id": "cs-365",
+      "text": "คพ.365 กระบวนการและไปป์ไลน์เดฟออปส์ 3 (3-0-6)\nคพ.365 กระบวนการและไปป์ไลน์เดฟออปส์ 3 (3-0-6) CS 365 DevOps Pipelines and Processes วิชาบังคับก่อน: เคยศึกษา หรือ ศึกษาพร้อมกับ คพ.232 การจัดการวงจรชีวิตแอปพลิเคชัน กระบวนการรวบรวมซอฟต์แวร์และส่งมอบบริการอย่างอัตโนมัติ การนำระบบขึ้นใช้งานจริงบนคลาวด์ เครื่องมือสำหรับเดฟออปส์ (เช่น การควบคุมเวอร์ชันของโค้ดด้วยกิท การเขียนสคริปต์ การทดสอบระบบอัตโนมัติ คอนเทนเนอร์ การสร้างซีไอซีดีไปป์ไลน์ การติดตามประสิทธิภาพ ค่าวัด และการบันทึกข้อมูลระหว่างการทำงาน) Prerequisite: Have taken or Study with CS 232 Application lifecycle management, Continuous Integration/Continuous Delivery (CI/CD) processes, cloud",
+      "start": 0,
+      "end": 599
+    },
+    {
+      "id": "cs-365:1",
+      "unit_id": "cs-365",
+      "text": "คพ.365 กระบวนการและไปป์ไลน์เดฟออปส์ 3 (3-0-6)\nt, Continuous Integration/Continuous Delivery (CI/CD) processes, cloud deployment, DevOps tools (e.g. code version control/git, scripting, automated test, container, CI/CD pipeline, performance monitoring, metrics, and logging).",
+      "start": 529,
+      "end": 757
+    },
+    {
+      "id": "cs-366:0",
+      "unit_id": "cs-366",
+      "text": "คพ.366 ไมโครเซอร์วิสและสถาปัตยกรรมแบบไร้เซิร์ฟเวอร์ 3 (3-0-6)\nคพ.366 ไมโครเซอร์วิสและสถาปัตยกรรมแบบไร้เซิร์ฟเวอร์ 3 (3-0-6) CS 366 Microservices and Serverless Architectures วิชาบังคับก่อน: เคยศึกษา คพ.232 แอปพลิเคชันที่รวมทุกส่วนไว้ด้วยกันและไมโครเซอร์วิส การประมวลผลแบบไร้เซิร์ฟเวอร์ สถาปัตยกรรมแบบแยกส่วนด้วยการใช้คิวข้อความ เว็บเซอร์วิสและเอพีไอ การพิสูจน์ตัวตนและประเด็นทางด้านความปลอดภัย Prerequisite: Have taken CS 232 Monolithic applications and microservices, serverless computing, decoupled architecture with message queues, web services and API, authentication and security issues.",
+      "start": 0,
+      "end": 530
+    },
+    {
+      "id": "cs-367:0",
+      "unit_id": "cs-367",
+      "text": "คพ.367 แนวคิดการพัฒนาเว็บบริการ 3 (3-0-6)\nคพ.367 แนวคิดการพัฒนาเว็บบริการ 3 (3-0-6) CS 367 Web Service Development Concepts วิชาบังคับก่อน: เคยศึกษา คพ.234 หรือ เคยศึกษา คพ.331 แนวคิดและทฤษฎีเกี่ยวกับเว็บบริการ สถาปัตยกรรมเว็บบริการ มาตรฐานที่เกี่ยวข้องทางเว็บบริการ โปรโตคอลการรักษาความปลอดภัยของเว็บบริการ เทคโนโลยีที่ใช้ในการพัฒนาเว็บบริการ การบูรณาการทฤษฎีกับการออกแบบพัฒนาเว็บบริการเพื่อใช้งานจริงในทางธุรกิจ Prerequisite: Have take CS 234 or Have taken CS 331 Basic concepts of web services, web service architecture and related standards, security issues and protocols for web services, industrial technologies relating to web service",
+      "start": 0,
+      "end": 599
+    },
+    {
+      "id": "cs-367:1",
+      "unit_id": "cs-367",
+      "text": "คพ.367 แนวคิดการพัฒนาเว็บบริการ 3 (3-0-6)\ncols for web services, industrial technologies relating to web service developments, applying theoretical concepts in designing and developing web services for businesses.",
+      "start": 529,
+      "end": 700
+    },
+    {
+      "id": "cs-368:0",
+      "unit_id": "cs-368",
+      "text": "คพ.368 การเป็นผู้ประกอบการสำหรับผลิตภัณฑ์ดิจิทัล 3 (3-0-6)\nคพ.368 การเป็นผู้ประกอบการสำหรับผลิตภัณฑ์ดิจิทัล 3 (3-0-6) CS 368 Entrepreneurship for Digital Product ศึกษากระบวนการของผู้ประกอบการโดยเน้นที่การพัฒนาและบริหารผลิตภัณฑ์ดิจิทัล การสร้างแนวคิด ความคิดสร้างสรรค์ รูปแบบของการทำธุรกิจเริ่มต้น ฝึกปฏิบัติกิจกรรมของผู้ประกอบการ การสร้างวิสัยทัศน์ของสินค้า การวิเคราะห์กรณีธุรกิจ การวิเคราะห์โอกาสของผลิตภัณฑ์ การระบุตำแหน่งในตลาดของผลิตภัณฑ์ การออกแบบและพัฒนาผลิตภัณฑ์ Study of the entrepreneurial process focusing on the digital product development and management; ideation, innovation, startup models. Practice entrepreneurial activities: product vision",
+      "start": 0,
+      "end": 598
+    },
+    {
+      "id": "cs-368:1",
+      "unit_id": "cs-368",
+      "text": "คพ.368 การเป็นผู้ประกอบการสำหรับผลิตภัณฑ์ดิจิทัล 3 (3-0-6)\nn, startup models. Practice entrepreneurial activities: product vision creation, business case analysis, opportunities analysis, market position identification, digital product design and development.",
+      "start": 528,
+      "end": 728
+    },
+    {
+      "id": "cs-370:0",
+      "unit_id": "cs-370",
+      "text": "คพ.370 หัวข้อเลือกสรรด้านระบบปัญญาประดิษฐ์ 3 (3-0-6)\nคพ.370 หัวข้อเลือกสรรด้านระบบปัญญาประดิษฐ์ 3 (3-0-6) CS 370 Selected Topics in Artificial Intelligent Systems วิชาบังคับก่อน: เคยศึกษา คพ.271 หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีทางด้านปัญญาประดิษฐ์ ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Prerequisite: Have taken CS 271 Seminar on current research and development in artificial intelligent systems.",
+      "start": 0,
+      "end": 363
+    },
+    {
+      "id": "cs-371:0",
+      "unit_id": "cs-371",
+      "text": "คพ.371 ปัญญาประดิษฐ์กับการประยุกต์ 3 (3-0-6)\nคพ.371 ปัญญาประดิษฐ์กับการประยุกต์ 3 (3-0-6) CS 371 Artificial Intelligence in Practice วิชาบังคับก่อน: เคยศึกษา คพ.271 การให้เหตุผลเชิงสถิติ การให้เหตุผลแบบนอนโมโนโทนิก การแสดงความรู้แบบเฟรม การแสดงความรู้แบบกราฟมโนภาพ โครงข่ายแบบเบย์ โครงข่ายแบบมาร์คอฟ แบบจำลองความน่าจะเป็นเชิงสัมพันธ์ แบบจำลองฮิดเดนมาร์คอฟ และ ทฤษฎีการตัดสินใจ การพัฒนาระบบด้วยภาษาโปรแกรมทางด้านปัญญาประดิษฐ์ Prerequisite: Have taken CS 271 Probabilistic reasoning, non-monotonic reasoning, frame, conceptual graph, Bayesian networks, markov networks, relational probability models, hidden Markov models, decision theory,",
+      "start": 0,
+      "end": 592
+    },
+    {
+      "id": "cs-371:1",
+      "unit_id": "cs-371",
+      "text": "คพ.371 ปัญญาประดิษฐ์กับการประยุกต์ 3 (3-0-6)\n relational probability models, hidden Markov models, decision theory, artificial intelligence programming.",
+      "start": 522,
+      "end": 629
+    },
+    {
+      "id": "cs-372:0",
+      "unit_id": "cs-372",
+      "text": "คพ.372 การเรียนรู้ของเครื่อง 3 (3-0-6)\nคพ.372 การเรียนรู้ของเครื่อง 3 (3-0-6) CS 372 Machine Learning วิชาบังคับก่อน: เคยศึกษา คพ.271 ทฤษฎีการเรียนรู้ การเรียนรู้เชิงอุปนัยและนิรนัย การเรียนรู้เบย์อย่างง่าย ต้นไม้ตัดสินใจ การเรียนรู้แบบมีผู้สอน การเรียนรู้แบบไม่มีผู้สอน การเรียนรู้แบบเสริมแรง ปัญหาการเข้ากันมากเกินไป การประเมินความถูกต้อง การประเมินประสิทธิภาพ และ ตัวอย่างการประยุกต์ใช้การเรียนรู้ของเครื่อง เช่น การทําเหมืองข้อมูล การควบคุมหุ่นยนต์ การนําทางแบบอัตโนมัติ และ ชีวสารสนเทศศาสตร์ Prerequisite: Have taken CS 271 Learning theory, inductive and deductive learning, naïve bayesian learning, decision trees, supervised",
+      "start": 0,
+      "end": 592
+    },
+    {
+      "id": "cs-372:1",
+      "unit_id": "cs-372",
+      "text": "คพ.372 การเรียนรู้ของเครื่อง 3 (3-0-6)\neductive learning, naïve bayesian learning, decision trees, supervised learning, unsupervised learning, reinforcement learning, overfitting problem, validation, performance evaluation, and applications of machine learning.",
+      "start": 522,
+      "end": 744
+    },
+    {
+      "id": "cs-373:0",
+      "unit_id": "cs-373",
+      "text": "คพ.373 กลยุทธ์การค้นหาขั้นสูง 3 (3-0-6)\nคพ.373 กลยุทธ์การค้นหาขั้นสูง 3 (3-0-6) CS 373 Advanced Search Strategies วิชาบังคับก่อน: เคยศึกษา คพ.271 ปริภูมิค้นหา การค้นหาเชิงการจัดกลุ่ม การค้นหาแบบฮิวริสติก การค้นหาแบบสุ่ม ต้นไม้ค้นหา ขั้นตอนวิธีการจําลองการอบเหนียว ขั้นตอนวิธีเชิงวิวัฒน์ ปัญหาโลคอลออฟติมัม ปัญหาการลู่เข้าสู่เป้าหมายได้ช้า การประเมินประสิทธิภาพของคําตอบ ตัวอย่างของการประยุกต์ใช้ Prerequisite: Have taken CS 271 Search space, combinatorial search, heuristic search, stochastic search, search tree, simulated annealing algorithm, evolutionary algorithm, local optimum problem, ridge and plateau problem, Performance",
+      "start": 0,
+      "end": 590
+    },
+    {
+      "id": "cs-373:1",
+      "unit_id": "cs-373",
+      "text": "คพ.373 กลยุทธ์การค้นหาขั้นสูง 3 (3-0-6)\ngorithm, local optimum problem, ridge and plateau problem, Performance evaluation, example of applications.",
+      "start": 520,
+      "end": 627
+    },
+    {
+      "id": "cs-374:0",
+      "unit_id": "cs-374",
+      "text": "คพ.374 การประมวลภาษาธรรมชาติ 3 (3-0-6)\nคพ.374 การประมวลภาษาธรรมชาติ 3 (3-0-6) CS 374 Natural Language Processing วิชาบังคับก่อน: เคยศึกษา คพ.271 รู้จักกับภาษาธรรมชาติและข้อจำกัดในการประมวลผล การทำให้เป็นมาตรฐานของข้อความ การวัดระยะห่างระหว่างข้อความ นิพจน์ปรกติ การติดประเภทชนิดคำ แบบจำลองทางภาษา เวกเตอร์ความหมายและการฝัง การวิเคราะห์ความรู้สึก ไวยากรณ์หน่วยประกอบ การแปลด้วยเครื่อง การจำแนกข้อความ ความหมายแอบแฝงและเวิร์ดเน็ต Prerequisite: Have taken CS 271 Introduction to natural language and its limitation in processing, text normalization, text distance measurement, regular expression, part of speech tagging, language model,",
+      "start": 0,
+      "end": 594
+    },
+    {
+      "id": "cs-374:1",
+      "unit_id": "cs-374",
+      "text": "คพ.374 การประมวลภาษาธรรมชาติ 3 (3-0-6)\nasurement, regular expression, part of speech tagging, language model, vector semantics and embedding, sentiment classification, constituency grammars, machine translation, text classification, word senses and WordNet.",
+      "start": 524,
+      "end": 742
+    },
+    {
+      "id": "cs-381:0",
+      "unit_id": "cs-381",
+      "text": "คพ.381 การประมวลภาพดิจิทัล 3 (3-0-6)\nคพ.381 การประมวลภาพดิจิทัล 3 (3-0-6) CS 381 Digital Image Processing วิชาบังคับก่อน: เคยศึกษา คพ.213 ความรู้พื้นฐานเกี่ยวกับภาพดิจิทัล การแทนค่าข้อมูลสี การแปลงข้อมูลภาพ การปรับปรุงคุณภาพของภาพ ตัวกรองในโดเมนพื้นที่และโดเมนความถี่ การแบ่งภาพเป็นหลายส่วนอย่างมีความหมาย ไบนารีมอร์โฟโลยี การแทนค่าและการบรรยายลักษณะข้อมูลภาพ การประยุกต์ใช้ข้อมูลภาพดิจิทัล Prerequisite: Have taken CS 213 Digital image fundamentals, color models, image transform, image enhancement, spatial-domain and frequency-domain filters, image segmentation, binary morphology, image representation and description, applications",
+      "start": 0,
+      "end": 598
+    },
+    {
+      "id": "cs-381:1",
+      "unit_id": "cs-381",
+      "text": "คพ.381 การประมวลภาพดิจิทัล 3 (3-0-6)\n binary morphology, image representation and description, applications of digital image processing.",
+      "start": 528,
+      "end": 627
+    },
+    {
+      "id": "cs-382:0",
+      "unit_id": "cs-382",
+      "text": "คพ.382 ทัศนศาสตร์คอมพิวเตอร์เบื้องต้น 3 (3-0-6)\nคพ.382 ทัศนศาสตร์คอมพิวเตอร์เบื้องต้น 3 (3-0-6) CS 382 Introduction to Computer Vision วิชาบังคับก่อน: เคยศึกษา คพ.381 การได้มาซึ่งภาพดิจิทัล การประมวลผลก่อน การตรวจหาวัตถุในภาพ การหาคุณลักษณะวัตถุ การรู้จำวัตถุ การวิเคราะห์การเคลื่อนไหว การประยุกต์ใช้ทัศนศาสตร์คอมพิวเตอร์ Prerequisite: Have taken CS 381 Image acquisition, image preprocessing, object detection, feature extraction, object recognition, motion analysis, applications for computer vision.",
+      "start": 0,
+      "end": 454
+    },
+    {
+      "id": "cs-384:0",
+      "unit_id": "cs-384",
+      "text": "คพ.384 การปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์ 3 (3-0-6)\nคพ.384 การปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์ 3 (3-0-6) CS 384 Human - Computer Interaction วิชาบังคับก่อน: เคยศึกษา คพ.180 ตระหนักถึงความสำคัญการศึกษาปฏิสัมพันธ์ระหว่างคอมพิวเตอร์และมนุษย์มีผลต่อการพัฒนาระบบคอมพิวเตอร์ให้ยอมรับได้และมีความสามารถใช้งานได้ ศึกษาบริบทที่สำคัญต่อการปฏิสัมพันธ์ระหว่างคอมพิวเตอร์และมนุษย์ กระบวนการพัฒนาระบบแบบผู้ใช้เป็นศูนย์กลาง การประเมินและมาตรวัดความสามารถใช้งานได้ ปัจจัยทางมนุษย์ที่เกี่ยวข้องกับการประมวลผลสารสนเทศของมนุษย์ และ กฎเกณฑ์และหลักการที่ใช้ตลอดจน ข้อผิดพลาดที่เกิดขึ้นบ่อยๆ ในการออกแบบส่วนต่อประสาน Prerequisite: Have taken CS 180 Importance of",
+      "start": 0,
+      "end": 594
+    },
+    {
+      "id": "cs-384:1",
+      "unit_id": "cs-384",
+      "text": "คพ.384 การปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์ 3 (3-0-6)\nในการออกแบบส่วนต่อประสาน Prerequisite: Have taken CS 180 Importance of human-computer interaction (HCI) to the development of acceptable and usable systems, context for HCI, human-information processing model applicable to HCI, evaluation, measure of usability, and user interface principle and guidelines.",
+      "start": 524,
+      "end": 830
+    },
+    {
+      "id": "cs-385:0",
+      "unit_id": "cs-385",
+      "text": "คพ.385 โครงงานทางการออกแบบผลิตภัณฑ์และบริการด้านดิจิทัล 3 (3-0-6)\nคพ.385 โครงงานทางการออกแบบผลิตภัณฑ์และบริการด้านดิจิทัล 3 (3-0-6) CS 385 Digital Product and Service Design Project วิชาบังคับก่อน: เคยศึกษา คพ.384 แนวการปฏิบัติและความเข้าใจแบบองค์รวมเกี่ยวกับการออกแบบผลิตภัณฑ์และบริการดิจิทัล ทำความเข้าใจผู้มีส่วนได้ส่วนเสีย การประยุกต์วิธีการออกแบบที่เน้นมนุษย์เป็นศูนย์กลาง เช่น การคิดเชิงออกแบบ การทำแผนที่การเดินทางของผู้ใช้ พิมพ์เขียวบริการ เพื่อจัดลำดับความสำคัญและออกแบบผลิตภัณฑ์ การวางแผน Minimal Viable Product (MVP) ตามแนวทางการพัฒนาผลิตภัณฑ์แบบลีน Prerequisite: Have taken CS 384 Practical concepts and holistic understanding of digital product and",
+      "start": 0,
+      "end": 595
+    },
+    {
+      "id": "cs-385:1",
+      "unit_id": "cs-385",
+      "text": "คพ.385 โครงงานทางการออกแบบผลิตภัณฑ์และบริการด้านดิจิทัล 3 (3-0-6)\n4 Practical concepts and holistic understanding of digital product and service design, understanding stakeholders, apply human-centered design approach, such as design thinking, user journey mapping, service blueprint, to prioritize and design products, planning Minimal Viable Product (MVP) based on lean product development approach.",
+      "start": 525,
+      "end": 860
+    },
+    {
+      "id": "cs-390:0",
+      "unit_id": "cs-390",
+      "text": "คพ.390 หัวข้อเลือกสรรด้านการวิเคราะห์ข้อมูลมัลติมีเดีย 3 (3-0-6)\nคพ.390 หัวข้อเลือกสรรด้านการวิเคราะห์ข้อมูลมัลติมีเดีย 3 (3-0-6) CS 390 Selected Topics in Multimedia Content Analysis วิชาบังคับก่อน: เคยศึกษา คพ.381 หัวข้อเลือกสรรจากความก้าวหน้างานวิจัยและเทคโนโลยีด้านการวิเคราะห์ข้อมูลมัลติมีเดียที่เปลี่ยนแปลงตามเทคโนโลยี Prerequisite: Have taken CS 381 Selected Topic on current research and development in multimedia content analysis.",
+      "start": 0,
+      "end": 374
+    },
+    {
+      "id": "cs-403:0",
+      "unit_id": "cs-403",
+      "text": "คพ.403 โครงงานพิเศษ 2 4 (0-12-0)\nคพ.403 โครงงานพิเศษ 2 4 (0-12-0) CS 403 Special Projects 2 วิชาบังคับก่อน: สอบได้ คพ.303 ไม่ต่ำกว่า C ศึกษาค้นคว้าโครงงานที่ได้เสนอในลักษณะวิชา คพ.303 ให้ลึกซึ้งกว้างขวางยิ่งขึ้น เขียนรายงานและเสนอต่อคณะกรรมการ จัดพิมพ์เป็นรูปเล่ม Prerequisite: Passed CS 303 with Grade of C or higher Study the Projects proposed in CS 303 in details, implement the proposed idea, write papers and present results to the committee.",
+      "start": 0,
+      "end": 414
+    },
+    {
+      "id": "cs-404:0",
+      "unit_id": "cs-404",
+      "text": "คพ.404 สหกิจศึกษา 2 4 (0-12-0)\nคพ.404 สหกิจศึกษา 2 4 (0-12-0) CS 404 Co-operative Education 2 วิชาบังคับก่อน: สอบได้ คพ.304 ไม่ต่ำกว่า C การปฏิบัติงานที่ได้รับมอบหมายจากสถานประกอบการที่ได้รับความเห็นชอบจากสาขาวิชา โดยนักศึกษาต้องนำความรู้ทางวิชาการที่ได้เรียนไปประยุกต์ใช้และฝึกทักษะในภาวะแวดล้อมการทำงานจริง ภายใต้การกำกับดูแลของสถานประกอบการนั้น โดยต้องแสดงงานที่ได้รับมอบหมายอย่างชัดเจน พร้อมทั้งแนวคิดที่ใช้ในการออกแบบ พัฒนาและประยุกต์ เมื่อเสร็จสิ้นโครงงานแล้วต้องจัดส่งผลงานในรูปแบบของรายงานตามที่สาขาวิชากำหนด Prerequisite: Passed CS 304 with Grade of C or higher Supervised practical training on the given assignments from",
+      "start": 0,
+      "end": 599
+    },
+    {
+      "id": "cs-404:1",
+      "unit_id": "cs-404",
+      "text": "คพ.404 สหกิจศึกษา 2 4 (0-12-0)\n or higher Supervised practical training on the given assignments from authorized body from the faculty. Student must show the capability in implementation of knowledge and skill in the actual working environmemt. Written report of design, development, and implementation must be submitted the end of practical period.",
+      "start": 529,
+      "end": 847
+    },
+    {
+      "id": "cs-420:0",
+      "unit_id": "cs-420",
+      "text": "คพ.420 หัวข้อเลือกสรรด้านสถาปัตยกรรมคอมพิวเตอร์ 3 (3-0-6)\nคพ.420 หัวข้อเลือกสรรด้านสถาปัตยกรรมคอมพิวเตอร์ 3 (3-0-6) CS 420 Selected Topics in Computer Architecture วิชาบังคับก่อน: เคยศึกษา คพ.221 หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของสถาปัตยกรรมคอมพิวเตอร์ ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Prerequisite: Have taken CS 221 Seminar on current research and development in computer architecture.",
+      "start": 0,
+      "end": 355
+    },
+    {
+      "id": "cs-430:0",
+      "unit_id": "cs-430",
+      "text": "คพ.430 หัวข้อเลือกสรรด้านคอมพิวเตอร์เครือข่าย 3 (3-0-6)\nคพ.430 หัวข้อเลือกสรรด้านคอมพิวเตอร์เครือข่าย 3 (3-0-6) CS 430 Selected Topics in Net-Centric Computing วิชาบังคับก่อน: เคยศึกษา คพ.331 หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของระบบเครือข่าย ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Prerequisite: Have taken CS 331 Seminar on current research and development in computer and telecommunication networking.",
+      "start": 0,
+      "end": 364
+    },
+    {
+      "id": "cs-440:0",
+      "unit_id": "cs-440",
+      "text": "คพ.440 หัวข้อเลือกสรรด้านวิทยาการข้อมูล 3 (3-0-6)\nคพ.440 หัวข้อเลือกสรรด้านวิทยาการข้อมูล 3 (3-0-6) CS 440 Selected Topics in Data Science วิชาบังคับก่อน: เคยศึกษา หรือ ศึกษาพร้อมกับ คพ.345 หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของวิทยาการข้อมูลที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Prerequisite: Have taken or Study with CS 345 The purpose of Selected Topics in Data Science being a topics course is to respond to new researches and technologies in the rapidly evolving fields of Data Science.",
+      "start": 0,
+      "end": 458
+    },
+    {
+      "id": "cs-450:0",
+      "unit_id": "cs-450",
+      "text": "คพ. 450 หัวข้อเลือกสรรด้านระบบสารสนเทศ 3 (3-0-6)\nคพ. 450 หัวข้อเลือกสรรด้านระบบสารสนเทศ 3 (3-0-6) CS 450 Selected Topics in Information Systems วิชาบังคับก่อน: เคยศึกษา คพ.251 หรือ เคยศึกษา คพ.356 หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของระบบสารสนเทศ ที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Prerequisite: Have taken CS 251 or Have taken CS 356 Seminar on current research and development in information systems.",
+      "start": 0,
+      "end": 374
+    },
+    {
+      "id": "cs-480:0",
+      "unit_id": "cs-480",
+      "text": "คพ.480 หัวข้อเลือกสรรด้านการปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์ 3 (3-0-6)\nคพ.480 หัวข้อเลือกสรรด้านการปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์ 3 (3-0-6) CS 480 Selected Topics in Human-Computer Interaction วิชาบังคับก่อน: เคยศึกษา คพ.384 หัวข้อเลือกสรรจากความก้าวหน้างานวิจัยและเทคโนโลยีด้านการปฏิสัมพันธ์ระหว่างมนุษย์และคอมพิวเตอร์ Prerequisite: Have taken CS 384 Seminar on current research and development in human-computer interaction.",
+      "start": 0,
+      "end": 363
+    },
+    {
+      "id": "cs-490:0",
+      "unit_id": "cs-490",
+      "text": "คพ.490 หัวข้อเลือกสรรด้านคอมพิวเตอร์กราฟิก 3 (3-0-6)\nคพ.490 หัวข้อเลือกสรรด้านคอมพิวเตอร์กราฟิก 3 (3-0-6) CS 490 Selected Topics in Computer Graphics วิชาบังคับก่อน: เคยศึกษา คพ.299 หรือ ศึกษาพร้อมกับ คพ.299 หัวข้อเลือกสรรจากความก้าวหน้าด้านงานวิจัยและเทคโนโลยีของคอมพิวเตอร์กราฟิกที่เปลี่ยนแปลงตามยุคสมัยและเทคโนโลยี Prerequisite: Have taken CS 299 or Study with CS 299 Seminar on current research and development in computer graphics.",
+      "start": 0,
+      "end": 383
+    }
+  ]
+}
